@@ -1,0 +1,18 @@
+title: The Art of Molecular Programming
+description: >-
+  A grassroots textbook project
+baseurl: ""
+url: "https://book.molecular-programming.org"
+source: "_content"
+
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#     values:
+#       layout: "page"
+
+open_url: Yes
+port: 8080
+host: aomp
+livereload: Yes
