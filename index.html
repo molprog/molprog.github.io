@@ -12,26 +12,83 @@
   <meta name="theme-color" content="#29ABE2">
   <style type="text/css">
     @import url("/assets/font/univers/style.css");
+/* http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain) */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
     body {
       background-color: #121416;
       color: #ffffff;
-      font-family: "Univers Regular";
+      font-family: "Univers Regular", sans;
+      line-height: 1.2;
+    }
+    h1,h2,h3,h4,h5,h6,p {
+      margin: 1em 0;
+    }
+    h1,h2,h3,h4,h5,h6,b,strong {
+      font-family: "Univers Bold", sans;
+      font-weight: bold;
+    }
+    i,em { font-style: italic; }
+    h1 { font-size: 2.5em; }
+    h2 { font-size: 2.0em; }
+    h3 { font-size: 1.7em; }
+    h4 { font-size: 1.5em; }
+    h5 { font-size: 1.3em; }
+    h6 { font-size: 1.1em; }
+    #svg-defs {
+      display: none;
     }
     #logo {
       user-select: none;
     }
+    #landing-container {
+      display: flex;
+      min-height: 80vh;
+      width: 100vw;
+      align-items: center;
+    }
+    #landing {
+      width: 100%;
+      max-width: 1000px;
+      box-sizing: border-box;
+      padding: 2em 1em;
+      margin: 0 auto;
+    }
+    #landing h1, #landing h2 {
+      text-align: center;
+    }
+    #landing #logo {
+      display: block;
+      margin: 0 auto 2em;
+      width: 600px;
+      max-width: 100%;
+      height: 80vh;
+      max-height: 300px;
+    }
+    #landing p {
+      font-size: 1.5em;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
   </style>
 </head>
 <body>
-  <svg>
+  <svg id="svg-defs">
     <defs>
       <symbol id="aomp-logo" viewBox="0 0 308.29 98.43"><defs><style>.cls-1,.cls-4{fill:#fff;}.cls-2{fill:#29abe2;}.cls-3{fill:none;}.cls-4{font-size:78.43px;font-family:'Univers Condensed', Univers;}</style></defs><circle class="cls-1" cx="43.9" cy="8.63" r="8.63"/><circle class="cls-2" cx="79.2" cy="28.88" r="8.63"/><circle class="cls-1" cx="8.63" cy="28.88" r="8.63"/><circle class="cls-2" cx="43.91" cy="89.8" r="8.63"/><circle class="cls-1" cx="79.2" cy="70.18" r="8.63"/><circle class="cls-1" cx="8.63" cy="70.18" r="8.63"/><polygon class="cls-3" points="8.63 29 8.63 69.74 43.91 90.11 79.2 69.74 79.2 29 43.91 8.63 8.63 29"/><text class="cls-4" transform="translate(112.23 78.34)">AoMP</text></symbol>
     </defs>
   </svg>
-  <svg width="100%" height="100%" id="logo">
-    AoMP<title>AoMP</title>
-    <use xlink:href="#aomp-logo"/>
-    <image src="/assets/logo-white.png" xlink:href=""/>
-  </svg>
+  <div id="landing-container">
+  <section id="landing">
+    <svg id="logo">
+      AoMP<title>AoMP</title>
+      <use xlink:href="#aomp-logo"/>
+      <image src="/assets/logo-white.png" xlink:href=""/>
+    </svg>
+    <h1>The Art of Molecular Programming</h1>
+    <h2>A grassroots textbook initative.</h2>
+    <p>The principles of molecular programming are currently scattered across thousands of papers, which presents a barrier for new researchers entering the field. The Art of Molecular Programming is a grassroots community initiative to collect these principles in one location, providing tutorial lessons to guide students’ learning, and presenting a collective vision on where the field is heading. The final textbook will be published open access and attributed to all the authors and editors.</p>
+  </section>
+  </div>
 </body>
 </html>
