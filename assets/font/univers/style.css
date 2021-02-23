@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Univers Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers Regular'), url('UniversRegular.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Univers Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers Condensed'), url('UniversCnRg.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Univers Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers Light'), url('UniversLight.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Univers Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers Bold'), url('UniversBold.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Univers Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Univers Bold Condensed'), url('UniversCnBold.woff') format('woff');
+}

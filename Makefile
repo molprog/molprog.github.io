@@ -9,4 +9,7 @@ setup:
 	bundle update jekyll
 	bundle install
 
-.PHONY: build serve setup
+logos:
+	./logos.sh
+
+.PHONY: build serve setup logos
