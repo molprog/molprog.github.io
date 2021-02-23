@@ -16,3 +16,5 @@ open_url: Yes
 port: 8080
 host: aomp
 livereload: Yes
+
+exclude: ['README.md']
