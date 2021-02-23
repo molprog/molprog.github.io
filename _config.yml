@@ -19,3 +19,7 @@ livereload: Yes
 exclude:
 - README.md
 - Makefile
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor
