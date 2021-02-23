@@ -3,7 +3,6 @@ description: >-
   A grassroots textbook project
 baseurl: ""
 url: "https://book.molecular-programming.org"
-source: "_content"
 
 # defaults:
 #   -
