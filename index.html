@@ -19,6 +19,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       color: #ffffff;
       font-family: "Univers Regular", sans;
       line-height: 1.2;
+      font-size: 16px;
+    }
+    @media (max-width: 480px) {
+      body { font-size: 3.33333vw; }
+    }
+    @media (max-width: 320px) {
+      body { font-size: 10.66667px; }
     }
     h1,h2,h3,h4,h5,h6,p {
       margin: 1em 0;
@@ -52,6 +59,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       display: flex;
       min-height: 80vh;
       width: 100vw;
+      min-width: 320px;
       align-items: center;
     }
     #landing {
@@ -79,8 +87,35 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       hyphens: auto;
     }
 
-    #team li {
-
+    .board {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    #exec .board ul, #faculty.board ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #exec .board li {
+      display: inline-block;
+      width: 12em;
+      padding: 1em;
+    }
+    .role {
+      font-style: italic;
+      font-size: .9em;
+    }
+    #editorial {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #editorial .board {
+      width: 320px;
+      text-align: center;
+    }
+    .board li {
+      padding: 0.4em;
     }
     #team .name.lead {
       font-family: "Univers Bold";
@@ -144,7 +179,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
     <div id="editorial">
       <div class="board">
-        <h3>Editorial Board 1. Structures & Molecular Self-Assembly</h3>
+        <h4>Editorial Board 1.</h4>
+        <h3>Structures & Molecular Self-Assembly</h3>
         <ul>
           <li><span class="name">Dhiraj Bhatia</span></li>
           <li><span class="name">Ibon Santiago</span></li>
@@ -155,7 +191,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       </div>
 
       <div class="board">
-        <h3>Editorial Board 2. Circuits & Information Processing</h3>
+        <h4>Editorial Board 2.</h4>
+        <h3>Circuits & Information Processing</h3>
         <ul>
           <li><span class="name">Boya Wang</span></li>
           <li><span class="name">Brenda Rubenstein</span></li>
@@ -167,7 +204,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       </div>
 
       <div class="board">
-        <h3>Editorial Board 3. Interfaces & Future Directions</h3>
+        <h4>Editorial Board 3.</h4>
+        <h3>Interfaces & Future Directions</h3>
         <ul>
           <li><span class="name">Georgeos Hardo</span></li>
           <li><span class="name lead">Jaeseung Hahn</span></li>
@@ -179,7 +217,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       </div>
     </div>
 
-    <div id="faculty">
+    <div id="faculty" class="board">
       <h3>Faculty Advisory Board</h3>
       <ul>
         <li><span class="name">Aleksei Aksimentiev</span></li>
