@@ -11,3 +11,7 @@
 ## Reminders
 
 - Update logo assets with `make logos`
+
+## Todos
+
+- Handle all font variants properly

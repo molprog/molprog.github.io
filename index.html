@@ -25,7 +25,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     }
     h1,h2,h3,h4,h5,h6,b,strong {
       font-family: "Univers Bold", sans;
-      font-weight: bold;
+      /*font-weight: bold;*/
     }
     i,em { font-style: italic; }
     h1 { font-size: 2.5em; }
@@ -34,6 +34,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     h4 { font-size: 1.5em; }
     h5 { font-size: 1.3em; }
     h6 { font-size: 1.1em; }
+
+    a {
+      color: #29abe2;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    p#contact { text-align: center; }
+
     #svg-defs {
       display: none;
     }
@@ -70,6 +78,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       -ms-hyphens: auto;
       hyphens: auto;
     }
+
+    #team li {
+
+    }
+    #team .name.lead {
+      font-family: "Univers Bold";
+    }
   </style>
 </head>
 <body>
@@ -78,8 +93,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       <symbol id="aomp-logo" viewBox="0 0 308.29 98.43"><defs><style>.cls-1,.cls-4{fill:#fff;}.cls-2{fill:#29abe2;}.cls-3{fill:none;}.cls-4{font-size:78.43px;font-family:'Univers Condensed', Univers;}</style></defs><circle class="cls-1" cx="43.9" cy="8.63" r="8.63"/><circle class="cls-2" cx="79.2" cy="28.88" r="8.63"/><circle class="cls-1" cx="8.63" cy="28.88" r="8.63"/><circle class="cls-2" cx="43.91" cy="89.8" r="8.63"/><circle class="cls-1" cx="79.2" cy="70.18" r="8.63"/><circle class="cls-1" cx="8.63" cy="70.18" r="8.63"/><polygon class="cls-3" points="8.63 29 8.63 69.74 43.91 90.11 79.2 69.74 79.2 29 43.91 8.63 8.63 29"/><text class="cls-4" transform="translate(112.23 78.34)">AoMP</text></symbol>
     </defs>
   </svg>
-  <div id="landing-container">
-  <section id="landing">
+  <div id="landing-container"><div id="landing">
+  <section>
     <svg id="logo">
       AoMP<title>AoMP</title>
       <use xlink:href="#aomp-logo"/>
@@ -88,7 +103,108 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     <h1>The Art of Molecular Programming</h1>
     <h2>A grassroots textbook initative.</h2>
     <p>The principles of molecular programming are currently scattered across thousands of papers, which presents a barrier for new researchers entering the field. The Art of Molecular Programming is a grassroots community initiative to collect these principles in one location, providing tutorial lessons to guide students’ learning, and presenting a collective vision on where the field is heading.</p>
+    <p id="contact"><a href="mailto:art.of.molecular.programming@gmail.com">~ contact us ~</a></p>
   </section>
-  </div>
+  <section id="team">
+    <div id="exec">
+      <div class="board">
+        <h3>Executive Board</h3>
+        <ul>
+          <li>
+            <span class="name">Anastasia Ershova</span><br>
+            <span class="role">Graphics Lead</span>
+          </li>
+          <li>
+            <span class="name lead">Dominic Scalise</span><br>
+            <span class="role">Executive Editor</span>
+          </li>
+          <li>
+            <span class="name">Elisa Franco</span><br>
+            <span class="role">Faculty Advisory Board Liaison</span>
+          </li>
+          <li>
+            <span class="name">Jacob Majikes</span><br>
+            <span class="role">Problem Set Lead</span>
+          </li>
+          <li>
+            <span class="name lead">Namita Sarraf</span><br>
+            <span class="role">Executive Editor</span>
+          </li>
+          <li>
+            <span class="name">William Earley</span><br>
+            <span class="role">Infrastructure Lead</span>
+          </li>
+          <li>
+            <span class="name">William Poole</span><br>
+            <span class="role">Theory Lead</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="editorial">
+      <div class="board">
+        <h3>Editorial Board 1. Structures & Molecular Self-Assembly</h3>
+        <ul>
+          <li><span class="name">Dhiraj Bhatia</span></li>
+          <li><span class="name">Ibon Santiago</span></li>
+          <li><span class="name">Jonathan List</span></li>
+          <li><span class="name">Shelley Wickham</span></li>
+          <li><span class="name lead">Stefan Badelt</span></li>
+        </ul>
+      </div>
+
+      <div class="board">
+        <h3>Editorial Board 2. Circuits & Information Processing</h3>
+        <ul>
+          <li><span class="name">Boya Wang</span></li>
+          <li><span class="name">Brenda Rubenstein</span></li>
+          <li><span class="name">Ho-Lin</span> Chen</li>
+          <li><span class="name lead">Josie Kishi</span></li>
+          <li><span class="name">Sam Davidson</span></li>
+          <li><span class="name">Sifang Chen</span></li>
+        </ul>
+      </div>
+
+      <div class="board">
+        <h3>Editorial Board 3. Interfaces & Future Directions</h3>
+        <ul>
+          <li><span class="name">Georgeos Hardo</span></li>
+          <li><span class="name lead">Jaeseung Hahn</span></li>
+          <li><span class="name">Jurek Kozyra</span></li>
+          <li><span class="name">Lee Organick</span></li>
+          <li><span class="name">Matthew Aquilina</span></li>
+          <li><span class="name">Veikko Linko</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="faculty">
+      <h3>Faculty Advisory Board</h3>
+      <ul>
+        <li><span class="name">Aleksei Aksimentiev</span></li>
+        <li><span class="name">Andrew Turburfield</span></li>
+        <li><span class="name">Anne Condon</span></li>
+        <li><span class="name">Anthony Genot</span></li>
+        <li><span class="name">Brenda Rubenstein</span></li>
+        <li><span class="name">Carlos Castro</span></li>
+        <li><span class="name">Christoph Flamm</span></li>
+        <li><span class="name">Dave Doty</span></li>
+        <li><span class="name">Elisa Franco</span></li>
+        <li><span class="name">Harold Fellerman</span></li>
+        <li><span class="name">Karin Strauss</span></li>
+        <li><span class="name">Leo Green</span></li>
+        <li><span class="name">Lulu Qian</span></li>
+        <li><span class="name">Masahiro Takinoue</span></li>
+        <li><span class="name">Ned Seeman</span></li>
+        <li><span class="name">Paul Rothemund</span></li>
+        <li><span class="name">Pekka Orponen</span></li>
+        <li><span class="name">Reza Zedegan</span></li>
+        <li><span class="name">Stacy Copp</span></li>
+        <li><span class="name">Yoel Ohayon</span></li>
+      </ul>
+    </div>
+  </section>
+  </div></div>
 </body>
 </html>
