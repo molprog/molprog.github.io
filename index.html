@@ -12,11 +12,10 @@
   <meta name="theme-color" content="#29ABE2">
   <style type="text/css">
     @import url("/assets/font/univers/style.css");
+    @import url("https://molpi.gs/asset/font/bs.css");
 /* http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain) */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
     body {
-      background-color: #121416;
-      color: #ffffff;
       font-family: "Univers Regular", sans;
       line-height: 1.2;
       font-size: 16px;
@@ -52,27 +51,27 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     #svg-defs {
       display: none;
     }
-    #logo {
+    .logo {
       user-select: none;
     }
-    #landing-container {
+    .landing-container {
       display: flex;
       min-height: 80vh;
       width: 100vw;
       min-width: 320px;
       align-items: center;
     }
-    #landing {
+    .landing {
       width: 100%;
       max-width: 1000px;
       box-sizing: border-box;
       padding: 2em 1em;
       margin: 0 auto;
     }
-    #landing h1, #landing h2 {
+    .landing h1, .landing h2 {
       text-align: center;
     }
-    #landing #logo {
+    .landing .logo {
       display: block;
       margin: 0 auto 2em;
       width: 600px;
@@ -80,12 +79,64 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       height: 80vh;
       max-height: 300px;
     }
-    #landing p {
+    .landing p {
       font-size: 1.5em;
       -webkit-hyphens: auto;
       -ms-hyphens: auto;
       hyphens: auto;
     }
+
+    body,
+    .landing-container#nav-container,
+    .landing-container#aomp-container {
+      background-color: #121416;
+      color: #ffffff;
+    }
+    .landing-container#mps-container {
+      background-color: #ffffff; 
+      color: #121416;
+    }
+    .landing-container#molpigs-container {
+      background-color: #5e2828;
+      color: #ffd6d6;
+      font-family: 'Balsamiq Sans', 'Comic Sans MS', sans-serif;
+      line-height: 1.5;
+      text-align: center;
+    }
+    .landing-container#molpigs-container p {
+      -webkit-hyphens: none;
+      -ms-hyphens: none;
+      hyphens: none;
+    }
+    .landing-container#molpigs-container a {
+      color: inherit;
+      text-decoration: underline;
+      transition: color 0.1s ease-in-out;
+    }
+    .landing-container#molpigs-container a:hover { color: #da8585; }
+    a.logo-link { text-decoration: none !important; }
+
+    .landing-container#nav-container {
+      min-height: unset;
+      /*position: sticky;
+      top: 0;*/
+    }
+    #nav-container ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    #nav-container li {
+      padding: 1em;
+      max-width: 200px;
+      text-align: center;
+    }
+    /*@media (max-height: 600px) {
+      .landing-container#nav-container {
+        display: unset;
+      }
+    }*/
 
     .board {
       text-align: center;
@@ -120,6 +171,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     #team .name.lead {
       font-family: "Univers Bold";
     }
+    ol.references li {
+      margin: 0.5em 2em;
+    }
+    ol.references .reference-label {
+      width: 1.5em;
+      display: inline-block;
+      text-align: right;
+      margin-left: -2em;
+      padding-right: 0.5em;
+    }
   </style>
 </head>
 <body>
@@ -128,9 +189,39 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
       <symbol id="aomp-logo" viewBox="0 0 308.29 98.43"><defs><style>.cls-1,.cls-4{fill:#fff;}.cls-2{fill:#29abe2;}.cls-3{fill:none;}.cls-4{font-size:78.43px;font-family:'Univers Condensed', Univers;}</style></defs><circle class="cls-1" cx="43.9" cy="8.63" r="8.63"/><circle class="cls-2" cx="79.2" cy="28.88" r="8.63"/><circle class="cls-1" cx="8.63" cy="28.88" r="8.63"/><circle class="cls-2" cx="43.91" cy="89.8" r="8.63"/><circle class="cls-1" cx="79.2" cy="70.18" r="8.63"/><circle class="cls-1" cx="8.63" cy="70.18" r="8.63"/><polygon class="cls-3" points="8.63 29 8.63 69.74 43.91 90.11 79.2 69.74 79.2 29 43.91 8.63 8.63 29"/><text class="cls-4" transform="translate(112.23 78.34)">AoMP</text></symbol>
     </defs>
   </svg>
-  <div id="landing-container"><div id="landing">
-  <section>
-    <svg id="logo">
+  <div class="landing-container" id="nav-container"><div class="landing">
+  <nav>
+    <ul>
+      <li><a href="#mps">mps</a></li>
+      <li><a href="#aomp">aomp</a></li>
+      <li><a href="#molpigs">molpigs</a></li>
+    </ul>
+  </nav>
+  </div></div>
+  <div class="landing-container" id="mps-container"><div class="landing">
+  <section id="mps">
+    <h1>The Molecular Programming Society</h1>
+    <p>We are the Molecular Programming Society, an international grassroots team of scientists, engineers, and entrepreneurs, who are programming the behavior of physical matter.</p>
+    <p>We build liquid computers that run on chemistry, instead of electricity. Using these chemical computers, we program non-biological matter to grow, heal, adapt, communicate with the surrounding environment, replicate, and disassemble.</p>
+    <p>The same switches that make up your laptops and cell phones can be implemented as chemical reactions [1]. In electronics, information is encoded as high or low voltages of electricity. In our chemical computers, information is encoded as high or low concentrations of molecules (DNA, RNA, proteins, and other chemicals). By designing how these components bind to each other, we can program molecules to calculate square roots [2], implement neural networks that recognize human handwriting [3], and play a game of tic-tac-toe [4]. Chemical computers are slow, expensive, error prone, and take incredible effort to program… but they have one key advantage that makes them particularly exciting:</p>
+    <p>The outputs of chemical computers are molecules, which can directly bind to and rearrange physical matter.</p>
+    <p>Broad libraries of interfaces exist [5] that allow chemical computers to control the growth and reconfiguration of nanostructures, actuate soft robotics up to the centimeter scale, regulate drug release, grow metal wires, and direct tissue growth. Similar interfaces allow chemical computers to sense environmental stimuli as inputs, including chemical concentrations, pressure, light, heat, and electrical signals.</p>
+    <p>In the near future, chemical computers will enable humans to control matter through programming languages, instead of top-down brute force. Intelligent medicines will monitor the human body for disease markers and deliver custom therapeutics on demand. DNA-based computers will archive the internet for ultra-long term storage. In the more distant future, we can imagine programming airplane wings to detect and heal damage, cellphones to rearrange and update their hardware at the push of a button, and skyscrapers that grow up from seeds planted in the earth.</p>
+    <p>Currently our society is drafting a <a href="#aomp">textbook</a> called The Art of Molecular Programming, which will elucidate the principles of molecular programming and hopefully inspire more people (you!) to help us spark this second computer revolution.</p>
+    <p>Our <a href="#team">grassroots team</a> includes members who work at Aalto University, Brown, Cambridge, Caltech, Columbia, Harvard, Nanovery, NIST, National Taiwan University, Newcastle University, North Carolina A&T State University, Technical University of Munich, University of Malta, University of Edinburgh, UCLA, University of Illinois at Urbana-Champaign, UT Austin, University of Vienna, and University of Washington. Collectively, our society members have published over 900 peer-reviewed papers on topics related to molecular programming.</p>
+    <ol class="references">
+      <li><span class="reference-label">[1]</span>Seelig, Georg, et al. "Enzyme-free nucleic acid logic circuits." science 314.5805 (2006): 1585-1588.</li>
+      <li><span class="reference-label">[2]</span>Qian, Lulu, and Erik Winfree. "Scaling up digital circuit computation with DNA strand displacement cascades." Science 332.6034 (2011): 1196-1201.</li>
+      <li><span class="reference-label">[3]</span>Cherry, Kevin M., and Lulu Qian. "Scaling up molecular pattern recognition with DNA-based winner-take-all neural networks." Nature 559.7714 (2018): 370-376.</li>
+      <li><span class="reference-label">[4]</span>Stojanovic, Milan N., and Darko Stefanovic. "A deoxyribozyme-based molecular automaton." Nature biotechnology 21.9 (2003): 1069-1074.</li>
+      <li><span class="reference-label">[5]</span>Scalise, Dominic, and Rebecca Schulman. "Controlling matter at the molecular scale with DNA circuits." Annual review of biomedical engineering 21 (2019): 469-493.</li>
+      <li><span class="reference-label">[*]</span><em>...and hundreds more!</em></li>
+    </ol>
+  </section>
+  </div></div>
+  <div class="landing-container" id="aomp-container"><div class="landing">
+  <section id="aomp">
+    <svg class="logo">
       AoMP<title>AoMP</title>
       <use xlink:href="#aomp-logo"/>
       <image src="/assets/logo-white.png" xlink:href=""/>
@@ -244,6 +335,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
         <li><span class="name">Yoel Ohayon</span></li>
       </ul>
     </div>
+  </section>
+  </div></div>
+  <div class="landing-container" id="molpigs-container"><div class="landing">
+  <section id="molpigs">
+    <p>Check out our sister project!</p>
+    <a href="https://molpi.gs" class="logo-link"><svg class="logo" viewbox="0 0 700 650">
+      <image xlink:href="https://molpi.gs/asset/logo.svg" x="-40" y="0" width="700" height="600"/>
+      <text x="370" y="600" text-anchor="middle" style="font-size: 120px; user-select: none;"><tspan fill="#ffd739">m</tspan><tspan fill="#ff6e39">o</tspan><tspan fill="#3996ff">l</tspan><tspan fill="#da8585">pig</tspan><tspan fill="#39ff9f">s</tspan></text>
+      Molecular Programming Interest Group
+      <title>Molecular Programming Interest Group</title>
+    </svg></a>
+    <p><span><span style="color: #ffd739">m</span><span style="color: #ff6e39">o</span><span style="color: #3996ff">l</span><span style="color: #da8585">pig</span><span style="color: #39ff9f">s</span></span>, the Molecular Programming Interest Group, is a group aimed at PhD students and early career researchers within the fields of Molecular Programming, DNA Computing, and other related specialties. We currently host a <a href="https://podcast.molpi.gs">podcast</a> discussing research and experiences from people across our fields!</p>
   </section>
   </div></div>
 </body>
