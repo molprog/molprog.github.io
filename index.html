@@ -266,135 +266,52 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   <section id="team">
     <div id="exec">
       <div class="board">
+
         <h3>Executive Board</h3>
         <ul>
+          {% assign board_members = site.data.aomp.boards.executive | sort: "name" %}
+          {% for member in board_members %}
           <li>
-            <span class="name">Anastasia Ershova</span><br>
-            <span class="role">Graphics Lead</span>
+            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br>
+            <span class="role">{{ member.role }}</span>
           </li>
-          <li>
-            <span class="name lead">Dominic Scalise</span><br>
-            <span class="role">Executive Editor</span>
-          </li>
-          <li>
-            <span class="name">Elisa Franco</span><br>
-            <span class="role">Faculty Advisor Lead</span>
-          </li>
-          <li>
-            <span class="name">Georgeos Hardo</span><br>
-            <span class="role">Social Media Lead</span>
-          </li>
-          </li>
-          <li>
-            <span class="name">Jacob Majikes</span><br>
-            <span class="role">Problem Set Lead</span>
-          </li>
-          <li>
-            <span class="name lead">Namita Sarraf</span><br>
-            <span class="role">Executive Editor</span>
-          </li>
-          <li>
-            <span class="name">William Earley</span><br>
-            <span class="role">Infrastructure Lead</span>
-          </li>
-          <li>
-            <span class="name">William Poole</span><br>
-            <span class="role">Theory Lead</span>
-          </li>
+          {% endfor %}
         </ul>
       </div>
     </div>
 
     <div id="editorial">
+      {% for board in site.data.aomp.boards.editorial %}
       <div class="board">
-        <h4>Editorial Board 1.</h4>
-        <h3>Structures &amp; Molecular Self-Assembly</h3>
+        <h4>Editorial Board {{ forloop.index }}.</h4>
+        <h3>{{ board.topic }}</h3>
         <ul>
-          <li><span class="name">Ibon Santiago</span></li>
-          <li><span class="name">Jonathan List</span></li>
-          <li><span class="name">Shelley Wickham</span></li>
-          <li><span class="name lead">Stefan Badelt</span></li>
+          {% assign board_members = board.members | sort: "name" %}
+          {% for member in board_members %}
+          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+          {% endfor %}
         </ul>
       </div>
-
-      <div class="board">
-        <h4>Editorial Board 2.</h4>
-        <h3>Circuits &amp; Information Processing</h3>
-        <ul>
-          <li><span class="name">Boya Wang</span></li>
-          <li><span class="name">Brenda Rubenstein</span></li>
-          <li><span class="name">Ho-Lin Chen</span></li>
-          <li><span class="name lead">Josie Kishi</span></li>
-          <li><span class="name">Sam Davidson</span></li>
-          <li><span class="name">Sifang Chen</span></li>
-        </ul>
-      </div>
-
-      <div class="board">
-        <h4>Editorial Board 3.</h4>
-        <h3>Interfaces &amp; Future Directions</h3>
-        <ul>
-          <li><span class="name">Georgeos Hardo</span></li>
-          <li><span class="name lead">Jaeseung Hahn</span></li>
-          <li><span class="name">Jurek Kozyra</span></li>
-          <li><span class="name">Lee Organick</span></li>
-          <li><span class="name">Matthew Aquilina</span></li>
-          <li><span class="name">Veikko Linko</span></li>
-        </ul>
-      </div>
+      {% endfor %}
     </div>
 
     <div id="faculty" class="board">
       <h3>Faculty Advisory Board</h3>
       <ul>
-        <li><span class="name">Aleksei Aksimentiev</span></li>
-        <li><span class="name">Andrew Turberfield</span></li>
-        <li><span class="name">Anne Condon</span></li>
-        <li><span class="name">Anthony Genot</span></li>
-        <li><span class="name">Arvind Murugan</span></li>
-        <li><span class="name">Brenda Rubenstein</span></li>
-        <li><span class="name">Carlos Castro</span></li>
-        <li><span class="name">Chris Thachuk</span></li>
-        <li><span class="name">Christoph Flamm</span></li>
-        <li><span class="name">Chunhai Fan</span></li>
-        <li><span class="name">Dave Doty</span></li>
-        <li><span class="name">David Soloveichik</span></li>
-        <li><span class="name lead">Elisa Franco</span></li>
-        <li><span class="name">Erik Winfree</span></li>
-        <li><span class="name">Eyal Nir</span></li>
-        <li><span class="name">Fritz Simmel</span></li>
-        <li><span class="name">Georg Seelig</span></li>
-        <li><span class="name">Gos Micklem</span></li>
-        <li><span class="name">Harold Fellerman</span></li>
-        <li><span class="name">Ho-Lin Chen</span></li>
-        <li><span class="name">Ian Torao Hoffecker</span></li>
-        <li><span class="name">Jongmin Kim</span></li>
-        <li><span class="name">Karin Strauss</span></li>
-        <li><span class="name">Lennart Hilbert</span></li>
-        <li><span class="name">Leo Green</span></li>
-        <li><span class="name">Lulu Qian</span></li>
-        <li><span class="name">Masahiro Takinoue</span></li>
-        <li><span class="name">Ned Seeman</span></li>
-        <li><span class="name">Paul Rothemund</span></li>
-        <li><span class="name">Pekka Orponen</span></li>
-        <li><span class="name">Philip Lukeman</span></li>
-        <li><span class="name">Reza Zedegan</span></li>
-        <li><span class="name">Satoshi Kobayashi</span></li>
-        <li><span class="name">Sayed Ahmad Salehi</span></li>
-        <li><span class="name">Shelley Wickham</span></li>
-        <li><span class="name">Stacy Copp</span></li>
-        <li><span class="name">Tom Ouldridge</span></li>
-        <li><span class="name">Veikko Linko</span></li>
-        <li><span class="name">William Shih</span></li>
-        <li><span class="name">Yannick Rondelez</span></li>
-        <li><span class="name">Yoel Ohayon</span></li>
+        {% assign board_members = site.data.aomp.boards.faculty | sort: "name" %}
+        {% for member in board_members %}
+        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+        {% endfor %}
       </ul>
     </div>
 
     <div id="special" class="board">
       <h3>and with special thanks to</h3>
       <ul>
-        <li><span class="name">Dhiraj Bhatia</span></li>
+        {% assign board_members = site.data.aomp.thanks | sort %}
+        {% for member in board_members %}
+        <li><span class="name">{{ member }}</span><br></li>
+        {% endfor %}
       </ul>
     </div>
   </section>
