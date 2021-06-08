@@ -108,6 +108,7 @@ boards:
   - name: William Shih
   - name: Yannick Rondelez
   - name: Yoel Ohayon
+  - name: Rebecca Schulman
 thanks:
 - name: Dhiraj Bhatia
   role: for helping to develop the ToC within the Structures team
