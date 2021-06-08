@@ -1,94 +1,113 @@
 boards:
   executive:
-    - name: Dominic Scalise
-      role: Executive Editor
-      lead: yes
-    - name: Namita Sarraf
-      role: Executive Editor
-      lead: yes
-    - name: Anastasia Ershova
-      role: Graphics Lead
-    - name: Elisa Franco
-      role: Faculty Advisor Lead
-    - name: Georgeos Hardo
-      role: Social Media Lead
-    - name: Jacob Majikes
-      role: Problem Set Lead
-    - name: William Earley
-      role: Infrastructure Lead
-    - name: William Poole
-      role: Theory Lead
-
+  - name: Dominic Scalise
+    role: Executive Editor
+    github: scalise11
+    lead: true
+  - name: Namita Sarraf
+    role: Executive Editor
+    github: n-sarraf
+    lead: true
+  - name: Anastasia Ershova
+    role: Graphics Lead
+    github: aersh
+  - name: Elisa Franco
+    role: Faculty Advisor Lead
+  - name: Georgeos Hardo
+    role: Social Media Lead
+    github: georgeoshardo
+  - name: Jacob Majikes
+    role: Problem Set Lead
+    github: jacobmajikes
+  - name: William Earley
+    role: Infrastructure Lead
+    github: wearley
+  - name: William Poole
+    role: Theory Lead
+    github: WilliamIX
   editorial:
-    - topic: "Structures & Molecular Self-Assembly"
-      members:
-        - name: Stefan Badelt
-          lead: yes
-        - name: Ibon Santiago
-        - name: Jonathan List
-        - name: Shelley Wickham
-    - topic: "Circuits & Information Processing"
-      members:
-        - name: Josie Kishi
-          lead: yes
-        - name: Boya Wang
-        - name: Brenda Rubenstein
-        - name: Ho-Lin Chen
-        - name: Sam Davidson
-        - name: Sifang Chen
-    - topic: "Interfaces & Future Directions"
-      members:
-        - name: Jaeseung Hahn
-          lead: yes
-        - name: Georgeos Hardo
-        - name: Jurek Kozyra
-        - name: Lee Organick
-        - name: Matthew Aquilina
-        - name: Veikko Linko
-
-  faculty:
-    - name: Elisa Franco
-      lead: yes
-    - name: Aleksei Aksimentiev
-    - name: Andrew Turberfield
-    - name: Anne Condon
-    - name: Anthony Genot
-    - name: Arvind Murugan
-    - name: Brenda Rubenstein
-    - name: Carlos Castro
-    - name: Chris Thachuk
-    - name: Christoph Flamm
-    - name: Chunhai Fan
-    - name: Dave Doty
-    - name: David Soloveichik
-    - name: Erik Winfree
-    - name: Eyal Nir
-    - name: Fritz Simmel
-    - name: Georg Seelig
-    - name: Gos Micklem
-    - name: Harold Fellerman
-    - name: Ho-Lin Chen
-    - name: Ian Torao Hoffecker
-    - name: Jongmin Kim
-    - name: Karin Strauss
-    - name: Lennart Hilbert
-    - name: Leo Green
-    - name: Lulu Qian
-    - name: Masahiro Takinoue
-    - name: Ned Seeman
-    - name: Paul Rothemund
-    - name: Pekka Orponen
-    - name: Philip Lukeman
-    - name: Reza Zedegan
-    - name: Satoshi Kobayashi
-    - name: Sayed Ahmad Salehi
+  - topic: Structures & Molecular Self-Assembly
+    members:
+    - name: Stefan Badelt
+      github: bad-ants-fleet
+      lead: true
+    - name: Ibon Santiago
+      github: isantig
+    - name: Jonathan List
     - name: Shelley Wickham
-    - name: Stacy Copp
-    - name: Tom Ouldridge
+  - topic: Circuits & Information Processing
+    members:
+    - name: Josie Kishi
+      github: jkishi
+      lead: true
+    - name: Boya Wang
+      github: crystalwby
+    - name: Brenda Rubenstein
+      github: dbrube
+    - name: Ho-Lin Chen
+      github: holinchen
+    - name: Sam Davidson
+      github: googee3
+    - name: Sifang Chen
+  - topic: Interfaces & Future Directions
+    members:
+    - name: Jaeseung Hahn
+      github: jaeseung33
+      lead: true
+    - name: Georgeos Hardo
+      github: georgeoshardo
+    - name: Jurek Kozyra
+    - name: Lee Organick
+      github: leeorg
+    - name: Matthew Aquilina
+      github: mattaq31
     - name: Veikko Linko
-    - name: William Shih
-    - name: Yannick Rondelez
-    - name: Yoel Ohayon
-
+  faculty:
+  - name: Elisa Franco
+    lead: true
+  - name: Aleksei Aksimentiev
+  - name: Andrew Turberfield
+  - name: Anne Condon
+  - name: Anthony Genot
+  - name: Arvind Murugan
+  - name: Brenda Rubenstein
+    github: dbrube
+  - name: Carlos Castro
+  - name: Chris Thachuk
+  - name: Christoph Flamm
+    github: xtof
+  - name: Chunhai Fan
+  - name: Dave Doty
+  - name: David Soloveichik
+  - name: Erik Winfree
+  - name: Eyal Nir
+  - name: Fritz Simmel
+  - name: Georg Seelig
+  - name: Gos Micklem
+  - name: Harold Fellerman
+  - name: Ho-Lin Chen
+  - name: Ian Torao Hoffecker
+  - name: Jongmin Kim
+  - name: Karin Strauss
+  - name: Lennart Hilbert
+  - name: Leo Green
+  - name: Lulu Qian
+  - name: Masahiro Takinoue
+  - name: Ned Seeman
+  - name: Paul Rothemund
+  - name: Pekka Orponen
+  - name: Philip Lukeman
+  - name: Reza Zedegan
+    github: sbmilab
+  - name: Satoshi Kobayashi
+  - name: Sayed Ahmad Salehi
+  - name: Shelley Wickham
+  - name: Stacy Copp
+  - name: Tom Ouldridge
+  - name: Veikko Linko
+  - name: William Shih
+  - name: Yannick Rondelez
+  - name: Yoel Ohayon
 thanks:
-  - Dhiraj Bhatia
+- name: Dhiraj Bhatia
+  role: for helping to develop the ToC within the Structures team

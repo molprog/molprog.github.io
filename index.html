@@ -308,9 +308,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     <div id="special" class="board">
       <h3>and with special thanks to</h3>
       <ul>
-        {% assign board_members = site.data.aomp.thanks | sort %}
+        {% assign board_members = site.data.aomp.thanks | sort: "name" %}
         {% for member in board_members %}
-        <li><span class="name">{{ member }}</span><br></li>
+        <li><span class="name">{{ member.name }}</span><br></li>
         {% endfor %}
       </ul>
     </div>
