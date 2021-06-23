@@ -12,12 +12,9 @@
   <meta name="theme-color" content="{{ site.colours.blue }}">
   <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | relative_url }}">
 </head>
-<body>
-  {% include defs.svg %}
-  <div class="landing-container" id="nav-container"><div class="landing">
+<body class="landing">
   {% include nav.html %}
-  </div></div>
-  <div class="landing-container" id="mps-container"><div class="landing">
+  <div class="section-container mps"><div class="section">
   <section id="mps">
     <h1>The Molecular Programming Society</h1>
     <p>We are the Molecular Programming Society, an international grassroots team of scientists, engineers, and entrepreneurs, who are programming the behavior of physical matter.</p>
@@ -38,7 +35,7 @@
     </ol>
   </section>
   </div></div>
-  <div class="landing-container" id="aomp-container"><div class="landing">
+  <div class="section-container aomp"><div class="section">
   <section id="aomp">
     <svg class="logo">
       AoMP<title>AoMP</title>
@@ -103,7 +100,7 @@
     </div>
   </section>
   </div></div>
-  <div class="landing-container" id="molpigs-container"><div class="landing">
+  <div class="section-container molpigs"><div class="section">
   <section id="molpigs">
     <p>Check out our sister project!</p>
     <a href="https://molpi.gs" class="logo-link"><svg class="logo" viewbox="0 0 700 650">
