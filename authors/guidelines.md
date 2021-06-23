@@ -13,6 +13,7 @@ layout: sectioned
     - [Google Docs, Microsoft Word, etc]({{ "/files/aomp/guidelines/gdocs.pdf" | relative_url }})
 - [Graphics]({{ "/files/aomp/guidelines/graphics.pdf" | relative_url }})
 - [Problem Sets]({{ "/files/aomp/guidelines/problems.pdf" | relative_url }})
+    - [Examples]({{ "/files/aomp/guidelines/problems-examples.pdf" | relative_url }})
 - [Theory & Notation]({{ "/files/aomp/guidelines/notation.pdf" | relative_url }})
 - [Writing Style]({{ "/files/aomp/guidelines/style.pdf" | relative_url }})
 
