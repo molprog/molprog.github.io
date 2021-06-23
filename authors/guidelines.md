@@ -6,7 +6,7 @@ layout: sectioned
 - [Project Overview](#overview)
 - [Project Responsibilities, Conflict Management, and Workflow](#responsibilities)
 
----
+<hr style="border: none;">
 
 - Authoring
     - [<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>]({{ "/files/aomp/guidelines/latex.pdf" | relative_url }})
