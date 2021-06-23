@@ -11,6 +11,14 @@ url: "https://book.molecular-programming.org"
 #     values:
 #       layout: "page"
 
+colours:
+  blue: "#29abe2"
+  black: "#121416"
+  white: "#ffffff"
+  molpigs-bg-dark: "#5e2828"
+  molpigs-fg: "#ffd6d6"
+  molpigs-hover: "#da8585"
+
 open_url: Yes
 port: 8080
 host: aomp
