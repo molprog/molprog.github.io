@@ -8,7 +8,7 @@ ${{ colour[0] }}: {{ colour[1] }};
 @import url("https://molpi.gs/asset/font/bs.css");
 
 /*! http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain) */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,/*sub,*/summary,/*sup,*/table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /*! end reset.css */
 
 $font-size: 16px;
@@ -41,6 +41,14 @@ h3 { font-size: 1.7em; }
 h4 { font-size: 1.5em; }
 h5 { font-size: 1.3em; }
 h6 { font-size: 1.1em; }
+
+hr {
+  margin: 2em auto;
+  width: 50%;
+  min-width: 0.8 * $mobile-min;
+  border: none;
+  border-top: 1px solid;
+}
 
 a {
   color: $blue;
@@ -82,22 +90,71 @@ p#contact { text-align: center; }
     max-height: 300px;
   }
   p {
-    font-size: 1.5em;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
   }
 }
 
-body, nav, .aomp {
+.section section:before {
+  display: block;
+  content: "";
+  margin-bottom: 2.5em;
+}
+.section section:after {
+  display: block;
+  content: "";
+  margin-top: 2.5em;
+}
+.section section {
+  >p, >ul, >ol {
+    font-size: 1.5em;
+  }
+  ul, ol {
+    li:before {
+      content: "—";
+      text-align: right;
+      width: 2em;
+      display: inline-block;
+      padding-right: 0.5em;
+      box-sizing: border-box;
+      margin-left: -2em;
+      position: absolute;
+    }
+    li {
+      margin: 0.25em 0 0.25em 2em;
+      >:first-child {
+        margin-top: 0;
+      }
+      >:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  ol {
+    counters-reset: ol;
+    li {
+      counter-increment: ol;
+    }
+    li:before {
+      content: counters(ol, '.') '.';
+    }
+  }
+}
+
+body,
+.section-container:nth-of-type(odd),
+.section-container.nav-container,
+.section-container.aomp {
   background-color: $black;
   color: $white;
 }
-.mps {
+.section-container:nth-of-type(even),
+.section-container.mps {
   background-color: $white; 
   color: $black;
 }
-.molpigs {
+.section-container.molpigs {
   background-color: $molpigs-bg-dark;
   color: $molpigs-fg;
   font-family: 'Balsamiq Sans', 'Comic Sans MS', sans-serif;
@@ -121,7 +178,7 @@ body, nav, .aomp {
 
 a.logo-link { text-decoration: none !important; }
 
-#nav-container {
+.section-container.nav-container {
   min-height: unset;
 }
 nav {
@@ -202,4 +259,10 @@ a .icon svg {
 }
 a:hover .icon {
   border-bottom: 1px solid $blue;
+}
+
+.latex {
+  sub, sup {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+  sub {position: relative; bottom: -0.2em; margin-left: -0.15em; margin-right: -0.08em;}  
+  sup {font-size: 0.7em; bottom: 0.3em; position: relative; margin-left: -0.3em; margin-right: -0.15em;}
 }

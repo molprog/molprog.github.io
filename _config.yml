@@ -4,12 +4,12 @@ description: >-
 baseurl: ""
 url: "https://molecularprogrammers.org"
 
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#     values:
-#       layout: "page"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      section_delimiter: "<!--section-->"
 
 colours:
   blue: "#29abe2"
