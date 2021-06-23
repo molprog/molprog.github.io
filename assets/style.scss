@@ -198,6 +198,13 @@ nav {
 .board {
   text-align: center;
   margin-bottom: 2em;
+  li:before {
+    display: none !important;
+  }
+  li {
+    margin: 0 !important;
+    padding: 0.4em;
+  }
 }
 #exec .board ul, #faculty.board ul, #special.board ul {
   display: flex;
@@ -222,9 +229,6 @@ nav {
     width: 320px;
     text-align: center;
   }
-}
-.board li {
-  padding: 0.4em;
 }
 #team .name.lead {
   font-family: "Univers Bold";
