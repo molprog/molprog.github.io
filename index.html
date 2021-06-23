@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Art of Molecular Programming</title>
+  <title>{{ site.title }}</title>
   <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,22 +15,7 @@
 <body>
   {% include defs.svg %}
   <div class="landing-container" id="nav-container"><div class="landing">
-  <nav>
-    <ul>
-      <li><a href="#mps">mps</a></li>
-      <li><a href="#aomp">aomp</a></li>
-      <li><a href="#molpigs">molpigs</a></li>
-      <li><a href="https://twitter.com/MolProgSoc"><span class="icon"><svg>
-          twitter<title>twitter</title>
-          <use xlink:href="#fa-twitter"/>
-      </svg></span></a></li>
-      <li><a href="https://github.com/molprog"><span class="icon"><svg>
-          github<title>github</title>
-          <use xlink:href="#fa-github"/>
-      </svg></span></a></li>
-      <li>{% include email-icon.html %}</li>
-    </ul>
-  </nav>
+  {% include nav.html %}
   </div></div>
   <div class="landing-container" id="mps-container"><div class="landing">
   <section id="mps">
