@@ -12,7 +12,7 @@ layout: sectioned
 ### Guidelines
 
 - Authoring
-    - [<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>]({{ "/files/aomp/guidelines/latex.pdf" | relative_url }})
+    - [{% include latex %}]({{ "/files/aomp/guidelines/latex.pdf" | relative_url }})
     - [Google Docs, Microsoft Word, etc]({{ "/files/aomp/guidelines/gdocs.pdf" | relative_url }})
 - [Graphics]({{ "/files/aomp/guidelines/graphics.pdf" | relative_url }})
 - [Problem Sets]({{ "/files/aomp/guidelines/problems.pdf" | relative_url }})
@@ -21,7 +21,7 @@ layout: sectioned
 - [Writing Style]({{ "/files/aomp/guidelines/style.pdf" | relative_url }})
 
 ### Examples
-- [Tutorial](examples/tutorial)
+- [{% include latex %} Tutorial](examples/tutorial)
 - [Foundations: Chemical Reaction Networks](examples/crn)
 
 <!--section-->

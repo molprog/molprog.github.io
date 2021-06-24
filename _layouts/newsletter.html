@@ -22,7 +22,7 @@ layout: base
 {% assign sections = content | split: page.section_delimiter %}
 {% for section in sections %}
 <div class="section-container"><div class="section"><section>
-  {% if forloop.first and page.title %}<h1>{{ page.title }}</h1>{% endif %}
+  {% unless page.custom_title %}{% if forloop.first and page.title %}<h1>{{ page.title }}</h1>{% endif %}{% endunless %}
   {{ section }}
 </section></div></div>
 {% endfor %}

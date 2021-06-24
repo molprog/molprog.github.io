@@ -1,13 +1,17 @@
 ---
-title: "Tutorial"
+title: "LaTeX Tutorial"
+custom_title: yes
 layout: sectioned
 ---
 
-[< Author Information](..)
+# {% include latex %} Tutorial
 
-### [Download PDF](tutorial.pdf)
+[« Author Information](..)
 
-### [Source](tutorial.tex)
+- [Download PDF](tutorial.pdf)
+- [Source](tutorial.tex)
+
+<!--section-->
 
 {% highlight TeX %}{% raw %}
 \title{My Amazing Textbook Section}
