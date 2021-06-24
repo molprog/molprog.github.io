@@ -1,0 +1,195 @@
+---
+---
+{% for colour in site.colours %}
+${{ colour[0] }}: {{ colour[1] }};
+{% endfor %}
+
+@import url("https://molpi.gs/asset/font/bs.css");
+@import url("/assets/font/univers/style.css");
+
+/*! http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain) */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,/*sub,*/summary,/*sup,*/table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/*! end reset.css */
+
+$font-size: 24px;
+$mobile-large: 480px;
+$mobile-min: 320px;
+$font-factor: $font-size / $mobile-large;
+
+.__article {
+  font-family: "Univers Regular", sans-serif;
+  line-height: 1.2;
+  font-size: $font-size;
+}
+
+@media (max-width: $mobile-large) {
+  .__article { font-size: $font-factor * 100vw; }
+}
+@media (max-width: $mobile-min) {
+  .__article { font-size: $font-factor * $mobile-min; }
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 1em 0;
+}
+h1,h2,h3,h4,h5,h6,b,strong {
+  font-family: "Univers Bold", sans-serif;
+}
+i,em { font-style: italic; }
+h1 { font-size: 1.67em; }
+h2 { font-size: 1.33em; }
+h3 { font-size: 1.13em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.87em; }
+h6 { font-size: 0.73em; }
+
+#logo-banner img {
+  width: 800px;
+  margin: 0 auto;
+  max-width: 90%; }
+#logo img {
+  width: 300px;
+  height: 300px; }
+#logo a, #logo-banner a { text-decoration: none; }
+
+hr {
+  margin: 2em auto;
+  width: 50%;
+  min-width: 0.8 * $mobile-min;
+  border: none;
+  border-top: 1px solid;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+p#contact { text-align: center; }
+
+.logo {
+  user-select: none;
+}
+.section-container {
+  display: flex;
+  width: 100vw;
+  min-width: $mobile-min;
+  align-items: center;
+}
+.landing .section-container {
+  min-height: 80vh;
+}
+.section {
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  padding: 2em 1em;
+  margin: 0 auto;
+  h1, h2 {
+    text-align: center;
+  }
+  p {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+.section .__section > .__before {
+  display: block;
+  margin-bottom: 2.5em;
+}
+.section .__section > .__after {
+  display: block;
+  margin-top: 2.5em;
+}
+
+
+ul {
+  list-style-type: none;
+  > li {
+    display: flex;
+    flex-direction: row;
+    margin: 0.25em 0 0.25em 2em;
+    > .__before {
+      min-width: 2em;
+      width: 2em;
+      text-align: right;
+      display: inline-block;
+      padding-right: 0.5em;
+      margin-left: -2em;
+      box-sizing: border-box;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+    > .__li {
+      display: inline-block; 
+      flex-grow: 1;
+      h1,h2,h3,h4,h5,h6,p,dl,ul,ol,td,th { margin: 0 0 2em 0; }
+      > .__first_child {
+        margin-top: 0;
+      }
+      > .__last_child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+li {
+  margin-left: 2.5em;
+  p {
+    padding: 0;
+  }
+}
+ol { list-style-type: decimal; }
+
+blockquote {
+  border-left: 0.3em solid;
+  padding: 0 1em;
+  line-height: 1.5;
+  font-size: 0.8em;
+}
+.section-container.footer {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+body, .__article,
+.section-container.__odd {
+  background-color: $black;
+  color: $white;
+}
+.section-container.__even {
+  background-color: $white; 
+  color: $black;
+}
+
+a.logo-link { text-decoration: none !important; }
+
+.inline-logo {
+  .__section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #logo{
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    flex-grow: 0;
+    margin: auto;
+  }
+  .inline-content {
+    min-width: 300px;
+    flex-grow: 1;
+    max-width: 600px;
+    padding: 1em;
+    margin: auto;
+  }
+}
+
+.molpigs {
+  font-family: 'Balsamiq Sans', 'Comic Sans MS', sans-serif;
+}
