@@ -1,12 +1,15 @@
 ---
-title: Author Guidelines
+title: Author Information
 layout: sectioned
 ---
 
+[toc]: {{ "/files/aomp/toc-current.pdf" | relative_url }}
+
 - [Project Overview](#overview)
 - [Project Responsibilities, Conflict Management, and Workflow](#responsibilities)
+- [Table of Contents][toc]
 
-<hr style="border: none;">
+### Guidelines
 
 - Authoring
     - [<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>]({{ "/files/aomp/guidelines/latex.pdf" | relative_url }})
@@ -16,6 +19,10 @@ layout: sectioned
     - [Examples]({{ "/files/aomp/guidelines/problems-examples.pdf" | relative_url }})
 - [Theory & Notation]({{ "/files/aomp/guidelines/notation.pdf" | relative_url }})
 - [Writing Style]({{ "/files/aomp/guidelines/style.pdf" | relative_url }})
+
+### Examples
+- [Tutorial](examples/tutorial)
+- [Foundations: Chemical Reaction Networks](examples/crn)
 
 <!--section-->
 
@@ -37,7 +44,7 @@ The book will be divided into 3 major sections:
 - Circuits + information processing
 - Interfaces
 
-The complete table of contents can be found [here]({{ "/files/aomp/toc-current.pdf" | relative_url }}).
+The complete table of contents can be found [here][toc].
 
 Editors of the book will be organized into 5 major boards.
 Each board has its own structure and responsibilities.
