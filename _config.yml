@@ -10,11 +10,19 @@ defaults:
       path: ""
     values:
       section_delimiter: "<!--section-->"
+  -
+    scope:
+      path: "newsletter"
+    values:
+      layout: "newsletter"
+      fm_delimiter: "<!--endfrontmatter-->"
+      fm_tag: "div"
 
 colours:
   blue: "#29abe2"
   black: "#121416"
   white: "#ffffff"
+  white2: "#fefefe"
   molpigs-bg-dark: "#5e2828"
   molpigs-fg: "#ffd6d6"
   molpigs-hover: "#da8585"

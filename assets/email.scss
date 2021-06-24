@@ -20,6 +20,7 @@ $font-factor: $font-size / $mobile-large;
   font-family: "Univers Regular", sans-serif;
   line-height: 1.2;
   font-size: $font-size;
+  width: 100%;
 }
 
 @media (max-width: $mobile-large) {
@@ -44,6 +45,7 @@ h5 { font-size: 0.87em; }
 h6 { font-size: 0.73em; }
 
 #logo-banner img {
+  display: block;
   width: 800px;
   margin: 0 auto;
   max-width: 90%; }
@@ -72,12 +74,9 @@ p#contact { text-align: center; }
 }
 .section-container {
   display: flex;
-  width: 100vw;
+  width: 100%;
   min-width: $mobile-min;
   align-items: center;
-}
-.landing .section-container {
-  min-height: 80vh;
 }
 .section {
   width: 100%;
@@ -162,6 +161,18 @@ body, .__article,
 .section-container.__even {
   background-color: $white; 
   color: $black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, .__article,
+  .section-container.__odd {
+    background-color: $black !important;
+    color: $white2 !important;
+  }
+  .section-container.__even {
+    background-color: $white2 !important; 
+    color: $black !important;
+  }
 }
 
 a.logo-link { text-decoration: none !important; }

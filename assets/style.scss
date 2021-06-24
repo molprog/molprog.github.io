@@ -290,3 +290,45 @@ code, pre {
   line-height: 1.5;
   white-space: pre-wrap;
 }
+
+blockquote {
+  border-left: 0.3em solid;
+  padding: 0 1em;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+section.inline-logo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  #logo{
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    flex-grow: 0;
+    margin: auto;
+  }
+  .inline-content {
+    min-width: 300px;
+    flex-grow: 1;
+    max-width: 600px;
+    padding: 1em;
+    margin: auto;
+  }
+}
+#logo-banner img {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  max-width: 90%; }
+#logo img {
+  width: 300px;
+  height: 300px; }
+#logo a, #logo-banner a { text-decoration: none; }
+
+.molpigs {
+  font-family: 'Balsamiq Sans', 'Comic Sans MS', sans-serif;
+}
