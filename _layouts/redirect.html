@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="{{ site.colours.blue }}">
+    <meta name="theme-color" content="{{ site.colours.blue }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | relative_url }}">
+    <meta http-equiv="refresh" content="0;url={{ page.redirect }}" />
+    <title>Redirecting :: {{ site.title }}</title>
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="section-container mps"><div class="section"><section>
+      <h1>Redirecting...</h1>
+      Click <a href="{{ page.redirect }}">here</a> if you are not redirected.
+    </section></div></div>
+  </body>
+</html>

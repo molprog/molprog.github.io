@@ -3,7 +3,7 @@ title: "Tutorial"
 layout: sectioned
 ---
 
-[< Author Information](../guidelines)
+[< Author Information](..)
 
 ### [Download PDF](tutorial.pdf)
 

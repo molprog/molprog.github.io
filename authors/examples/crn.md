@@ -3,7 +3,7 @@ title: "Foundations: Chemical Reaction Networks"
 layout: sectioned
 ---
 
-[< Author Information](../guidelines)
+[< Author Information](..)
 
 ### [Download PDF](crn.pdf)
 
