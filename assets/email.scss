@@ -39,12 +39,12 @@ h1,h2,h3,h4,h5,h6,b,strong {
   font-family: "Univers Bold", sans-serif;
 }
 i,em { font-style: italic; }
-h1 { font-size: 1.67em; }
-h2 { font-size: 1.33em; }
-h3 { font-size: 1.13em; }
-h4 { font-size: 1.00em; }
-h5 { font-size: 0.87em; }
-h6 { font-size: 0.73em; }
+h1 { font-size: 1.67 * $font-size !important; }
+h2 { font-size: 1.33 * $font-size !important; }
+h3 { font-size: 1.13 * $font-size !important; }
+h4 { font-size: 1.00 * $font-size !important; }
+h5 { font-size: 0.87 * $font-size !important; }
+h6 { font-size: 0.73 * $font-size !important; }
 
 #logo-banner img {
   display: block;
@@ -136,10 +136,10 @@ blockquote {
   border-left: 0.3em solid;
   padding: 0 1em;
   line-height: 1.5;
-  font-size: 0.8em;
+  font-size: 0.8 * $font-size !important;
 }
 .section-container.footer .__section {
-  font-size: 0.8em;
+  font-size: 0.8 * $font-size !important;
   text-align: center;
 }
 
