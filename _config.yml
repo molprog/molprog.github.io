@@ -12,11 +12,15 @@ defaults:
       section_delimiter: "<!--section-->"
   -
     scope:
-      path: "newsletter"
+      path: "_newsletter"
     values:
       layout: "newsletter"
       fm_delimiter: "<!--endfrontmatter-->"
       fm_tag: "div"
+
+collections:
+  newsletter:
+    output: true
 
 colours:
   blue: "#29abe2"
