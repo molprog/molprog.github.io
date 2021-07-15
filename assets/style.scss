@@ -208,7 +208,7 @@ nav {
     padding: 0.4em;
   }
 }
-#exec .board ul, #faculty.board ul, #special.board ul {
+#exec .board ul, .board.credit ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -222,16 +222,17 @@ nav {
   font-style: italic;
   font-size: .9em;
 }
-#editorial {
+.board-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  .board {
-    width: 320px;
-    text-align: center;
-  }
 }
+
+#editorial .board {
+  width: 320px;
+  text-align: center;
+}
+
 #team .name.lead {
   font-family: "Univers Bold";
 }

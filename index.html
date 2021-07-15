@@ -48,9 +48,7 @@
     <p id="contact">{% include email-link.html %}</p>
   </section>
   <section id="team">
-    <div id="exec">
-      <div class="board">
-
+    <div id="exec" class="board-container"><div class="board">
         <h3>Executive Board</h3>
         <ul>
           {% assign board_members = site.data.aomp.boards.executive | sort: "name" %}
@@ -61,10 +59,9 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
-    </div>
+    </div></div>
 
-    <div id="editorial">
+    <div id="editorial" class="board-container">
       {% for board in site.data.aomp.boards.editorial %}
       <div class="board">
         <h4>Editorial Board {{ forloop.index }}.</h4>
@@ -79,7 +76,17 @@
       {% endfor %}
     </div>
 
-    <div id="faculty" class="board">
+    <div id="authors" class="board-container"><div class="board credit">
+      <h3>Authors</h3>
+      <ul>
+        {% assign board_members = site.data.aomp.authors | sort: "name" %}
+        {% for member in board_members %}
+        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+        {% endfor %}
+      </ul>
+    </div></div>
+
+    <div id="faculty" class="board-container"><div class="board credit">
       <h3>Faculty Advisory Board</h3>
       <ul>
         {% assign board_members = site.data.aomp.boards.faculty | sort: "name" %}
@@ -87,10 +94,10 @@
         <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
         {% endfor %}
       </ul>
-    </div>
+    </div></div>
 
     {% if site.data.aomp.thanks.size > 0 %}
-    <div id="special" class="board">
+    <div id="special" class="board-container"><div class="board credit">
       <h3>and with special thanks to</h3>
       <ul>
         {% assign board_members = site.data.aomp.thanks | sort: "name" %}
@@ -98,8 +105,9 @@
         <li><span class="name">{{ member.name }}</span><br></li>
         {% endfor %}
       </ul>
-    </div>
+    </div></div>
     {% endif %}
+    
   </section>
   </div></div>
   <div class="section-container molpigs"><div class="section">
