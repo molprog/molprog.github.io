@@ -76,6 +76,19 @@
       {% endfor %}
     </div>
 
+    <div id="specialist" class="board-container"><div class="board">
+        <h3>Content Specialists</h3>
+        <ul>
+          {% assign board_members = site.data.aomp.roving | sort: "name" %}
+          {% for member in board_members %}
+          <li>
+            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br>
+            <span class="role">{{ member.role }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+    </div></div>
+
     <div id="authors" class="board-container"><div class="board credit">
       <h3>Authors</h3>
       <ul>

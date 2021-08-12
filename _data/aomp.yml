@@ -113,6 +113,9 @@ boards:
   - name: Damien Woods
   - name: Dhiraj Bhatia
   - name: Thom LaBean
+roving:
+- name: Jaimie Marie Stewart
+  role: RNA Editor
 thanks: []
 authors:
 - name: Sarah Goldberg
