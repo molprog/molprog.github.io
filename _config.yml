@@ -23,7 +23,7 @@ collections:
     output: true
 
 colours:
-  blue: "#29abe2"
+  blue: "#30a0dc"
   black: "#121416"
   white: "#ffffff"
   white2: "#fefefe"
