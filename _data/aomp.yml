@@ -114,6 +114,7 @@ boards:
   - name: Damien Woods
   - name: Dhiraj Bhatia
   - name: Thom LaBean
+  - name: Andrew Phillips
 roving:
 - name: Jaimie Marie Stewart
   role: RNA Editor
