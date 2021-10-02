@@ -19,7 +19,7 @@ boards:
   - name: Jacob Majikes
     role: Problem Set Lead
     github: jacobmajikes
-  - name: William Earley
+  - name: Hannah Earley
     role: Infrastructure Lead
     github: wearley
   - name: William Poole
@@ -134,4 +134,4 @@ authors:
 - name: William Poole
 - name: Brenda Rubenstein
 - name: Leopold Green
-- name: William Earley
+- name: Hannah Earley
