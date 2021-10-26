@@ -134,12 +134,12 @@ p#contact { text-align: center; }
     }
   }
   ol {
-    counters-reset: ol;
-    li {
+    counter-reset: ol;
+    > li {
       counter-increment: ol;
     }
-    li:before {
-      content: counters(ol, '.') '.';
+    > li:before {
+      content: counter(ol) '.';
     }
   }
 }
