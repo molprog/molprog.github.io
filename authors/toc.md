@@ -99,7 +99,7 @@ layout: sectioned
 
 <!--section-->
 
-### Structures
+## Structures
 4. <code id="Chemistry">Chemistry</code>“From molecules to variables”
     1. <code id="InfoMols">InfoMols</code>What are information bearing molecules? (biopolymer building blocks)
         - nucleic acids (basic features and geometry)
@@ -230,7 +230,7 @@ layout: sectioned
 
 <!--section-->
 
-### Circuits
+## Circuits
 9. <code id="Computation">Computation</code>Introduction to Computation
     1. <code id="Computation_intro">Computation_intro</code>Intro to computation / information processing
     2. <code id="conventionalComp">conventionalComp</code>Conventional computation
@@ -321,7 +321,7 @@ layout: sectioned
 
 <!--section-->
 
-### Interfaces
+## Interfaces
 16. <code id="InterfacesInt">InterfacesInt</code>Introduction to Interfaces & Applications
     1. <code id="InterfacesIntro">InterfacesIntro</code>Intro
     2. <code id="InterfacesPreview">InterfacesPreview</code>General preview of interfaces (and the techniques used) with other fields through
