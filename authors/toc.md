@@ -2,11 +2,11 @@
 layout: aomp-toc
 ---
 1. <code id="Foreword">Foreword</code>Foreword
-2. <code id="History">History</code>Introduction & A Brief History of Molecular Computing
+2. <code id="History">History</code>Introduction &amp; A Brief History of Molecular Computing
 3. <code id="Foundations">Foundations</code>Foundations
     1. <code id="PrimerBio">PrimerBio</code>Biology for Molecular Programmers
-        - Central dogma & cell response to external stimuli
-        - Compartmentalization & reactions?
+        - Central dogma &amp; cell response to external stimuli
+        - Compartmentalization &amp; reactions?
         - Common DNA/RNA binding macromolecules (Box)
     2. <code id="PrimerThermo">PrimerThermo</code>Basic Thermodynamics
         - Concept of entropy, enthalpy, Gibbs energy, Chemical Equilibrium
@@ -38,11 +38,11 @@ layout: aomp-toc
             - Intercalating dyes vs fluorophores  or radiolabeling
             - Separation quality as a function of gel % and DNA length?
             - Role of buffer conditions
-            - Pulse field gradient electrophoresis + Other advanced methods (reference)
+            - Pulse field gradient electrophoresis \+ Other advanced methods (reference)
             - Capillary electrophoresis
             - Denaturing Gels
             - Stacking Gels
-        2. <code id="MethodMicrosc">MethodMicrosc</code>Microscopy (AFM, TEM/cryoEM/SEM, fluorescence/superresolution - PAINT)
+        2. <code id="MethodMicrosc">MethodMicrosc</code>Microscopy (AFM, TEM/cryoEM/SEM, fluorescence/superresolution \- PAINT)
             - Contrast mechanisms and their drawbacks (stains being inconsistent, AFM always convolutes tip, etc)
         3. <code id="MethodSpectrosc">MethodSpectrosc</code>Spectroscopy (fluorescence/CD/etc)
             - Table comparing different methodologies: labelled vs unlabelled, sensitivities, throughput?Background reporter signal?
@@ -54,7 +54,7 @@ layout: aomp-toc
             - Understand mass spectra (e.g. oligo sythesis)
         5. <code id="MethodSeq">MethodSeq</code>Sequencing
             - Sanger sequencing
-            - NGS - Illumina, PacBio, DNAnanoball,
+            - NGS \- Illumina, PacBio, DNAnanoball,
             - Nanopore
             - Microarrays
 
@@ -89,7 +89,7 @@ layout: aomp-toc
         - Crossover motifs (anti-parallel and parallel)
         - Special motifs (I motif, G-quads, aptamers, triplex, Holliday junctions)
         - Non-Watson-Crick-Franklin base-pairing (wobble etc)
-        - Differences between single and double stranded DNA (could be a box) [for example different persistence lengths, inter-basepair lengths].
+        - Differences between single and double stranded DNA (could be a box) \[for example different persistence lengths, inter-basepair lengths\].
         - Biophysical influence of buffer conditions on DNA structure
     2. <code id="RNA">RNA</code>RNA properties
         - data sheet to find useful parameters.
@@ -126,7 +126,7 @@ layout: aomp-toc
         - Molecular Dynamics Models (e.g. oxDNA)
         - Secondary Structure Kinetics (with and without the nearest neighbor model, e.g. Dave Zhang 2009 and Niranjan 2013 CRN Models, Multistrand)
     6. <code id="SeqDesign">SeqDesign</code>DNA/RNA Sequence design.
-        - Why does sequence design work? -- properties of landscapes (Lenvinthal’s paradox?)
+        - Why does sequence design work? &ndash; properties of landscapes (Lenvinthal’s paradox?)
         - Sequence design as an artificial evolution to optimize a landscape.
         - Formulation of a thermodynamic objective function for multistable design.
         - Formulation of combinatorial WCF base-pairing objectives.
@@ -170,7 +170,7 @@ layout: aomp-toc
         - Self-limiting assemblies (rings)
         - Fractal assemblies
         - Lattices, ribbons, nanotubes, and crystals
-        - Interlocked assemblies (e.g. origami rotaxanes) -> connection to mechanics
+        - Interlocked assemblies (e.g. origami rotaxanes) \-&gt; connection to mechanics
     4. <code id="DynamicDNA">DynamicDNA</code>Dynamic rearrangements of structures
         - DNA tweezers, DNA Walkers, burnt-bridge motor
         - Nanomechanical devices. Mechanical constructs / active components/ machines / walkers (comparison with molecular motors/enzymes)
@@ -180,7 +180,7 @@ layout: aomp-toc
         - Cotranscriptional RNA-Origami
         - Multi-stranded RNA tiling
     6. <code id="ProgrammedProtein">ProgrammedProtein</code>Synthetic Protein Structure
-        - Protein Complexes (engineering Protein - protein interactions)
+        - Protein Complexes (engineering Protein \- protein interactions)
             - [Nanocage self-assembly](https://doi.org/10.1038/nature18010)
     7. <code id="LiquidDNA">LiquidDNA</code>Other phases of DNA structures (Physical properties)
         - DNA hydrogels
@@ -229,7 +229,7 @@ layout: aomp-toc
         - Toehold-mediated strand displacement
         - Experiment examples: toehold exchange reaction
     2. <code id="StrandDisplacementCascades">StrandDisplacementCascades</code>Strand displacement cascades
-        1. <code id="DNAforCRNs">DNAforCRNs</code>Theory & experiment: DNA as a universal substrate for CRNs
+        1. <code id="DNAforCRNs">DNAforCRNs</code>Theory &amp; experiment: DNA as a universal substrate for CRNs
         2. <code id="EarlyBooleanDSD">EarlyBooleanDSD</code>Boolean circuits: an early example
         3. <code id="DSDsequenceDesign">DSDsequenceDesign</code>Box: DSD sequence design strategies
         4. <code id="ApproxMajorityTwoDomain">ApproxMajorityTwoDomain</code>Approximate majority (two-domain design)
@@ -241,7 +241,7 @@ layout: aomp-toc
     3. <code id="NucleicAdvanced">NucleicAdvanced</code>Advanced designs in DNA strand displacement cascades
         1. <code id="ToeholdActivation">ToeholdActivation</code>Toehold activation
         2. <code id="Mismatches">Mismatches</code>Mismatches: mutation detection and controlling kinetics
-        3. <code id="4wDSD">4wDSD</code>Theory & Experiment: 4wDSD circuits
+        3. <code id="4wDSD">4wDSD</code>Theory &amp; Experiment: 4wDSD circuits
     4. <code id="NucleicLeakless">NucleicLeakless</code>Leakless circuits
         - Why do circuits leak and why leaks are problematic
         - How to avoid leak. Examples of leakless circuits
@@ -285,7 +285,7 @@ layout: aomp-toc
 <!--section-->
 
 ## Interfaces
-16. <code id="InterfacesInt">InterfacesInt</code>Introduction to Interfaces & Applications
+16. <code id="InterfacesInt">InterfacesInt</code>Introduction to Interfaces &amp; Applications
     1. <code id="InterfacesIntro">InterfacesIntro</code>Intro
     2. <code id="InterfacesPreview">InterfacesPreview</code>General preview of interfaces (and the techniques used) with other fields through
         - Electronic interfacing
@@ -336,7 +336,7 @@ layout: aomp-toc
         - DNA as a material
         - crowding agents
 19. <code id="BioInt">BioInt</code>Interacting with Biology, Medical Diagnostics and Therapeutics
-    1. <code id="BioPrimer">BioPrimer</code>Biology toolbox primers - topics not included in Foundations primer
+    1. <code id="BioPrimer">BioPrimer</code>Biology toolbox primers \- topics not included in Foundations primer
         - Cutting DNA (e.g., restriction enzymes, CRISPR, ribozymes?; talk about synbio gene editing using CRISPR and other restriction enzymes)
         - Potential Topics: gene regulatory networks, DNA-replication/repair, Splicing, CRISPr. Molecules: telomerase, gyrase. RNA switches (subject to requirements set out by other sections)
         - Tools for Biological Discovery (subject to requirements in next sections)
@@ -344,11 +344,11 @@ layout: aomp-toc
             - FISH
             - DNA SPR (probably will be in diagnostics)
     2. <code id="Diag">Diag</code>Diagnostics
-        - How do current diagnostics work [primer on various techniques, biomarkers]
+        - How do current diagnostics work \[primer on various techniques, biomarkers\]
             - Which particular diseases will benefit from in-depth diagnostics?  Why do we need to know about so many biomarkers?
         - Why are some molecules difficult to detect?  What are the advantages of DNA nanotech methods over the standard techniques?
         - Methods
-            - Aptamers - How can we program DNA to bind with targets other than DNA/RNA? [primer/external reference on selex]
+            - Aptamers \- How can we program DNA to bind with targets other than DNA/RNA? \[primer/external reference on selex\]
             - Antibodies
             - toeholds
             - electrochemical/fluorescence
@@ -356,7 +356,7 @@ layout: aomp-toc
             - etc.
     3. <code id="Therapy">Therapy</code>Therapy
         1. <code id="NucAcidTher">NucAcidTher</code>Programmable nucleic acids-based therapeutics
-            - Protein production silencing or activation – mRNA mimics, siRNA etc. (Pfizer/Moderna vaccines are real-world examples of this). [primer/external reference on transcription/translation]
+            - Protein production silencing or activation – mRNA mimics, siRNA etc. (Pfizer/Moderna vaccines are real-world examples of this). \[primer/external reference on transcription/translation\]
             - Aptamer therapeutics
         - Protection of therapeutic agents e.g. tetrahedron structures.
             - Different protection methods for nucleic acid nanostructures (e.g., polylysine, protein, lipid, etc.)
@@ -368,19 +368,19 @@ layout: aomp-toc
         - [Protein binding logic gates for targeted drug delivery](https://doi.org/10.1038/s41586-019-1432-8)
     4. <code id="BurgInt">BurgInt</code>Burgeoning biological interfaces
         - Cellular interactions Communicating with cells and cell surfaces
-            - Why do we want to create artificial cell signal controllers? [primer/external reference on cell signalling systems]
+            - Why do we want to create artificial cell signal controllers? \[primer/external reference on cell signalling systems\]
             - DNA nanotech channel receptor mimics (various versions using DNA origami; include lipid bilayer section here)
                 - [example](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(21)00034-2)
         - Cell-mediated adhesion
         - Replicating cellular components
-        - Proteinosomes - will try to include, but depends on content of this chapter
+        - Proteinosomes \- will try to include, but depends on content of this chapter
     5. <code id="BioMediumChall">BioMediumChall</code>Challenges in working in a biological medium
         - Dealing with toxicity
-        - Preventing degradation – [primer or external links to well-known DNA modifications and their functionality, use of XNAs?]
+        - Preventing degradation – \[primer or external links to well-known DNA modifications and their functionality, use of XNAs?\]
         - Examples of Chemical modifications, ligand attachments and encapsulating protection (nanoparticles)
         - How to scale up “bio factories”, using cells to manufacture molecules is difficult
         - Cell-free extracts
-    6. <code id="Ethics">Ethics</code>Regulation & Ethics - breakout box
+    6. <code id="Ethics">Ethics</code>Regulation &amp; Ethics \- breakout box
         - High level overview of the general international medical regulatory processes, with some specific examples from, e.g., the FDA approval process
         - Maybe briefly mention other regulatory processes for, e.g., synthetic crops
         - Biosafety/biosecurity
