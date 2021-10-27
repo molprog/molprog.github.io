@@ -8,8 +8,10 @@ layout: sectioned
   .section section > ol > li {
     counter-increment: chapter;
   }
-  .section section ol > li {
+  .section section ol > li, li.tagged {
     padding-top: 1em;
+  }
+  .section section ol > li {
     font-family: 'Univers Bold', sans;
   }
   .section section ul > li {
@@ -43,3 +45,6 @@ layout: sectioned
 {% endunless %}
 
 {{ content }}
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

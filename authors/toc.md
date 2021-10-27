@@ -111,9 +111,11 @@ layout: aomp-toc
         - Static properties
         - Elastic models (FJC, WLC)
         - Transport phenomena (viscosity, diffusion)
-    2. <code id="MD">MD</code>Molecular dynamics models .
-        - Box: coarse grained models for nucleic acids
-        1. <code id="proteinMD">proteinMD</code>MD for proteins
+    2. <code id="MD">MD</code>Molecular dynamics models.
+        <ul>
+            <li>Box: coarse grained models for nucleic acids</li>
+            <li class="tagged"><code id="proteinMD">proteinMD</code>MD for proteins</li>
+        </ul>
     3. <code id="NN">NN</code>The thermodynamic nearest neighbor model.
         - single DNA/RNA molecules
         - multi stranded nucleic acid systems
@@ -179,7 +181,7 @@ layout: aomp-toc
         - Multi-stranded RNA tiling
     6. <code id="ProgrammedProtein">ProgrammedProtein</code>Synthetic Protein Structure
         - Protein Complexes (engineering Protein - protein interactions)
-            - Nanocage self-assembly (https://doi.org/10.1038/nature18010)
+            - [Nanocage self-assembly](https://doi.org/10.1038/nature18010)
     7. <code id="LiquidDNA">LiquidDNA</code>Other phases of DNA structures (Physical properties)
         - DNA hydrogels
         - DNA liquids
@@ -211,7 +213,7 @@ layout: aomp-toc
     4. <code id="dCRN">dCRN</code>Computing with Deterministic CRNs
         - Theory examples: circuits, boolean circuits, oscillators, bistability, etc.
         - Well-mixed CRN’s as example of analog computing
-        - Computing functions (e.g. y=kx)
+        - Computing functions (e.g. \\(y=kx\\))
         - Approximate majority
         - Dynamic system: Oscillators, bistability
         - Biology example: (predator prey / ecology models)
@@ -311,8 +313,7 @@ layout: aomp-toc
             - Framing template (e.g., DNA molds, frame-guided assembly, DNA-assisted liposome/nanodisc assembly)
         2. <code id="SurfaceAssist">SurfaceAssist</code>Surface assisted methods
             - DNA nanostructure placement on surfaces
-            - DNA lithography
-                - https://www.nature.com/articles/s41563-021-00930-7
+            - [DNA lithography](https://www.nature.com/articles/s41563-021-00930-7)
             - Large lattices
     2. <code id="ChemCtrl">ChemCtrl</code>Chemical control
     3. <code id="MagCtrl">MagCtrl</code>Magnetic control
@@ -320,8 +321,7 @@ layout: aomp-toc
         - Magnetic control of molecular systems (DNA origami)
     4. <code id="OptCtrl">OptCtrl</code>Optical control
         - Primer on optical materials
-        - DNA plasmonic and photonic circuits
-            - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546600/
+        - [DNA plasmonic and photonic circuits](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546600/)
         - Dynamic control of optical DNA devices
     5. <code id="ThemCtrl">ThemCtrl</code>Thermal control
         - Thermal control of duplex
@@ -331,8 +331,7 @@ layout: aomp-toc
     6. <code id="ElecCtrl">ElecCtrl</code>Electrical control
         - Electric field-based control
         - DNA-nanopore interface
-        - Redox power source
-            - http://www.francescoriccilab.com/wp-content/uploads/92.pdf
+        - [Redox power source](http://www.francescoriccilab.com/wp-content/uploads/92.pdf)
     7. <code id="ChemPhysAdv">ChemPhysAdv</code>Advanced topics and future directions
         - DNA as a material
         - crowding agents
@@ -366,12 +365,12 @@ layout: aomp-toc
             - Why is it beneficial to have targeted delivery of drugs in the body?
             - How are drugs loaded onto DNA structures?  Various examples available.
             - Mechanisms for release of drugs in particular areas of the body.
-        - Protein binding logic gates for targeted drug delivery i.e. https://doi.org/10.1038/s41586-019-1432-8
+        - [Protein binding logic gates for targeted drug delivery](https://doi.org/10.1038/s41586-019-1432-8)
     4. <code id="BurgInt">BurgInt</code>Burgeoning biological interfaces
         - Cellular interactions Communicating with cells and cell surfaces
             - Why do we want to create artificial cell signal controllers? [primer/external reference on cell signalling systems]
             - DNA nanotech channel receptor mimics (various versions using DNA origami; include lipid bilayer section here)
-                - ex. https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(21)00034-2
+                - [example](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(21)00034-2)
         - Cell-mediated adhesion
         - Replicating cellular components
         - Proteinosomes - will try to include, but depends on content of this chapter
