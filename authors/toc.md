@@ -1,45 +1,6 @@
 ---
-title: Table of Contents
-layout: sectioned
+layout: aomp-toc
 ---
-
-<style>
-  body {
-    counter-reset: chapter;
-  }
-  .section section > ol > li {
-    counter-increment: chapter;
-  }
-  .section section ol > li {
-    padding-top: 1em;
-    font-family: 'Univers Bold', sans;
-  }
-  .section section ul > li {
-    font-family: 'Univers Regular', sans;
-  }
-  .section section > ol > li:before {
-    content: counter(chapter) '.';
-  }
-  .section section > ol ol > li:before {
-    content: counter(ol, lower-alpha) '.';
-  }
-  code {
-    font-size:  0.6em;
-    color: {{ site.colours.blue }};
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-    width: 0;
-    top: -1.8em;
-  }
-  code:before {
-    content:  "[\00a0";
-  }
-  code:after {
-    content:  "\00a0]";
-  }
-</style>
-
 1. <code id="Foreword">Foreword</code>Foreword
 2. <code id="History">History</code>Introduction & A Brief History of Molecular Computing
 3. <code id="Foundations">Foundations</code>Foundations
