@@ -1,5 +1,6 @@
 ---
 layout: aomp-toc
+mini: true
 ---
 1. <a name="Foreword" class="tag" href="#Foreword">Foreword</a>
 2. <a name="History" class="tag" href="#History">Introduction &amp; A Brief History of Molecular Computing</a>

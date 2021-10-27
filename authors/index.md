@@ -3,11 +3,9 @@ title: Author Information
 layout: sectioned
 ---
 
-[toc]: {{ "/files/aomp/toc-current.pdf" | relative_url }}
-
 - [Project Overview](#overview)
 - [Project Responsibilities, Conflict Management, and Workflow](#responsibilities)
-- [Table of Contents][toc]
+- [Table of Contents](toc)
 
 ### Guidelines
 
