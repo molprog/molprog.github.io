@@ -22,6 +22,7 @@ body {
   font-family: "Univers Regular", sans;
   line-height: 1.2;
   font-size: $font-size;
+  word-break: break-word;
 }
 @media (max-width: $mobile-large) {
   body { font-size: $font-factor * 100vw; }
