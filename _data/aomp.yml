@@ -65,6 +65,7 @@ boards:
     - name: Matthew Aquilina
       github: mattaq31
     - name: Veikko Linko
+    - name: Leo Green
   faculty:
   - name: Elisa Franco
     lead: true
