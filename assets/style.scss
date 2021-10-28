@@ -24,6 +24,19 @@ body {
   font-size: $font-size;
   word-break: break-word;
 }
+
+@media (max-width: 1000px) {
+    .section section ul li, .section section ol li {
+        margin-left: 4.8vw !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .section section ul li, .section section ol li {
+        margin-left: 1.4em !important;
+    }
+}
+
 @media (max-width: $mobile-large) {
   body { font-size: $font-factor * 100vw; }
 }
