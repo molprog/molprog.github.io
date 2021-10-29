@@ -25,13 +25,6 @@ $font-factor: $font-size / $mobile-large;
   border-collapse: collapse;
 }
 
-@media (max-width: $mobile-large) {
-  .__article { font-size: $font-factor * 100vw; }
-}
-@media (max-width: $mobile-min) {
-  .__article { font-size: $font-factor * $mobile-min; }
-}
-
 h1,h2,h3,h4,h5,h6,p {
   margin: 1em 0;
 }
@@ -155,20 +148,6 @@ body, .__article,
   color: $black;
 }
 
-@media (prefers-color-scheme: dark) {
-  body, .__article,
-  .section-container.__odd,
-  .section-container.__odd .inline-content {
-    background-color: $black !important;
-    color: $white2 !important;
-  }
-  .section-container.__even,
-  .section-container.__even .inline-content {
-    background-color: $white2 !important; 
-    color: $black !important;
-  }
-}
-
 a.logo-link { text-decoration: none !important; }
 
 .inline-logo {
@@ -195,4 +174,25 @@ a.logo-link { text-decoration: none !important; }
 
 .molpigs {
   font-family: 'Balsamiq Sans', 'Comic Sans MS', sans-serif;
+}
+
+@media (max-width: $mobile-large) {
+  .__article { font-size: $font-factor * 100vw; }
+}
+@media (max-width: $mobile-min) {
+  .__article { font-size: $font-factor * $mobile-min; }
+}
+
+@media (prefers-color-scheme: dark) {
+  body, .__article,
+  .section-container.__odd,
+  .section-container.__odd .inline-content {
+    background-color: $black !important;
+    color: $white2 !important;
+  }
+  .section-container.__even,
+  .section-container.__even .inline-content {
+    background-color: $white2 !important; 
+    color: $black !important;
+  }
 }
