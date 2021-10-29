@@ -1,0 +1,8 @@
+{% assign revision = site.time | date:'?%s' %}
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url | append: revision }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url | append: revision }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="{{ site.colours.blue }}">
+    <meta name="theme-color" content="{{ site.colours.blue }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | relative_url | append: revision }}">
