@@ -24,25 +24,6 @@ body {
   font-size: $font-size;
   word-break: break-word;
 }
-
-@media (max-width: 1000px) {
-    .section section ul li, .section section ol li {
-        margin-left: 4.8vw !important;
-    }
-}
-
-@media (max-width: 700px) {
-    .section section ul li, .section section ol li {
-        margin-left: 1.4em !important;
-    }
-}
-
-@media (max-width: $mobile-large) {
-  body { font-size: $font-factor * 100vw; }
-}
-@media (max-width: $mobile-min) {
-  body { font-size: $font-factor * $mobile-min; }
-}
 h1,h2,h3,h4,h5,h6,p {
   margin: 1em 0;
 }
@@ -352,4 +333,25 @@ section.inline-logo {
 
 .molpigs {
   font-family: 'Balsamiq Sans', 'Comic Sans MS', sans-serif;
+}
+
+
+
+@media (max-width: $mobile-large) {
+  body { font-size: $font-factor * 100vw; }
+}
+@media (max-width: $mobile-min) {
+  body { font-size: $font-factor * $mobile-min; }
+}
+
+@media (max-width: 1000px) {
+    .section section ul li, .section section ol li {
+        margin-left: 4.8vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .section section ul li, .section section ol li {
+        margin-left: 1.4em;
+    }
 }
