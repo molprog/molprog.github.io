@@ -52,7 +52,7 @@ mini: false
             - EXTINCTION COEFFICIENTS. basics of beer’s law. assumptions re: additivity of nucleotides. nearest neighbor model for absorption. denatured vs native.
         4. <a name="MethodMassSpec" class="tag" href="#MethodMassSpec"><code>MethodMassSpec</code>Mass Spec</a>
             - Detecting large amounts of small molecules in solution
-            - Understand mass spectra (e.g. oligo sythesis)
+            - Understand mass spectra (e.g. oligo synthesis)
         5. <a name="MethodSeq" class="tag" href="#MethodSeq"><code>MethodSeq</code>Sequencing</a>
             - Sanger sequencing
             - NGS \- Illumina, PacBio, DNAnanoball,
@@ -96,7 +96,7 @@ mini: false
         - data sheet to find useful parameters.
         - Special motifs (I motif, G-quads, kissing loops, aptamers, ribozymes)
         - Biophysical influence of buffer conditions on RNA structure and stability
-        - Non-cannonical base pairing
+        - Non-canonical base pairing
     3. <a name="Protein" class="tag" href="#Protein"><code>Protein</code>Protein biochemistry</a>
         - data sheet to find useful parameters.
         - Enzymatic activity and binding pockets, …
@@ -166,7 +166,7 @@ mini: false
         - Production and purification
             - Custom scaffold design
             - Thermo/stoichiometry
-    3. <a name="MulitComponent" class="tag" href="#MulitComponent"><code>MulitComponent</code>Periodic and Multi component assemblies</a>
+    3. <a name="MultiComponent" class="tag" href="#MultiComponent"><code>MultiComponent</code>Periodic and Multi component assemblies</a>
         - Shape complementary, base stacking
         - Self-limiting assemblies (rings)
         - Fractal assemblies

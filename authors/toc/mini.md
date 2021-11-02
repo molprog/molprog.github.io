@@ -35,7 +35,7 @@ mini: true
     4. <a name="XNA" class="tag" href="#XNA">Non-canonical polymers and interactions (LNA, PNA, XNA, etc)</a>
 6. <a name="Biophysics" class="tag" href="#Biophysics">Interfacing biophysical and computational models for analysis and design.</a>
     1. <a name="PP" class="tag" href="#PP">Polymer physics models for nucleic acids and proteins.</a>
-    2. <a name="MD" class="tag" href="#MD">Molecular dynamics models .</a>
+    2. <a name="MD" class="tag" href="#MD">Molecular dynamics models.</a>
         1. <a name="proteinMD" class="tag" href="#proteinMD">MD for proteins</a>
     3. <a name="NN" class="tag" href="#NN">The thermodynamic nearest neighbor model.</a>
     4. <a name="NLKin" class="tag" href="#NLKin">Nearest neighbor level stochastic simulations</a>
@@ -48,7 +48,7 @@ mini: true
 8. <a name="DNAstructures" class="tag" href="#DNAstructures">Programmed molecular self-assemblies (experiments)</a>
     1. <a name="AssembledDNA" class="tag" href="#AssembledDNA">Scaffold-less DNA assemblies</a>
     2. <a name="Origami" class="tag" href="#Origami">DNA Origami</a>
-    3. <a name="MulitComponent" class="tag" href="#MulitComponent">Periodic and Multi component assemblies</a>
+    3. <a name="MultiComponent" class="tag" href="#MultiComponent">Periodic and Multi component assemblies</a>
     4. <a name="DynamicDNA" class="tag" href="#DynamicDNA">Dynamic rearrangements of structures</a>
     5. <a name="ProgrammedRNA" class="tag" href="#ProgrammedRNA">RNA Structures</a>
     6. <a name="ProgrammedProtein" class="tag" href="#ProgrammedProtein">Synthetic Protein Structure</a>
