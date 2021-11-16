@@ -120,29 +120,31 @@ mini: true
 <!--section-->
 
 ## <a name="Interfaces" class="tag" href="#Interfaces">Interfaces</a>
-16. <a name="InterfacesInt" class="tag" href="#InterfacesInt">Introduction to Interfaces &amp; Applications</a>
-    1. <a name="InterfacesIntro" class="tag" href="#InterfacesIntro">Intro</a>
-    2. <a name="InterfacesPreview" class="tag" href="#InterfacesPreview">General preview of interfaces (and the techniques used) with other fields through</a>
-17. <a name="ElectricInt" class="tag" href="#ElectricInt">The Interface between Traditional and Molecular Computers</a>
-    1. <a name="DNAdataIntro" class="tag" href="#DNAdataIntro">Introduction to the electronic interface</a>
-    2. <a name="DNAdataStorage" class="tag" href="#DNAdataStorage">DNA Data Storage</a>
-    3. <a name="DNAdataFuture" class="tag" href="#DNAdataFuture">Emerging/future applications</a>
+16. <a name="IntIntro" class="tag" href="#IntIntro">Introduction to Interfaces &amp; Applications</a>
+17. <a name="CompInt" class="tag" href="#CompInt">Integrating Molecular Programming with Traditional Computers</a>
+    1. <a name="CompIntIntro" class="tag" href="#CompIntIntro">Introduction</a>
+    2. <a name="LgDataStorage" class="tag" href="#LgDataStorage">Large-Scale Molecular Data Storage (focusing on DNA)</a>
+    3. <a name="SmDataStorage" class="tag" href="#SmDataStorage">Small-Scale Molecular Data Storage (focusing on small molecules)</a>
+    4. <a name="CompIntFuture" class="tag" href="#CompIntFuture">Emerging/future applications</a>
 18. <a name="ChemPhysInt" class="tag" href="#ChemPhysInt">Chemical and Physical Interactions</a>
     1. <a name="Material" class="tag" href="#Material">Material science</a>
         1. <a name="DNATemplate" class="tag" href="#DNATemplate">DNA as a template for non-DNA molecules</a>
-        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist">Surface assisted methods</a>
+        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist">Surface-assisted methods</a>
     2. <a name="ChemCtrl" class="tag" href="#ChemCtrl">Chemical control</a>
     3. <a name="MagCtrl" class="tag" href="#MagCtrl">Magnetic control</a>
     4. <a name="OptCtrl" class="tag" href="#OptCtrl">Optical control</a>
     5. <a name="ThemCtrl" class="tag" href="#ThemCtrl">Thermal control</a>
-    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl">Electrical control</a>
+    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl">Electrical controlonic driven redox power sources</a>
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv">Advanced topics and future directions</a>
 19. <a name="BioInt" class="tag" href="#BioInt">Interacting with Biology, Medical Diagnostics and Therapeutics</a>
-    1. <a name="BioPrimer" class="tag" href="#BioPrimer">Biology toolbox primers - topics not included in Foundations primer</a>
+    1. <a name="BioToolbox" class="tag" href="#BioToolbox">Biology toolbox</a>
     2. <a name="Diag" class="tag" href="#Diag">Diagnostics</a>
+        1. <a name="DiagIntro" class="tag" href="#DiagIntro">Introduction to molecular diagnostics and precision medicine</a>
+        2. <a name="BioTech" class="tag" href="#BioTech">Techniques for targeted binding of biomarkers</a>
+        3. <a name="BioSense" class="tag" href="#BioSense">Sensors and readouts for biomarker quantitation</a>
     3. <a name="Therapy" class="tag" href="#Therapy">Therapy</a>
-        1. <a name="NucAcidTher" class="tag" href="#NucAcidTher">Programmable nucleic acids-based therapeutics</a>
-        2. <a name="DrugDel" class="tag" href="#DrugDel">Drug Delivery</a>
-    4. <a name="BurgInt" class="tag" href="#BurgInt">Burgeoning biological interfaces</a>
-    5. <a name="BioMediumChall" class="tag" href="#BioMediumChall">Challenges in working in a biological medium</a>
-    6. <a name="Ethics" class="tag" href="#Ethics">Regulation &amp; Ethics - breakout box</a>
+        1. <a name="TherMolProg" class="tag" href="#TherMolProg">Therapeutic molecular programming</a>
+        2. <a name="NucAcidTher" class="tag" href="#NucAcidTher">Therapeutic Nucleic Acids</a>
+        3. <a name="DrugDel" class="tag" href="#DrugDel">Drug Delivery</a>
+    4. <a name="CellInt" class="tag" href="#CellInt">Cellular Interfaces</a>
+    5. <a name="BurBioInt" class="tag" href="#BurBioInt">Burgeoning Biological Interfaces</a>

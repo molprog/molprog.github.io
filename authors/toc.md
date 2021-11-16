@@ -286,102 +286,100 @@ mini: false
 <!--section-->
 
 ## <a name="Interfaces" class="tag" href="#Interfaces">Interfaces</a>
-16. <a name="InterfacesInt" class="tag" href="#InterfacesInt"><code>InterfacesInt</code>Introduction to Interfaces &amp; Applications</a>
-    1. <a name="InterfacesIntro" class="tag" href="#InterfacesIntro"><code>InterfacesIntro</code>Intro</a>
-    2. <a name="InterfacesPreview" class="tag" href="#InterfacesPreview"><code>InterfacesPreview</code>General preview of interfaces (and the techniques used) with other fields through</a>
-        - Electronic interfacing
-        - Chemical and physical interactions
-        - Interacting with biology
-17. <a name="ElectricInt" class="tag" href="#ElectricInt"><code>ElectricInt</code>The Interface between Traditional and Molecular Computers</a>
-    1. <a name="DNAdataIntro" class="tag" href="#DNAdataIntro"><code>DNAdataIntro</code>Introduction to the electronic interface</a>
-        - Pros: lower energy usage, parallelism, physical stability, data density, etc.
-        - Cons: expensive at high throughput, etc
-    2. <a name="DNAdataStorage" class="tag" href="#DNAdataStorage"><code>DNAdataStorage</code>DNA Data Storage</a>
-        - Encoding data from digital data to DNA (breakout box about considerations of large amounts of chemical waste)
-        - Storing DNA
-        - Recovering stored DNA
-        - Sequencing the DNA
-        - Decoding the DNA back to digital data (breakout box about ethics of right to be forgotten)
-    3. <a name="DNAdataFuture" class="tag" href="#DNAdataFuture"><code>DNAdataFuture</code>Emerging/future applications</a>
-        - Similarity Search
-        - File previewing
-        - etc.
+16. <a name="IntIntro" class="tag" href="#IntIntro"><code>IntIntro</code>Introduction to Interfaces &amp; Applications</a>
+17. <a name="CompInt" class="tag" href="#CompInt"><code>CompInt</code>Integrating Molecular Programming with Traditional Computers</a>
+    1. <a name="CompIntIntro" class="tag" href="#CompIntIntro"><code>CompIntIntro</code>Introduction</a>
+        - Pros
+        - Cons
+    2. <a name="LgDataStorage" class="tag" href="#LgDataStorage"><code>LgDataStorage</code>Large-Scale Molecular Data Storage (focusing on DNA)</a>
+        - History
+        - Encoding
+        - Synthesis
+        - Storage
+        - Recovery
+        - Readout
+        - Decoding
+    3. <a name="SmDataStorage" class="tag" href="#SmDataStorage"><code>SmDataStorage</code>Small-Scale Molecular Data Storage (focusing on small molecules)</a>
+        - History
+        - Encoding
+        - Synthesis
+        - Storage
+        - Recovery
+        - Readout
+        - Decoding
+    4. <a name="CompIntFuture" class="tag" href="#CompIntFuture"><code>CompIntFuture</code>Emerging/future applications</a>
+        - Implementing algorithms
+        - New bases and chemicals
 18. <a name="ChemPhysInt" class="tag" href="#ChemPhysInt"><code>ChemPhysInt</code>Chemical and Physical Interactions</a>
     1. <a name="Material" class="tag" href="#Material"><code>Material</code>Material science</a>
         1. <a name="DNATemplate" class="tag" href="#DNATemplate"><code>DNATemplate</code>DNA as a template for non-DNA molecules</a>
-            - Encoding template (e.g., sequence-encoded polymer synthesis)
-            - Positioning template (e.g., nanoparticles, nanowires, silicification/mineralization)
-            - Framing template (e.g., DNA molds, frame-guided assembly, DNA-assisted liposome/nanodisc assembly)
-        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist"><code>SurfaceAssist</code>Surface assisted methods</a>
+            - Encoding template
+            - Positioning template
+            - Framing template
+        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist"><code>SurfaceAssist</code>Surface-assisted methods</a>
             - DNA nanostructure placement on surfaces
-            - [DNA lithography](https://www.nature.com/articles/s41563-021-00930-7)
+            - DNA lithography
             - Large lattices
     2. <a name="ChemCtrl" class="tag" href="#ChemCtrl"><code>ChemCtrl</code>Chemical control</a>
     3. <a name="MagCtrl" class="tag" href="#MagCtrl"><code>MagCtrl</code>Magnetic control</a>
-        - Fundamentals of magnetic control at the nanoscale (swimmers, beads)
-        - Magnetic control of molecular systems (DNA origami)
+        - Fundamentals of magnetic control at the nanoscale
+        - Magnetic control of molecular systems
     4. <a name="OptCtrl" class="tag" href="#OptCtrl"><code>OptCtrl</code>Optical control</a>
         - Primer on optical materials
-        - [DNA plasmonic and photonic circuits](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546600/)
+        - DNA plasmonic and photonic circuits
         - Dynamic control of optical DNA devices
     5. <a name="ThemCtrl" class="tag" href="#ThemCtrl"><code>ThemCtrl</code>Thermal control</a>
         - Thermal control of duplex
         - Thermal control of stacking and shape complementarity
         - Thermo-responsive materials
         - Engineering thermodynamic landscape of DSD
-    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl"><code>ElecCtrl</code>Electrical control</a>
-        - Electric field-based control
-        - DNA-nanopore interface
-        - [Redox power source](http://www.francescoriccilab.com/wp-content/uploads/92.pdf)
+    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl"><code>ElecCtrl</code>Electrical controlonic driven redox power sources</a>
+        - Electrical field-based control
+        - DNA-based nanopore interface
+        - Redox power source
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv"><code>ChemPhysAdv</code>Advanced topics and future directions</a>
-        - DNA as a material
-        - crowding agents
 19. <a name="BioInt" class="tag" href="#BioInt"><code>BioInt</code>Interacting with Biology, Medical Diagnostics and Therapeutics</a>
-    1. <a name="BioPrimer" class="tag" href="#BioPrimer"><code>BioPrimer</code>Biology toolbox primers - topics not included in Foundations primer</a>
-        - Cutting DNA (e.g., restriction enzymes, CRISPR, ribozymes?; talk about synbio gene editing using CRISPR and other restriction enzymes)
-        - Potential Topics: gene regulatory networks, DNA-replication/repair, Splicing, CRISPr. Molecules: telomerase, gyrase. RNA switches (subject to requirements set out by other sections)
-        - Tools for Biological Discovery (subject to requirements in next sections)
-            - DNA paint (will be referenced in foundations)
-            - FISH
-            - DNA SPR (probably will be in diagnostics)
+    1. <a name="BioToolbox" class="tag" href="#BioToolbox"><code>BioToolbox</code>Biology toolbox</a>
+        - Enzymatics interactions with DNA
+        - Tools for biological discovery
+        - Challenges of working in a biological medium
+            - Dealing with toxicity
+            - Preventing degradation
+            - Chemical modifications
+            - Scaling up “bio factories”
+            - Cell-free extracts
     2. <a name="Diag" class="tag" href="#Diag"><code>Diag</code>Diagnostics</a>
-        - How do current diagnostics work \[primer on various techniques, biomarkers\]
-            - Which particular diseases will benefit from in-depth diagnostics?  Why do we need to know about so many biomarkers?
-        - Why are some molecules difficult to detect?  What are the advantages of DNA nanotech methods over the standard techniques?
-        - Methods
-            - Aptamers \- How can we program DNA to bind with targets other than DNA/RNA? \[primer/external reference on selex\]
+        1. <a name="DiagIntro" class="tag" href="#DiagIntro"><code>DiagIntro</code>Introduction to molecular diagnostics and precision medicine</a>
+        2. <a name="BioTech" class="tag" href="#BioTech"><code>BioTech</code>Techniques for targeted binding of biomarkers</a>
+            - Nucleic acids
             - Antibodies
-            - toeholds
-            - electrochemical/fluorescence
-            - SPR (surface plasmon resonance) and QCM (quartz crystal microbalance) and FET (field effect transistor)
-            - etc.
+            - Aptamers
+            - Affimers and other affinity reagents
+        3. <a name="BioSense" class="tag" href="#BioSense"><code>BioSense</code>Sensors and readouts for biomarker quantitation</a>
+            - Electrochemical
+            - Fluorescence
+            - Surface plasmon resonance
+            - Colorimetric
+            - Electrophoresis
+            - Other alternatives
     3. <a name="Therapy" class="tag" href="#Therapy"><code>Therapy</code>Therapy</a>
-        1. <a name="NucAcidTher" class="tag" href="#NucAcidTher"><code>NucAcidTher</code>Programmable nucleic acids-based therapeutics</a>
-            - Protein production silencing or activation – mRNA mimics, siRNA etc. (Pfizer/Moderna vaccines are real-world examples of this). \[primer/external reference on transcription/translation\]
-            - Aptamer therapeutics
-        - Protection of therapeutic agents e.g. tetrahedron structures.
-            - Different protection methods for nucleic acid nanostructures (e.g., polylysine, protein, lipid, etc.)
-        - Examples of approved or under-trial DNA nanotech drugs.
-        2. <a name="DrugDel" class="tag" href="#DrugDel"><code>DrugDel</code>Drug Delivery</a>
-            - Why is it beneficial to have targeted delivery of drugs in the body?
-            - How are drugs loaded onto DNA structures?  Various examples available.
-            - Mechanisms for release of drugs in particular areas of the body.
-        - [Protein binding logic gates for targeted drug delivery](https://doi.org/10.1038/s41586-019-1432-8)
-    4. <a name="BurgInt" class="tag" href="#BurgInt"><code>BurgInt</code>Burgeoning biological interfaces</a>
-        - Cellular interactions Communicating with cells and cell surfaces
-            - Why do we want to create artificial cell signal controllers? \[primer/external reference on cell signalling systems\]
-            - DNA nanotech channel receptor mimics (various versions using DNA origami; include lipid bilayer section here)
-                - [example](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(21)00034-2)
-        - Cell-mediated adhesion
-        - Replicating cellular components
-        - Proteinosomes \- will try to include, but depends on content of this chapter
-    5. <a name="BioMediumChall" class="tag" href="#BioMediumChall"><code>BioMediumChall</code>Challenges in working in a biological medium</a>
-        - Dealing with toxicity
-        - Preventing degradation – \[primer or external links to well-known DNA modifications and their functionality, use of XNAs?\]
-        - Examples of Chemical modifications, ligand attachments and encapsulating protection (nanoparticles)
-        - How to scale up “bio factories”, using cells to manufacture molecules is difficult
-        - Cell-free extracts
-    6. <a name="Ethics" class="tag" href="#Ethics"><code>Ethics</code>Regulation &amp; Ethics - breakout box</a>
-        - High level overview of the general international medical regulatory processes, with some specific examples from, e.g., the FDA approval process
-        - Maybe briefly mention other regulatory processes for, e.g., synthetic crops
-        - Biosafety/biosecurity
+        1. <a name="TherMolProg" class="tag" href="#TherMolProg"><code>TherMolProg</code>Therapeutic molecular programming</a>
+        2. <a name="NucAcidTher" class="tag" href="#NucAcidTher"><code>NucAcidTher</code>Therapeutic Nucleic Acids</a>
+            - Genomic interactions
+            - Antisense oligonucleotides
+            - siRNA, mRNA, miRNA mimics
+            - Aptamers
+            - Delivery of nucleic acids
+            - Approved or under-trial DNA/RNA-based drugs
+        3. <a name="DrugDel" class="tag" href="#DrugDel"><code>DrugDel</code>Drug Delivery</a>
+            - Benefits and applications of targeted drug delivery
+            - Techniques for carrying and storing drugs using molecular programming
+            - Mechanisms for target site detection and release
+    4. <a name="CellInt" class="tag" href="#CellInt"><code>CellInt</code>Cellular Interfaces</a>
+        - Introduction to artificial cells and cellular mimics
+        - Synthetic organelles and cellular components
+        - Cellular interactions
+            - Manipulating signal pathways
+            - Channel receptor mimics
+        - Applications and research trajectory
+    5. <a name="BurBioInt" class="tag" href="#BurBioInt"><code>BurBioInt</code>Burgeoning Biological Interfaces</a>
