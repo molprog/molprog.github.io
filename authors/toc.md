@@ -333,7 +333,7 @@ mini: false
         - Thermal control of stacking and shape complementarity
         - Thermo-responsive materials
         - Engineering thermodynamic landscape of DSD
-    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl"><code>ElecCtrl</code>Electrical controlonic driven redox power sources</a>
+    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl"><code>ElecCtrl</code>Electrical control</a>
         - Electrical field-based control
         - DNA-based nanopore interface
         - Redox power source

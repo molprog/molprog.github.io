@@ -134,7 +134,7 @@ mini: true
     3. <a name="MagCtrl" class="tag" href="#MagCtrl">Magnetic control</a>
     4. <a name="OptCtrl" class="tag" href="#OptCtrl">Optical control</a>
     5. <a name="ThemCtrl" class="tag" href="#ThemCtrl">Thermal control</a>
-    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl">Electrical controlonic driven redox power sources</a>
+    6. <a name="ElecCtrl" class="tag" href="#ElecCtrl">Electrical control</a>
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv">Advanced topics and future directions</a>
 19. <a name="BioInt" class="tag" href="#BioInt">Interacting with Biology, Medical Diagnostics and Therapeutics</a>
     1. <a name="BioToolbox" class="tag" href="#BioToolbox">Biology toolbox</a>
