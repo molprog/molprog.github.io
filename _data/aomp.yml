@@ -84,7 +84,6 @@ boards:
   - name: Dave Doty
   - name: David Soloveichik
   - name: Eyal Nir
-  - name: Fritz Simmel
   - name: Georg Seelig
   - name: Gos Micklem
   - name: Harold Fellerman
@@ -98,7 +97,6 @@ boards:
   - name: Masahiro Takinoue
   - name: Ned Seeman
   - name: Paul Rothemund
-  - name: Pekka Orponen
   - name: Philip Lukeman
   - name: Reza Zedegan
     github: sbmilab
