@@ -23,28 +23,30 @@ mini: true
 <!--section-->
 
 ## <a name="Structures" class="tag" href="#Structures">Structures</a>
-4. <a name="Chemistry" class="tag" href="#Chemistry">“From molecules to variables”</a>
-    1. <a name="InfoMols" class="tag" href="#InfoMols">What are information bearing molecules? (biopolymer building blocks)</a>
-    2. <a name="Glue" class="tag" href="#Glue">How do molecules interact (the glue)</a>
-    3. <a name="MolN" class="tag" href="#MolN">How can we represent molecules digitally (notation focused)?</a>
-    4. <a name="MolV" class="tag" href="#MolV">How can we represent molecules digitally (visualization focused)?</a>
+4. <a name="Chemistry" class="tag" href="#Chemistry">From molecules to variables</a>
+    1. <a name="InfoMols" class="tag" href="#InfoMols">What are information bearing molecules?</a>
+    2. <a name="Glue" class="tag" href="#Glue">The interactions that glue molecules together</a>
+    3. <a name="MolN" class="tag" href="#MolN">Digital description of molecules.</a>
+    4. <a name="MolV" class="tag" href="#MolV">Digital visualization of molecules</a>
 5. <a name="Biomolecules" class="tag" href="#Biomolecules">Molecules as construction material</a>
     1. <a name="DNA" class="tag" href="#DNA">DNA properties</a>
     2. <a name="RNA" class="tag" href="#RNA">RNA properties</a>
-    3. <a name="Protein" class="tag" href="#Protein">Protein biochemistry</a>
-    4. <a name="XNA" class="tag" href="#XNA">Non-canonical polymers and interactions (LNA, PNA, XNA, etc)</a>
+    3. <a name="DSD" class="tag" href="#DSD">Dynamic processes of nucleic acids</a>
+    4. <a name="Protein" class="tag" href="#Protein">Protein biochemistry</a>
+    5. <a name="XNA" class="tag" href="#XNA">Non-canonical polymers and interactions (LNA, PNA, XNA, etc)</a>
 6. <a name="Biophysics" class="tag" href="#Biophysics">Interfacing biophysical and computational models for analysis and design.</a>
     1. <a name="PP" class="tag" href="#PP">Polymer physics models for nucleic acids and proteins.</a>
     2. <a name="MD" class="tag" href="#MD">Molecular dynamics models.</a>
         1. <a name="proteinMD" class="tag" href="#proteinMD">MD for proteins</a>
     3. <a name="NN" class="tag" href="#NN">The thermodynamic nearest neighbor model.</a>
     4. <a name="NLKin" class="tag" href="#NLKin">Nearest neighbor level stochastic simulations</a>
-    5. <a name="DLKin" class="tag" href="#DLKin">Domain level models  of hybridization, dissociation and branch migration.</a>
+    5. <a name="DLKin" class="tag" href="#DLKin">Models  of hybridization, dissociation and branch migration.</a>
     6. <a name="SeqDesign" class="tag" href="#SeqDesign">DNA/RNA Sequence design.</a>
     7. <a name="ProteinDesign" class="tag" href="#ProteinDesign">Sequence design of proteins to fold into a specific structure</a>
-7. <a name="SelfAssembly" class="tag" href="#SelfAssembly">Introduction into molecular self-assembly theory.</a>
-    1. <a name="NatAssembly" class="tag" href="#NatAssembly">Principles of natural multi-component self-assembly processes</a>
-    2. <a name="TileAssembly" class="tag" href="#TileAssembly">Tile self-assembly</a>
+7. <a name="SelfAssembly" class="tag" href="#SelfAssembly">Introduction into molecular self-assembly theory via natural examples.</a>
+    1. <a name="NatAssemblyMac" class="tag" href="#NatAssemblyMac">Self-assembly of macroscopic phases</a>
+    2. <a name="NatAssemblyMic" class="tag" href="#NatAssemblyMic">Self-assembly of finite-sized structures</a>
+    3. <a name="NatAssemblyNoneq" class="tag" href="#NatAssemblyNoneq">Beating equilibrium in self-assembled systems</a>
 8. <a name="DNAstructures" class="tag" href="#DNAstructures">Programmed molecular self-assemblies (experiments)</a>
     1. <a name="AssembledDNA" class="tag" href="#AssembledDNA">Scaffold-less DNA assemblies</a>
     2. <a name="Origami" class="tag" href="#Origami">DNA Origami</a>
@@ -66,7 +68,7 @@ mini: true
     5. <a name="naturalComp" class="tag" href="#naturalComp">Examples of natural computing (e.g. neural networks, gene regulatory networks)</a>
     6. <a name="molprogLang" class="tag" href="#molprogLang">Molecular programming languages</a>
     7. <a name="molprogCompil" class="tag" href="#molprogCompil">Compiling molecular programs</a>
-10. <a name="CRN" class="tag" href="#CRN">Programming molecular behaviors over time (CRN’s)</a>
+10. <a name="CRN" class="tag" href="#CRN">Programming molecular behaviors over time (CRNs)</a>
     1. <a name="CRN_intro" class="tag" href="#CRN_intro">Introduction</a>
     2. <a name="sCRN" class="tag" href="#sCRN">Computing with Stochastic CRNs</a>
     3. <a name="CRNdistribution" class="tag" href="#CRNdistribution">Compute with distributions</a>
@@ -86,8 +88,7 @@ mini: true
         9. <a name="Oscillator" class="tag" href="#Oscillator">Oscillators</a>
     3. <a name="NucleicAdvanced" class="tag" href="#NucleicAdvanced">Advanced designs in DNA strand displacement cascades</a>
         1. <a name="ToeholdActivation" class="tag" href="#ToeholdActivation">Toehold activation</a>
-        2. <a name="Mismatches" class="tag" href="#Mismatches">Mismatches: mutation detection and controlling kinetics</a>
-        3. <a name="4wDSD" class="tag" href="#4wDSD">Theory &amp; Experiment: 4wDSD circuits</a>
+        2. <a name="4wDSD" class="tag" href="#4wDSD">Theory &amp; Experiment: 4wDSD circuits</a>
     4. <a name="NucleicLeakless" class="tag" href="#NucleicLeakless">Leakless circuits</a>
 12. <a name="EnzymeCircuits" class="tag" href="#EnzymeCircuits">Programming behavior with diverse biomolecules</a>
     1. <a name="EnzymeCircuitsIntro" class="tag" href="#EnzymeCircuitsIntro">Introduction</a>
@@ -111,10 +112,11 @@ mini: true
     5. <a name="ReactionDiffusion" class="tag" href="#ReactionDiffusion">Reaction diffusion circuits</a>
     6. <a name="MicrofluidicsBox" class="tag" href="#MicrofluidicsBox">Microfluidics Breakout Box</a>
 14. <a name="AdvancedAssembly" class="tag" href="#AdvancedAssembly">Advanced topics in tile assembly (algorithmic self-assembly)</a>
-    1. <a name="WangTile" class="tag" href="#WangTile">Wang tile Turing machine implementation?</a>
-    2. <a name="TileComplexity" class="tag" href="#TileComplexity">Tile Complexity of shapes and patterns</a>
-    3. <a name="ExtendedAssembly" class="tag" href="#ExtendedAssembly">Extended tile-assembly models and their computational power</a>
-    4. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly">Nubots, amoebots, turning machines</a>
+    1. <a name="TileAssembly" class="tag" href="#TileAssembly">Tile self-assembly</a>
+    2. <a name="WangTile" class="tag" href="#WangTile">Wang tile ATAM Turing machine implementation</a>
+    3. <a name="TileComplexity" class="tag" href="#TileComplexity">Tile Complexity of shapes and patterns</a>
+    4. <a name="ExtendedAssembly" class="tag" href="#ExtendedAssembly">Extended tile-assembly models and their computational power</a>
+    5. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly">Nubots, amoebots, turning machines</a>
 15. <a name="CircuitsConclusion" class="tag" href="#CircuitsConclusion">Conclusion</a>
 
 <!--section-->

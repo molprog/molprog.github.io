@@ -62,25 +62,25 @@ mini: false
 <!--section-->
 
 ## <a name="Structures" class="tag" href="#Structures">Structures</a>
-4. <a name="Chemistry" class="tag" href="#Chemistry"><code>Chemistry</code>“From molecules to variables”</a>
-    1. <a name="InfoMols" class="tag" href="#InfoMols"><code>InfoMols</code>What are information bearing molecules? (biopolymer building blocks)</a>
+4. <a name="Chemistry" class="tag" href="#Chemistry"><code>Chemistry</code>From molecules to variables</a>
+    1. <a name="InfoMols" class="tag" href="#InfoMols"><code>InfoMols</code>What are information bearing molecules?</a>
         - nucleic acids (basic features and geometry)
         - proteins/peptides; Protein geometry (alpha helix, ...)
         - Other (PNA, L-DNA, new nucleotides, polysaccharides, block-copolymers, other supramolecular programmable molecules)
         - Information in unordered mixtures of small molecules
-    2. <a name="Glue" class="tag" href="#Glue"><code>Glue</code>How do molecules interact (the glue)</a>
+    2. <a name="Glue" class="tag" href="#Glue"><code>Glue</code>The interactions that glue molecules together</a>
         - Chemical bonds and interactions (a primer in chemistry)
-        - Intramolecular forces via covalent bonds: peptide bonds, ester bond
-        - Intermolecular forces and non-covalent bonds: Van der Waals, hydrogen bond, stacking interactions, electrostatic interactions, Debye screening. (Table with relative bond strengths)
+        - Intramolecular forces via covalent bonds: peptide bonds, ester bonds, delocalised aromatic bonds.
+        - Intermolecular forces and non-covalent bonds: Van der Waals, hydrogen bond and hydrophobicity, stacking interactions, electrostatic interactions, Debye screening. (Table with relative bond strengths)
         - Entropic forces: depletion, steric, fractionation, crowding, polymers
-    3. <a name="MolN" class="tag" href="#MolN"><code>MolN</code>How can we represent molecules digitally (notation focused)?</a>
+    3. <a name="MolN" class="tag" href="#MolN"><code>MolN</code>Digital description of molecules.</a>
         - Structure abstraction layers: Primary, Secondary, Tertiary structure
         - Sequence abstraction layers: domain level vs nucleotide level
         - Notations: Dot parens plus notation, DU+ notation, ...
         - SMILES string for small molecules
         - Notions of “valid” conformations (nearest neighbor model)
         - Intuition behind coarse-grained representations and macrostates
-    4. <a name="MolV" class="tag" href="#MolV"><code>MolV</code>How can we represent molecules digitally (visualization focused)?</a>
+    4. <a name="MolV" class="tag" href="#MolV"><code>MolV</code>Digital visualization of molecules</a>
         - Intuition behind coarse-grained representations and macrostates
         - How can we represent molecules graphically
         - Intro into formal concepts for visualization.
@@ -97,13 +97,17 @@ mini: false
         - Special motifs (I motif, G-quads, kissing loops, aptamers, ribozymes)
         - Biophysical influence of buffer conditions on RNA structure and stability
         - Non-canonical base pairing
-    3. <a name="Protein" class="tag" href="#Protein"><code>Protein</code>Protein biochemistry</a>
+    3. <a name="DSD" class="tag" href="#DSD"><code>DSD</code>Dynamic processes of nucleic acids</a>
+        - Hybridisation
+        - Toehold-mediated strand displacement via branch migration
+        - 4-way strand displacement
+    4. <a name="Protein" class="tag" href="#Protein"><code>Protein</code>Protein biochemistry</a>
         - data sheet to find useful parameters.
         - Enzymatic activity and binding pockets, …
         - Special motifs of secondary structure (alpha helices, beta sheets), tertiary structure (fold families like b-barrels etc)
         - Quaternary structure: Multimeric protein complexes
         - Biophysical influence of buffer conditions on enzyme activity and protein structure
-    4. <a name="XNA" class="tag" href="#XNA"><code>XNA</code>Non-canonical polymers and interactions (LNA, PNA, XNA, etc)</a>
+    5. <a name="XNA" class="tag" href="#XNA"><code>XNA</code>Non-canonical polymers and interactions (LNA, PNA, XNA, etc)</a>
         - Comparisons of interactions between canonical polymers (DNA/RNA, Protein/RNA binding)
         - Protein Non-canonical amino acids
         - data sheet to find useful parameters...
@@ -122,7 +126,7 @@ mini: false
         - multi stranded nucleic acid systems
     4. <a name="NLKin" class="tag" href="#NLKin"><code>NLKin</code>Nearest neighbor level stochastic simulations</a>
         - Thermodynamic energy landscapes and their application (and limitations) for Gillespie-type kinetic simulations
-    5. <a name="DLKin" class="tag" href="#DLKin"><code>DLKin</code>Domain level models  of hybridization, dissociation and branch migration.</a>
+    5. <a name="DLKin" class="tag" href="#DLKin"><code>DLKin</code>Models  of hybridization, dissociation and branch migration.</a>
         - The ad-hoc approach (based on experimental results)
         - Molecular Dynamics Models (e.g. oxDNA)
         - Secondary Structure Kinetics (with and without the nearest neighbor model, e.g. Dave Zhang 2009 and Niranjan 2013 CRN Models, Multistrand)
@@ -138,19 +142,20 @@ mini: false
         - Directed Evolution protein engineering (Frances Arnold)
             - Box: Theory of directed evolution
         - Alphafold2 box on learned structure prediction and the protein folding grand challenge
-7. <a name="SelfAssembly" class="tag" href="#SelfAssembly"><code>SelfAssembly</code>Introduction into molecular self-assembly theory.</a>
-    1. <a name="NatAssembly" class="tag" href="#NatAssembly"><code>NatAssembly</code>Principles of natural multi-component self-assembly processes</a>
-        - Seeded self-assembly examples: (viruses, lipid micelles, nanowires, crystals, self-assembled monolayer, hydrogels, lipids, block copolymers)
-        - Templated self-assembly: the central dogma and its implications for assembly of non-equilibrium structures.
-        - Biophysical models: The role of thermal energy driving self-assembly, nucleation, kinetic/thermodynamic control, stoichiometry, cyclisation, stochasticity.
-        - Models for proofreading vs. kinetic proofreading.
-    2. <a name="TileAssembly" class="tag" href="#TileAssembly"><code>TileAssembly</code>Tile self-assembly</a>
-        - Tiling theory as a mathematical theory (Geometry, Wang tiles).
-        - A-tam and K-tam.
-        - Tiles and algorithmic self assembly, example algorithms
-        - Selected models (3D, active tile-assembly, probabilistic…), the problems that led to their creation.
-        - Error correction and proofreading strategies
-        - Tips, tricks and problems related to nucleic acid sequence design.
+7. <a name="SelfAssembly" class="tag" href="#SelfAssembly"><code>SelfAssembly</code>Introduction into molecular self-assembly theory via natural examples.</a>
+    1. <a name="NatAssemblyMac" class="tag" href="#NatAssemblyMac"><code>NatAssemblyMac</code>Self-assembly of macroscopic phases</a>
+        - Crystals
+        - Gels and disordered phases
+        - Liquid-liquid phase separation
+        - Lipid membranes and bilayers
+    2. <a name="NatAssemblyMic" class="tag" href="#NatAssemblyMic"><code>NatAssemblyMic</code>Self-assembly of finite-sized structures</a>
+        - Assembly from distinct units (capsid, enzyme complexes, ribosome...)
+        - Protein folding and cyclisation/looping (eg. hairpins)
+    3. <a name="NatAssemblyNoneq" class="tag" href="#NatAssemblyNoneq"><code>NatAssemblyNoneq</code>Beating equilibrium in self-assembled systems</a>
+        - Molecular templating as a way to drive the formation of non-equilibrium structures (central dogma).
+        - Molecular species such as ATP as a store of high free energy fuel.
+        - Use of fuel to push assembled systems out of equilibrium (kinetic proofreading, chaperones).
+        - Use of fuel to create dynamic non-equilibrium systems (motors, signal-processing architectures, things like microtubules which are a form of &quot;dissipative self-assembly&quot;).
 8. <a name="DNAstructures" class="tag" href="#DNAstructures"><code>DNAstructures</code>Programmed molecular self-assemblies (experiments)</a>
     1. <a name="AssembledDNA" class="tag" href="#AssembledDNA"><code>AssembledDNA</code>Scaffold-less DNA assemblies</a>
         - ss Tiles,
@@ -175,7 +180,6 @@ mini: false
     4. <a name="DynamicDNA" class="tag" href="#DynamicDNA"><code>DynamicDNA</code>Dynamic rearrangements of structures</a>
         - DNA tweezers, DNA Walkers, burnt-bridge motor
         - Nanomechanical devices. Mechanical constructs / active components/ machines / walkers (comparison with molecular motors/enzymes)
-        - Nanomotors
     5. <a name="ProgrammedRNA" class="tag" href="#ProgrammedRNA"><code>ProgrammedRNA</code>RNA Structures</a>
         - RNA nanoparticles / Tiles
         - Cotranscriptional RNA-Origami
@@ -203,13 +207,13 @@ mini: false
     5. <a name="naturalComp" class="tag" href="#naturalComp"><code>naturalComp</code>Examples of natural computing (e.g. neural networks, gene regulatory networks)</a>
     6. <a name="molprogLang" class="tag" href="#molprogLang"><code>molprogLang</code>Molecular programming languages</a>
     7. <a name="molprogCompil" class="tag" href="#molprogCompil"><code>molprogCompil</code>Compiling molecular programs</a>
-10. <a name="CRN" class="tag" href="#CRN"><code>CRN</code>Programming molecular behaviors over time (CRN’s)</a>
+10. <a name="CRN" class="tag" href="#CRN"><code>CRN</code>Programming molecular behaviors over time (CRNs)</a>
     1. <a name="CRN_intro" class="tag" href="#CRN_intro"><code>CRN_intro</code>Introduction</a>
     2. <a name="sCRN" class="tag" href="#sCRN"><code>sCRN</code>Computing with Stochastic CRNs</a>
-        - Theory example and analysis: min/max and boolean logic programming with CRN’s
+        - Theory example and analysis: min/max and boolean logic programming with CRNs
         - Biology example: something simple
-        - Computational Power of Stochastic CRN
-        - Time complexity of stochastic CRN
+        - Computational Power of Stochastic CRNs
+        - Time complexity of stochastic CRNs
     3. <a name="CRNdistribution" class="tag" href="#CRNdistribution"><code>CRNdistribution</code>Compute with distributions</a>
     4. <a name="dCRN" class="tag" href="#dCRN"><code>dCRN</code>Computing with Deterministic CRNs</a>
         - Theory examples: circuits, boolean circuits, oscillators, bistability, etc.
@@ -217,7 +221,7 @@ mini: false
         - Computing functions (e.g. \\(y=kx\\))
         - Approximate majority
         - Dynamic system: Oscillators, bistability
-        - Biology example: (predator prey / ecology models)
+        - Biology example: (predator-prey / ecology models)
         - Computational power of deterministic CRNs
     5. <a name="CRN_advanced" class="tag" href="#CRN_advanced"><code>CRN_advanced</code>Advanced topics in CRNs</a>
         - Small molecule early work: John Ross (Stanford)
@@ -241,8 +245,7 @@ mini: false
         9. <a name="Oscillator" class="tag" href="#Oscillator"><code>Oscillator</code>Oscillators</a>
     3. <a name="NucleicAdvanced" class="tag" href="#NucleicAdvanced"><code>NucleicAdvanced</code>Advanced designs in DNA strand displacement cascades</a>
         1. <a name="ToeholdActivation" class="tag" href="#ToeholdActivation"><code>ToeholdActivation</code>Toehold activation</a>
-        2. <a name="Mismatches" class="tag" href="#Mismatches"><code>Mismatches</code>Mismatches: mutation detection and controlling kinetics</a>
-        3. <a name="4wDSD" class="tag" href="#4wDSD"><code>4wDSD</code>Theory &amp; Experiment: 4wDSD circuits</a>
+        2. <a name="4wDSD" class="tag" href="#4wDSD"><code>4wDSD</code>Theory &amp; Experiment: 4wDSD circuits</a>
     4. <a name="NucleicLeakless" class="tag" href="#NucleicLeakless"><code>NucleicLeakless</code>Leakless circuits</a>
         - Why do circuits leak and why leaks are problematic
         - How to avoid leak. Examples of leakless circuits
@@ -277,10 +280,16 @@ mini: false
     5. <a name="ReactionDiffusion" class="tag" href="#ReactionDiffusion"><code>ReactionDiffusion</code>Reaction diffusion circuits</a>
     6. <a name="MicrofluidicsBox" class="tag" href="#MicrofluidicsBox"><code>MicrofluidicsBox</code>Microfluidics Breakout Box</a>
 14. <a name="AdvancedAssembly" class="tag" href="#AdvancedAssembly"><code>AdvancedAssembly</code>Advanced topics in tile assembly (algorithmic self-assembly)</a>
-    1. <a name="WangTile" class="tag" href="#WangTile"><code>WangTile</code>Wang tile Turing machine implementation?</a>
-    2. <a name="TileComplexity" class="tag" href="#TileComplexity"><code>TileComplexity</code>Tile Complexity of shapes and patterns</a>
-    3. <a name="ExtendedAssembly" class="tag" href="#ExtendedAssembly"><code>ExtendedAssembly</code>Extended tile-assembly models and their computational power</a>
-    4. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly"><code>ActiveAssembly</code>Nubots, amoebots, turning machines</a>
+    1. <a name="TileAssembly" class="tag" href="#TileAssembly"><code>TileAssembly</code>Tile self-assembly</a>
+        - Tiling theory as a mathematical theory (Geometry, Wang tiles).
+        - A-tam and K-tam.
+        - Tiles and algorithmic self assembly, example algorithms
+        - Selected models (3D, active tile-assembly, probabilistic…), the problems that led to their creation.
+        - Error correction and proofreading strategies
+    2. <a name="WangTile" class="tag" href="#WangTile"><code>WangTile</code>Wang tile ATAM Turing machine implementation</a>
+    3. <a name="TileComplexity" class="tag" href="#TileComplexity"><code>TileComplexity</code>Tile Complexity of shapes and patterns</a>
+    4. <a name="ExtendedAssembly" class="tag" href="#ExtendedAssembly"><code>ExtendedAssembly</code>Extended tile-assembly models and their computational power</a>
+    5. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly"><code>ActiveAssembly</code>Nubots, amoebots, turning machines</a>
 15. <a name="CircuitsConclusion" class="tag" href="#CircuitsConclusion"><code>CircuitsConclusion</code>Conclusion</a>
 
 <!--section-->
