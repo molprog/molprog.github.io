@@ -52,6 +52,7 @@ boards:
     - name: Sam Davidson
       github: googee3
     - name: Sifang Chen
+    - name: Joseph Berleant
   - topic: Interfaces & Future Directions
     members:
     - name: Jaeseung Hahn
