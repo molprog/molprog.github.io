@@ -34,7 +34,6 @@ boards:
     - name: Ibon Santiago
       github: isantig
     - name: Jonathan List
-    - name: "Pierre-\xC9tienne Meunier"
     - name: Shelley Wickham
     - name: Ismael Mullor Ruiz
     - name: Tom Ouldridge
