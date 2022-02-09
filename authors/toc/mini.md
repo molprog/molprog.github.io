@@ -52,6 +52,8 @@ mini: true
     2. <a name="Origami" class="tag" href="#Origami">DNA Origami</a>
     3. <a name="MultiComponent" class="tag" href="#MultiComponent">Periodic and Multi component assemblies</a>
     4. <a name="DynamicDNA" class="tag" href="#DynamicDNA">Dynamic rearrangements of structures</a>
+        1. <a name="DynDNAMotion" class="tag" href="#DynDNAMotion">DNA tweezers, DNA Walkers, burnt-bridge motor</a>
+        2. <a name="DynDNAMech" class="tag" href="#DynDNAMech">Nanomechanical devices. Mechanical constructs / active components/ machines / walkers (comparison with molecular motors/enzymes)</a>
     5. <a name="ProgrammedRNA" class="tag" href="#ProgrammedRNA">RNA Structures</a>
     6. <a name="ProgrammedProtein" class="tag" href="#ProgrammedProtein">Synthetic Protein Structure</a>
     7. <a name="LiquidDNA" class="tag" href="#LiquidDNA">Other phases of DNA structures (Physical properties)</a>

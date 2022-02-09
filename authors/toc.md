@@ -178,8 +178,8 @@ mini: false
         - Lattices, ribbons, nanotubes, and crystals
         - Interlocked assemblies (e.g. origami rotaxanes) \-&gt; connection to mechanics
     4. <a name="DynamicDNA" class="tag" href="#DynamicDNA"><code>DynamicDNA</code>Dynamic rearrangements of structures</a>
-        - DNA tweezers, DNA Walkers, burnt-bridge motor
-        - Nanomechanical devices. Mechanical constructs / active components/ machines / walkers (comparison with molecular motors/enzymes)
+        1. <a name="DynDNAMotion" class="tag" href="#DynDNAMotion"><code>DynDNAMotion</code>DNA tweezers, DNA Walkers, burnt-bridge motor</a>
+        2. <a name="DynDNAMech" class="tag" href="#DynDNAMech"><code>DynDNAMech</code>Nanomechanical devices. Mechanical constructs / active components/ machines / walkers (comparison with molecular motors/enzymes)</a>
     5. <a name="ProgrammedRNA" class="tag" href="#ProgrammedRNA"><code>ProgrammedRNA</code>RNA Structures</a>
         - RNA nanoparticles / Tiles
         - Cotranscriptional RNA-Origami
