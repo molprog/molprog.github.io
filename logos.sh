@@ -38,6 +38,6 @@ convert -size 600x600 "xc:${BG2}" "${TMPDIR}/logo-black-300.png" -layers flatten
   convert favicon-black.png -resize "180x180" apple-touch-icon-black.png
 )
 
-cp "${TMPDIR}"/{favicon-white.ico,favicon-black.ico,apple-touch-icon-white.png,apple-touch-icon-black.png} .
+cp "${TMPDIR}"/{favicon-white.ico,favicon-black.ico,favicon-white.png,favicon-black.png,fav-white.png,fav-black.png,apple-touch-icon-white.png,apple-touch-icon-black.png} .
 cp favicon-white.ico ../favicon.ico
 cp apple-touch-icon-white.png ../apple-touch-icon.png
