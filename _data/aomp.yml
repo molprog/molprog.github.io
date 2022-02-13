@@ -13,9 +13,6 @@ boards:
     github: aersh
   - name: Elisa Franco
     role: Faculty Advisor Lead
-  - name: Georgeos Hardo
-    role: Social Media Lead
-    github: georgeoshardo
   - name: Jacob Majikes
     role: Problem Set Lead
     github: jacobmajikes
