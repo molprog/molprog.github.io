@@ -40,7 +40,7 @@ class: landing
     <div id="exec" class="board-container"><div class="board">
         <h3>Executive Board</h3>
         <ul>
-          {% assign board_members = site.data.aomp.boards.executive | sort: "name" %}
+          {% assign board_members = site.data.aomp.boards.executive %}
           {% for member in board_members %}
           <li>
             <span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br>
@@ -56,7 +56,7 @@ class: landing
         <h4>Editorial Board {{ forloop.index }}.</h4>
         <h3>{{ board.topic }}</h3>
         <ul>
-          {% assign board_members = board.members | sort: "name" %}
+          {% assign board_members = board.members %}
           {% for member in board_members %}
           <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
           {% endfor %}
@@ -68,7 +68,7 @@ class: landing
     <div id="specialist" class="board-container"><div class="board credit">
         <h3>Content Specialists</h3>
         <ul>
-          {% assign board_members = site.data.aomp.roving | sort: "name" %}
+          {% assign board_members = site.data.aomp.roving %}
           {% for member in board_members %}
           <li>
             <span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br>
@@ -81,7 +81,7 @@ class: landing
     <div id="authors" class="board-container"><div class="board credit">
       <h3>Authors</h3>
       <ul>
-        {% assign board_members = site.data.aomp.authors | sort: "name" %}
+        {% assign board_members = site.data.aomp.authors %}
         {% for member in board_members %}
         <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
         {% endfor %}
@@ -91,7 +91,7 @@ class: landing
     <div id="faculty" class="board-container"><div class="board credit">
       <h3>Faculty Advisory Board</h3>
       <ul>
-        {% assign board_members = site.data.aomp.boards.faculty | sort: "name" %}
+        {% assign board_members = site.data.aomp.boards.faculty %}
         {% for member in board_members %}
         <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
         {% endfor %}
@@ -102,7 +102,7 @@ class: landing
     <div id="special" class="board-container"><div class="board credit">
       <h3>and with special thanks to</h3>
       <ul>
-        {% assign board_members = site.data.aomp.thanks | sort: "name" %}
+        {% assign board_members = site.data.aomp.thanks %}
         {% for member in board_members %}
         <li><span class="name">{{ member.name }}</span><br></li>
         {% endfor %}

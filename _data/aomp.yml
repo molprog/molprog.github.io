@@ -1,73 +1,72 @@
 boards:
   executive:
+  - name: Anastasia Ershova
+    role: Graphics Lead
+    github: aersh
   - name: Dominic Scalise
     role: Executive Editor
     github: scalise11
     lead: true
+  - name: Elisa Franco
+    role: Faculty Advisor Lead
+  - name: Hannah Earley
+    role: Infrastructure Lead
+    github: hannah-earley
+  - name: Jacob Majikes
+    role: Problem Set Lead
+    github: jacobmajikes
   - name: Namita Sarraf
     role: Executive Editor
     github: n-sarraf
     lead: true
-  - name: Anastasia Ershova
-    role: Graphics Lead
-    github: aersh
-  - name: Elisa Franco
-    role: Faculty Advisor Lead
-  - name: Jacob Majikes
-    role: Problem Set Lead
-    github: jacobmajikes
-  - name: Hannah Earley
-    role: Infrastructure Lead
-    github: hannah-earley
   - name: William Poole
     role: Theory Lead
     github: WilliamIX
   editorial:
   - topic: Structures & Molecular Self-Assembly
     members:
-    - name: Stefan Badelt
-      github: bad-ants-fleet
-      lead: true
     - name: Ibon Santiago
       github: isantig
+    - name: Ismael Mullor Ruiz
     - name: Jonathan List
     - name: Luzia Kilwing
     - name: Shelley Wickham
-    - name: Ismael Mullor Ruiz
+    - name: Stefan Badelt
+      github: bad-ants-fleet
+      lead: true
     - name: Tom Ouldridge
   - topic: Circuits & Information Processing
     members:
-    - name: Josie Kishi
-      github: jkishi
-      lead: true
     - name: Boya Wang
       github: crystalwby
     - name: Brenda Rubenstein
       github: dbrube
     - name: Ho-Lin Chen
       github: holinchen
+    - name: Joseph Berleant
+    - name: Josie Kishi
+      github: jkishi
+      lead: true
     - name: Sam Davidson
       github: googee3
     - name: Sifang Chen
-    - name: Joseph Berleant
   - topic: Interfaces & Future Directions
     members:
+    - name: Georgeos Hardo
+      github: georgeoshardo
     - name: Jaeseung Hahn
       github: jaeseung33
       lead: true
-    - name: Georgeos Hardo
-      github: georgeoshardo
     - name: Jurek Kozyra
     - name: Lee Organick
       github: leeorg
+    - name: Leo Green
     - name: Matthew Aquilina
       github: mattaq31
     - name: Veikko Linko
-    - name: Leo Green
   faculty:
-  - name: Elisa Franco
-    lead: true
   - name: Aleksei Aksimentiev
+  - name: Andrew Phillips
   - name: Andrew Turberfield
   - name: Anne Condon
   - name: Anthony Genot
@@ -79,16 +78,23 @@ boards:
   - name: Christoph Flamm
     github: xtof
   - name: Chunhai Fan
+  - name: Damien Woods
   - name: Dave Doty
   - name: David Soloveichik
+  - name: Dhiraj Bhatia
+  - name: Elisa Franco
+    lead: true
   - name: Eyal Nir
   - name: Georg Seelig
   - name: Gos Micklem
   - name: Harold Fellerman
   - name: Ho-Lin Chen
   - name: Ian Torao Hoffecker
+  - name: Jaimie Stewart
+  - name: Jeantine Lunshof
   - name: Jongmin Kim
   - name: Karin Strauss
+  - name: Kate Adamala
   - name: Lennart Hilbert
   - name: Leo Green
   - name: Lulu Qian
@@ -96,26 +102,20 @@ boards:
   - name: Ned Seeman
   - name: Paul Rothemund
   - name: Philip Lukeman
+  - name: Rebecca Schulman
   - name: Reza Zedegan
     github: sbmilab
+  - name: Richard Murray
   - name: Satoshi Kobayashi
   - name: Sayed Ahmad Salehi
   - name: Shelley Wickham
   - name: Stacy Copp
+  - name: Thom LaBean
   - name: Tom Ouldridge
   - name: Veikko Linko
   - name: William Shih
   - name: Yannick Rondelez
   - name: Yoel Ohayon
-  - name: Rebecca Schulman
-  - name: Jaimie Stewart
-  - name: Damien Woods
-  - name: Dhiraj Bhatia
-  - name: Thom LaBean
-  - name: Andrew Phillips
-  - name: Kate Adamala
-  - name: Richard Murray
-  - name: Jeantine Lunshof
 roving:
 - name: Jaimie Marie Stewart
   role: RNA Editor
@@ -126,67 +126,67 @@ roving:
   role: Small Molecules Editor
 thanks: []
 authors:
-- name: Sarah Goldberg
-- name: Elisa Franco
-- name: Kyle Tomek
-- name: Sayed Ahmad Salehi
-- name: William Poole
-- name: Brenda Rubenstein
-- name: Leopold Green
-- name: Hannah Earley
-- name: Amelie Heuer-Jungemann
-- name: Dhiraj Bhatia
-- name: Georgeos Hardo
-- name: Feng Li
-- name: Guan Wang
-- name: Namita Sarraf
-- name: Gokul Gowri
-- name: Nadine Dabby
-- name: Yuan-Jyue Chen
-- name: Kevin Cherry
-- name: Mike Jin
-- name: Taeyang Heo
-- name: Anthony Genot
-- name: Samuel Clamons
-- name: Boya Wang
-- name: Philip Tinnefeld
-- name: "Kerstin G\xF6pfrich"
-- name: Hyunseop Go
-- name: Erik Poppleton
-- name: Matthew Patitz
-- name: Masahiro Takinoue
-- name: Marcos Kunihiro Masukawa
-- name: Joseph Berleant
-- name: Benjamin Foulon
-- name: Lee Organick
-- name: Mark Fornace
-- name: Joseph Tavacoli
-- name: Luca Cardelli
-- name: Christoph Pauer
-- name: "Petr \u0160ulc"
-- name: Robert Schweller
-- name: Nicolas Schabanel
-- name: Xiang Huang
-- name: Jon Bath
-- name: Thomas Ouldridge
-- name: Javier Cabello Garcia
 - name: Aleksei Aksimentiev
-- name: Dina Zielinski
-- name: Lorenzo Di Michele
-- name: Ismael Mullor Ruiz
-- name: "Szymon Gawe\u0142"
-- name: Grigory Tikhomirov
-- name: Gerrit Wilkens
-- name: Matthew Aquilina
-- name: Simone Hendrikse
-- name: Sam Schaffter
-- name: W. Benjamin Rogers
-- name: Thomas Videbaek
-- name: Gael McGill
-- name: Jonathan Khao
-- name: Jamie Marland
-- name: Jue Wang
-- name: Jorieke Weiden
-- name: Harold Fellermann
-- name: Kellen Rodriguez
+- name: Amelie Heuer-Jungemann
 - name: "\xC1ngel Go\xF1i-Moreno"
+- name: Anthony Genot
+- name: Benjamin Foulon
+- name: Boya Wang
+- name: Brenda Rubenstein
+- name: Christoph Pauer
+- name: Dhiraj Bhatia
+- name: Dina Zielinski
+- name: Elisa Franco
+- name: Erik Poppleton
+- name: Feng Li
+- name: Gael McGill
+- name: Georgeos Hardo
+- name: Gerrit Wilkens
+- name: Gokul Gowri
+- name: Grigory Tikhomirov
+- name: Guan Wang
+- name: Hannah Earley
+- name: Harold Fellermann
+- name: Hyunseop Go
+- name: Ismael Mullor Ruiz
+- name: Jamie Marland
+- name: Javier Cabello Garcia
+- name: Jon Bath
+- name: Jonathan Khao
+- name: Jorieke Weiden
+- name: Joseph Berleant
+- name: Joseph Tavacoli
+- name: Jue Wang
+- name: Kellen Rodriguez
+- name: "Kerstin G\xF6pfrich"
+- name: Kevin Cherry
+- name: Kyle Tomek
+- name: Lee Organick
+- name: Leopold Green
+- name: Lorenzo Di Michele
+- name: Luca Cardelli
+- name: Marcos Kunihiro Masukawa
+- name: Mark Fornace
+- name: Masahiro Takinoue
+- name: Matthew Aquilina
+- name: Matthew Patitz
+- name: Mike Jin
+- name: Nadine Dabby
+- name: Namita Sarraf
+- name: Nicolas Schabanel
+- name: "Petr \u0160ulc"
+- name: Philip Tinnefeld
+- name: Robert Schweller
+- name: Sam Schaffter
+- name: Samuel Clamons
+- name: Sarah Goldberg
+- name: Sayed Ahmad Salehi
+- name: Simone Hendrikse
+- name: "Szymon Gawe\u0142"
+- name: Taeyang Heo
+- name: Thomas Ouldridge
+- name: Thomas Videbaek
+- name: W. Benjamin Rogers
+- name: William Poole
+- name: Xiang Huang
+- name: Yuan-Jyue Chen
