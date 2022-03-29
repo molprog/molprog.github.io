@@ -40,7 +40,7 @@ mini: true
         1. <a name="proteinMD" class="tag" href="#proteinMD">MD for proteins</a>
     3. <a name="NN" class="tag" href="#NN">The thermodynamic nearest neighbor model.</a>
     4. <a name="NLKin" class="tag" href="#NLKin">Nearest neighbor level stochastic simulations</a>
-    5. <a name="DLKin" class="tag" href="#DLKin">Models  of hybridization, dissociation and branch migration.</a>
+    5. <a name="DLKin" class="tag" href="#DLKin">Models of hybridization, dissociation and branch migration.</a>
     6. <a name="SeqDesign" class="tag" href="#SeqDesign">DNA/RNA Sequence design.</a>
     7. <a name="ProteinDesign" class="tag" href="#ProteinDesign">Sequence design of proteins to fold into a specific structure</a>
 7. <a name="SelfAssembly" class="tag" href="#SelfAssembly">Introduction into molecular self-assembly theory via natural examples.</a>
@@ -133,7 +133,7 @@ mini: true
 18. <a name="ChemPhysInt" class="tag" href="#ChemPhysInt">Chemical and Physical Interactions</a>
     1. <a name="Material" class="tag" href="#Material">Material science</a>
         1. <a name="DNATemplate" class="tag" href="#DNATemplate">DNA as a template for non-DNA molecules</a>
-        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist">Surface-assisted methods</a>
+        2. <a name="SurfaceAssist " class="tag" href="#SurfaceAssist ">Surface-assisted methods</a>
     2. <a name="ChemCtrl" class="tag" href="#ChemCtrl">Chemical control</a>
     3. <a name="MagCtrl" class="tag" href="#MagCtrl">Magnetic control</a>
     4. <a name="OptCtrl" class="tag" href="#OptCtrl">Optical control</a>
@@ -141,11 +141,20 @@ mini: true
     6. <a name="ElecCtrl" class="tag" href="#ElecCtrl">Electrical control</a>
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv">Advanced topics and future directions</a>
 19. <a name="BioInt" class="tag" href="#BioInt">Interacting with Biology, Medical Diagnostics and Therapeutics</a>
-    1. <a name="BioToolbox" class="tag" href="#BioToolbox">Biology toolbox</a>
+    1. <a name="BioEnv" class="tag" href="#BioEnv">Biological environments</a>
+        1. <a name="CellFree" class="tag" href="#CellFree">Cell-free systems</a>
+        2. <a name="BioChall" class="tag" href="#BioChall">Challenges of working in a biological medium</a>
     2. <a name="Diag" class="tag" href="#Diag">Diagnostics</a>
         1. <a name="DiagIntro" class="tag" href="#DiagIntro">Introduction to molecular diagnostics and precision medicine</a>
-        2. <a name="BioTech" class="tag" href="#BioTech">Techniques for targeted binding of biomarkers</a>
+        2. <a name="BiomarkerDetect" class="tag" href="#BiomarkerDetect">Targeting and binding biomarkers</a>
+            1. <a name="NucDetect" class="tag" href="#NucDetect">Nucleic acid detection</a>
+            2. <a name="AntibodyDetect" class="tag" href="#AntibodyDetect">Antibodies</a>
+            3. <a name="AptamerDetect" class="tag" href="#AptamerDetect">Aptamers</a>
+            4. <a name="AffimerDetect" class="tag" href="#AffimerDetect">Affimers and other affinity reagents</a>
         3. <a name="BioSense" class="tag" href="#BioSense">Sensors and readouts for biomarker quantitation</a>
+            1. <a name="ElectroSense" class="tag" href="#ElectroSense">Electrochemical</a>
+            2. <a name="FluorColSense" class="tag" href="#FluorColSense">Fluorescence &amp; colorimetry</a>
+            3. <a name="SizeExcluSense" class="tag" href="#SizeExcluSense">Size exclusion</a>
     3. <a name="Therapy" class="tag" href="#Therapy">Therapy</a>
         1. <a name="TherMolProg" class="tag" href="#TherMolProg">Therapeutic molecular programming</a>
         2. <a name="NucAcidTher" class="tag" href="#NucAcidTher">Therapeutic Nucleic Acids</a>

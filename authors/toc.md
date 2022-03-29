@@ -36,7 +36,7 @@ mini: false
         - protein-DNA conjugation
     7. <a name="MethodAnalysis" class="tag" href="#MethodAnalysis"><code>MethodAnalysis</code>Experimental Methods for Analysis:</a>
         1. <a name="MethodGel" class="tag" href="#MethodGel"><code>MethodGel</code>Gel electrophoresis</a>
-            - Intercalating dyes vs fluorophores  or radiolabeling
+            - Intercalating dyes vs fluorophores or radiolabeling
             - Separation quality as a function of gel % and DNA length?
             - Role of buffer conditions
             - Pulse field gradient electrophoresis \+ Other advanced methods (reference)
@@ -126,7 +126,7 @@ mini: false
         - multi stranded nucleic acid systems
     4. <a name="NLKin" class="tag" href="#NLKin"><code>NLKin</code>Nearest neighbor level stochastic simulations</a>
         - Thermodynamic energy landscapes and their application (and limitations) for Gillespie-type kinetic simulations
-    5. <a name="DLKin" class="tag" href="#DLKin"><code>DLKin</code>Models  of hybridization, dissociation and branch migration.</a>
+    5. <a name="DLKin" class="tag" href="#DLKin"><code>DLKin</code>Models of hybridization, dissociation and branch migration.</a>
         - The ad-hoc approach (based on experimental results)
         - Molecular Dynamics Models (e.g. oxDNA)
         - Secondary Structure Kinetics (with and without the nearest neighbor model, e.g. Dave Zhang 2009 and Niranjan 2013 CRN Models, Multistrand)
@@ -327,7 +327,7 @@ mini: false
             - Encoding template
             - Positioning template
             - Framing template
-        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist"><code>SurfaceAssist</code>Surface-assisted methods</a>
+        2. <a name="SurfaceAssist " class="tag" href="#SurfaceAssist "><code>SurfaceAssist </code>Surface-assisted methods</a>
             - DNA nanostructure placement on surfaces
             - DNA lithography
             - Large lattices
@@ -350,28 +350,20 @@ mini: false
         - Redox power source
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv"><code>ChemPhysAdv</code>Advanced topics and future directions</a>
 19. <a name="BioInt" class="tag" href="#BioInt"><code>BioInt</code>Interacting with Biology, Medical Diagnostics and Therapeutics</a>
-    1. <a name="BioToolbox" class="tag" href="#BioToolbox"><code>BioToolbox</code>Biology toolbox</a>
-        - Enzymatics interactions with DNA
-        - Tools for biological discovery
-        - Challenges of working in a biological medium
-            - Dealing with toxicity
-            - Preventing degradation
-            - Chemical modifications
-            - Scaling up “bio factories”
-            - Cell-free extracts
+    1. <a name="BioEnv" class="tag" href="#BioEnv"><code>BioEnv</code>Biological environments</a>
+        1. <a name="CellFree" class="tag" href="#CellFree"><code>CellFree</code>Cell-free systems</a>
+        2. <a name="BioChall" class="tag" href="#BioChall"><code>BioChall</code>Challenges of working in a biological medium</a>
     2. <a name="Diag" class="tag" href="#Diag"><code>Diag</code>Diagnostics</a>
         1. <a name="DiagIntro" class="tag" href="#DiagIntro"><code>DiagIntro</code>Introduction to molecular diagnostics and precision medicine</a>
-        2. <a name="BioTech" class="tag" href="#BioTech"><code>BioTech</code>Techniques for targeted binding of biomarkers</a>
-            - Nucleic acids
-            - Antibodies
-            - Aptamers
-            - Affimers and other affinity reagents
+        2. <a name="BiomarkerDetect" class="tag" href="#BiomarkerDetect"><code>BiomarkerDetect</code>Targeting and binding biomarkers</a>
+            1. <a name="NucDetect" class="tag" href="#NucDetect"><code>NucDetect</code>Nucleic acid detection</a>
+            2. <a name="AntibodyDetect" class="tag" href="#AntibodyDetect"><code>AntibodyDetect</code>Antibodies</a>
+            3. <a name="AptamerDetect" class="tag" href="#AptamerDetect"><code>AptamerDetect</code>Aptamers</a>
+            4. <a name="AffimerDetect" class="tag" href="#AffimerDetect"><code>AffimerDetect</code>Affimers and other affinity reagents</a>
         3. <a name="BioSense" class="tag" href="#BioSense"><code>BioSense</code>Sensors and readouts for biomarker quantitation</a>
-            - Electrochemical
-            - Fluorescence
-            - Surface plasmon resonance
-            - Colorimetric
-            - Electrophoresis
+            1. <a name="ElectroSense" class="tag" href="#ElectroSense"><code>ElectroSense</code>Electrochemical</a>
+            2. <a name="FluorColSense" class="tag" href="#FluorColSense"><code>FluorColSense</code>Fluorescence &amp; colorimetry</a>
+            3. <a name="SizeExcluSense" class="tag" href="#SizeExcluSense"><code>SizeExcluSense</code>Size exclusion</a>
             - Other alternatives
     3. <a name="Therapy" class="tag" href="#Therapy"><code>Therapy</code>Therapy</a>
         1. <a name="TherMolProg" class="tag" href="#TherMolProg"><code>TherMolProg</code>Therapeutic molecular programming</a>
