@@ -20,17 +20,24 @@ layout: sectioned
   .section section ul > li {
     font-family: 'Univers Regular', sans;
   }
-  .section section > ol > li:before,
-  .section section > ol > li > ol > li > ol > li > ol > li:before {
+  .section section > ol > li:before {
+  /*.section section > ol > li > ol > li > ol > li > ol > li:before {*/
     content: counter(chapter) '.';
   }
   .section section > ol > li > ol > li:before,
-  .section section > ol > li > ol > li > ol > li > ol > li > ol > li:before {
+  .section section > ol > li > ol > li > ol > li > ol > li > ol > li:before,
+  .section section > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:before {
     content: counter(ol, lower-alpha) '.';
   }
   .section section > ol > li > ol > li > ol > li:before,
-  .section section > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:before {
+  .section section > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:before,
+  .section section > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:before {
     content: counter(ol, lower-roman) '.';
+  }
+  .section section > ol > li > ol > li > ol > li > ol > li:before,
+  .section section > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:before,
+  .section section > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:before {
+    content: counter(ol) '.';
   }
   code {
     font-size:  0.6em;
