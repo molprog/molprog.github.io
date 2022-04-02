@@ -102,9 +102,8 @@ mini: true
         4. <a name="Genelets" class="tag" href="#Genelets">Genelets</a>
     4. <a name="ProteinCircuits" class="tag" href="#ProteinCircuits">Protein-based circuits</a>
     5. <a name="GeneCircuits" class="tag" href="#GeneCircuits">Gene circuits</a>
-        1. <a name="GeneLogicGates" class="tag" href="#GeneLogicGates">Logic gates</a>
-        2. <a name="GeneOscillators" class="tag" href="#GeneOscillators">Repressilator</a>
-        3. <a name="GeneNetworks" class="tag" href="#GeneNetworks">Theory of synthetic gene regulatory networks (incl. Cell-level circuits)</a>
+        1. <a name="GeneLogicOscillators" class="tag" href="#GeneLogicOscillators">Logic gates and repressilator</a>
+        2. <a name="GeneNetworks" class="tag" href="#GeneNetworks">Theory of synthetic gene regulatory networks (incl. Cell-level circuits)</a>
     6. <a name="SmMolCircuits" class="tag" href="#SmMolCircuits">Small molecule cascades</a>
 13. <a name="SpatiallyOrganizedCircuits" class="tag" href="#SpatiallyOrganizedCircuits">Spatially-Organized Circuits</a>
     1. <a name="SpatialIntro" class="tag" href="#SpatialIntro">Introduction: advantages of spatial structures</a>
@@ -117,8 +116,7 @@ mini: true
     1. <a name="TileAssembly" class="tag" href="#TileAssembly">Tile self-assembly</a>
     2. <a name="WangTile" class="tag" href="#WangTile">Wang tile ATAM Turing machine implementation</a>
     3. <a name="TileComplexity" class="tag" href="#TileComplexity">Tile Complexity of shapes and patterns</a>
-    4. <a name="ExtendedAssembly" class="tag" href="#ExtendedAssembly">Extended tile-assembly models and their computational power</a>
-    5. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly">Nubots, amoebots, turning machines</a>
+    4. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly">Nubots, amoebots, turning machines</a>
 15. <a name="CircuitsConclusion" class="tag" href="#CircuitsConclusion">Conclusion</a>
 
 <!--section-->
@@ -133,7 +131,7 @@ mini: true
 18. <a name="ChemPhysInt" class="tag" href="#ChemPhysInt">Chemical and Physical Interactions</a>
     1. <a name="Material" class="tag" href="#Material">Material science</a>
         1. <a name="DNATemplate" class="tag" href="#DNATemplate">DNA as a template for non-DNA molecules</a>
-        2. <a name="SurfaceAssist " class="tag" href="#SurfaceAssist ">Surface-assisted methods</a>
+        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist">Surface-assisted methods</a>
     2. <a name="ChemCtrl" class="tag" href="#ChemCtrl">Chemical control</a>
     3. <a name="MagCtrl" class="tag" href="#MagCtrl">Magnetic control</a>
     4. <a name="OptCtrl" class="tag" href="#OptCtrl">Optical control</a>

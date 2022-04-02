@@ -267,9 +267,8 @@ mini: false
         - Protein-protein binding circuits
         - Phosphorylation based circuits
     5. <a name="GeneCircuits" class="tag" href="#GeneCircuits"><code>GeneCircuits</code>Gene circuits</a>
-        1. <a name="GeneLogicGates" class="tag" href="#GeneLogicGates"><code>GeneLogicGates</code>Logic gates</a>
-        2. <a name="GeneOscillators" class="tag" href="#GeneOscillators"><code>GeneOscillators</code>Repressilator</a>
-        3. <a name="GeneNetworks" class="tag" href="#GeneNetworks"><code>GeneNetworks</code>Theory of synthetic gene regulatory networks (incl. Cell-level circuits)</a>
+        1. <a name="GeneLogicOscillators" class="tag" href="#GeneLogicOscillators"><code>GeneLogicOscillators</code>Logic gates and repressilator</a>
+        2. <a name="GeneNetworks" class="tag" href="#GeneNetworks"><code>GeneNetworks</code>Theory of synthetic gene regulatory networks (incl. Cell-level circuits)</a>
         - References to good syn bio resources?
     6. <a name="SmMolCircuits" class="tag" href="#SmMolCircuits"><code>SmMolCircuits</code>Small molecule cascades</a>
         - Autocatalytic reactions and applications
@@ -290,8 +289,7 @@ mini: false
         - Error correction and proofreading strategies
     2. <a name="WangTile" class="tag" href="#WangTile"><code>WangTile</code>Wang tile ATAM Turing machine implementation</a>
     3. <a name="TileComplexity" class="tag" href="#TileComplexity"><code>TileComplexity</code>Tile Complexity of shapes and patterns</a>
-    4. <a name="ExtendedAssembly" class="tag" href="#ExtendedAssembly"><code>ExtendedAssembly</code>Extended tile-assembly models and their computational power</a>
-    5. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly"><code>ActiveAssembly</code>Nubots, amoebots, turning machines</a>
+    4. <a name="ActiveAssembly" class="tag" href="#ActiveAssembly"><code>ActiveAssembly</code>Nubots, amoebots, turning machines</a>
 15. <a name="CircuitsConclusion" class="tag" href="#CircuitsConclusion"><code>CircuitsConclusion</code>Conclusion</a>
 
 <!--section-->
@@ -327,7 +325,7 @@ mini: false
             - Encoding template
             - Positioning template
             - Framing template
-        2. <a name="SurfaceAssist " class="tag" href="#SurfaceAssist "><code>SurfaceAssist </code>Surface-assisted methods</a>
+        2. <a name="SurfaceAssist" class="tag" href="#SurfaceAssist"><code>SurfaceAssist</code>Surface-assisted methods</a>
             - DNA nanostructure placement on surfaces
             - DNA lithography
             - Large lattices
