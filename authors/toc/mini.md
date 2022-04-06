@@ -37,7 +37,6 @@ mini: true
 6. <a name="Biophysics" class="tag" href="#Biophysics">Interfacing biophysical and computational models for analysis and design.</a>
     1. <a name="PP" class="tag" href="#PP">Polymer physics models for nucleic acids and proteins.</a>
     2. <a name="MD" class="tag" href="#MD">Molecular dynamics models.</a>
-        1. <a name="proteinMD" class="tag" href="#proteinMD">MD for proteins</a>
     3. <a name="NN" class="tag" href="#NN">The thermodynamic nearest neighbor model.</a>
     4. <a name="NLKin" class="tag" href="#NLKin">Nearest neighbor level stochastic simulations</a>
     5. <a name="DLKin" class="tag" href="#DLKin">Models of hybridization, dissociation and branch migration.</a>

@@ -117,10 +117,9 @@ mini: false
         - Elastic models (FJC, WLC)
         - Transport phenomena (viscosity, diffusion)
     2. <a name="MD" class="tag" href="#MD"><code>MD</code>Molecular dynamics models.</a>
-        <ul>
-            <li>Box: coarse grained models for nucleic acids</li>
-            <li class="tagged"><a name="proteinMD" class="tag" href="#proteinMD"><code>proteinMD</code>MD for proteins</a></li>
-        </ul>
+        - Basics of simulation
+        - Nucleic acid models
+        - Protein models
     3. <a name="NN" class="tag" href="#NN"><code>NN</code>The thermodynamic nearest neighbor model.</a>
         - single DNA/RNA molecules
         - multi stranded nucleic acid systems
