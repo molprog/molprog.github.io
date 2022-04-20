@@ -186,8 +186,7 @@ mini: false
         - Cotranscriptional RNA-Origami
         - Multi-stranded RNA tiling
     6. <a name="ProgrammedProtein" class="tag" href="#ProgrammedProtein"><code>ProgrammedProtein</code>Synthetic Protein Structure</a>
-        - Protein Complexes (engineering Protein \- protein interactions)
-            - [Nanocage self-assembly](https://doi.org/10.1038/nature18010)
+        - Protein Complexes (e.g. nanocage self-assembly)
     7. <a name="LiquidDNA" class="tag" href="#LiquidDNA"><code>LiquidDNA</code>Other phases of DNA structures (Physical properties)</a>
         - DNA hydrogels
         - DNA liquids
