@@ -17,6 +17,7 @@ layout: sectioned
     - [Examples]({{ "/files/aomp/guidelines/problems-examples.pdf" | relative_url }})
 - [Theory & Notation]({{ "/files/aomp/guidelines/notation.pdf" | relative_url }})
 - [Writing Style]({{ "/files/aomp/guidelines/style.pdf" | relative_url }})
+- [{% include latex %} Conversion](latexify)
 
 ### Examples
 - [{% include latex %} Tutorial](examples/tutorial)
