@@ -13,7 +13,7 @@ layout: sectioned
     - The guidelines are [here]({{ "/files/aomp/guidelines/latex.pdf" | relative_url }})
     - A tutorial on using our {% include latex %} class is [here](examples/tutorial)
         - The tutorial is also visible in every new overleaf project
-        - **N.B.**! Some {% include latex %} looks different to what you might be accustomed too, particularly figure and table environments!
+        - **Note!** Some {% include latex %} looks different to what you might be accustomed too, particularly figure and table environments!
 3. **Copy over the text and document structure**
     1. Document structure: sections (`\section`, `\subsection`, etc), and put in a _placeholder_ for any figures and tables
         - By placeholder, I mean that you don't need to fill in the caption or image for now
