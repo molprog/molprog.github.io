@@ -4,6 +4,7 @@ layout: sectioned
 ---
 
 - [Project Overview](#overview)
+- [Timeline](#timeline)
 - [Project Responsibilities, Conflict Management, and Workflow](#responsibilities)
 - [Table of Contents](toc)
 
@@ -62,6 +63,13 @@ Each board has its own structure and responsibilities.
 A more detailed description of the board structure can be found [here](https://docs.google.com/document/d/1UiZXaSlUMActvVOw3n4p13Of5qwVBX0ZKAJipjPW4HE/edit).
 
 **Important Note: We are committed to promoting an inclusive, safe, and constructive working environment. If at any point throughout the project you experience an issue or are made uncomfortable in any way, please contact your Editor to help resolve the problem. If you do not feel comfortable reaching out to your Editor, please contact your Topic Lead (emails listed above). In turn, please contact one or both of the Executive Editors (emails listed above).**
+
+<!--section-->
+
+<a name="timeline"></a>
+## Project Timeline
+
+<a href="{{ "/files/aomp/timeline.png" | relative_url }}"><img src="{{ "/files/aomp/timeline.png" | relative_url }}" style="max-width: 1241px; margin: 2em auto; display: block; width: 100%"></a>
 
 <!--section-->
 
