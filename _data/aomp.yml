@@ -21,6 +21,8 @@ boards:
     role: Executive Editor
     github: n-sarraf
     lead: true
+  - name: Passa Pungchai
+    role: Editor
   - name: William Poole
     role: Theory Lead
     github: WilliamIX
