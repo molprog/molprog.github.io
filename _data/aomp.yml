@@ -23,6 +23,8 @@ boards:
     lead: true
   - name: Passa Pungchai
     role: Editor
+  - name: Sarah Petrosko
+    role: Editor
   - name: William Poole
     role: Theory Lead
     github: WilliamIX
@@ -191,6 +193,7 @@ authors:
 - name: Mike Jin
 - name: Nadine Dabby
 - name: Namita Sarraf
+- name: Nathan Wu
 - name: Nicolas Schabanel
 - name: Omar Saleh
 - name: "Petr \u0160ulc"
