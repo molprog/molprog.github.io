@@ -1,3 +1,11 @@
+adjunct:
+- name: Chase Van Amburg
+- name: Gunnar Johnson
+- name: "Tu\u1EA5n Th\xE0nh Nguy\u1EC5n"
+- name: Weaverly Colleen Co Lee
+- name: Wenjie Zhou
+- name: Yuhan Kong
+- name: Zhiwei Sun
 boards:
   executive:
   - name: Anastasia Ershova
