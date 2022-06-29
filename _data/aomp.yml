@@ -140,6 +140,7 @@ roving:
   role: Small Molecules Editor
 thanks: []
 authors:
+- name: Adrian Keller
 - name: Aleksei Aksimentiev
 - name: Amelie Heuer-Jungemann
 - name: "\xC1ngel Go\xF1i-Moreno"
@@ -149,6 +150,7 @@ authors:
 - name: Boya Wang
 - name: Brenda Rubenstein
 - name: Chelsea Y. Hu
+- name: Chris Wintersinger
 - name: Christoph Pauer
 - name: Cody Geary
 - name: Da Han
@@ -223,6 +225,7 @@ authors:
 - name: Taeyang Heo
 - name: Thomas Ouldridge
 - name: Thomas Videbaek
+- name: Veikko Linko
 - name: Vincent Noireaux
 - name: W. Benjamin Rogers
 - name: William Jacobs
