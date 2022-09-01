@@ -1,6 +1,7 @@
 adjunct:
 - name: Chase Van Amburg
 - name: Gunnar Johnson
+- name: Spencer Winter
 - name: "Tu\u1EA5n Th\xE0nh Nguy\u1EC5n"
 - name: Weaverly Colleen Co Lee
 - name: Wenjie Zhou
@@ -171,7 +172,6 @@ authors:
 - name: Gokul Gowri
 - name: Grigory Tikhomirov
 - name: Guan Wang
-- name: Gunnar Johnson
 - name: Hannah Earley
 - name: Harold Fellermann
 - name: Hyunseop Go
@@ -224,7 +224,6 @@ authors:
 - name: Sayed Ahmad Salehi
 - name: Shinnosuke Seki
 - name: Simone Hendrikse
-- name: Spencer Winter
 - name: Stefan Badelt
 - name: "Szymon Gawe\u0142"
 - name: Taeyang Heo
