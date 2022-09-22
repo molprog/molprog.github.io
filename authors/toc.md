@@ -341,9 +341,8 @@ mini: false
         - Thermo-responsive materials
         - Engineering thermodynamic landscape of DSD
     6. <a name="ElecCtrl" class="tag" href="#ElecCtrl"><code>ElecCtrl</code>Electrical control</a>
-        - Electrical field-based control
-        - DNA-based nanopore interface
-        - Redox power source
+        1. <a name="ElecCtrlField" class="tag" href="#ElecCtrlField"><code>ElecCtrlField</code>Electrical field interface</a>
+        2. <a name="ElecCtrlRedox" class="tag" href="#ElecCtrlRedox"><code>ElecCtrlRedox</code>Redox interface</a>
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv"><code>ChemPhysAdv</code>Advanced topics and future directions</a>
 19. <a name="BioInt" class="tag" href="#BioInt"><code>BioInt</code>Interacting with Biology, Medical Diagnostics and Therapeutics</a>
     1. <a name="BioEnv" class="tag" href="#BioEnv"><code>BioEnv</code>Biological environments</a>

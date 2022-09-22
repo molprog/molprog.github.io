@@ -136,6 +136,8 @@ mini: true
     4. <a name="OptCtrl" class="tag" href="#OptCtrl">Optical control</a>
     5. <a name="ThemCtrl" class="tag" href="#ThemCtrl">Thermal control</a>
     6. <a name="ElecCtrl" class="tag" href="#ElecCtrl">Electrical control</a>
+        1. <a name="ElecCtrlField" class="tag" href="#ElecCtrlField">Electrical field interface</a>
+        2. <a name="ElecCtrlRedox" class="tag" href="#ElecCtrlRedox">Redox interface</a>
     7. <a name="ChemPhysAdv" class="tag" href="#ChemPhysAdv">Advanced topics and future directions</a>
 19. <a name="BioInt" class="tag" href="#BioInt">Interacting with Biology, Medical Diagnostics and Therapeutics</a>
     1. <a name="BioEnv" class="tag" href="#BioEnv">Biological environments</a>
