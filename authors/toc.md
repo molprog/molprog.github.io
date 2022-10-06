@@ -223,10 +223,6 @@ mini: false
         - Dynamic system: Oscillators, bistability
         - Biology example: (predator-prey / ecology models)
         - Computational power of deterministic CRNs
-    5. <a name="CRN_advanced" class="tag" href="#CRN_advanced"><code>CRN_advanced</code>Advanced topics in CRNs</a>
-        - Small molecule early work: John Ross (Stanford)
-        - Small molecule CRN implementations
-        - Small molecule oscillating reactions: BZ reaction (Irving Epstein’s work)
 11. <a name="NucleicAcidCircuits" class="tag" href="#NucleicAcidCircuits"><code>NucleicAcidCircuits</code>Nucleic acids as a universal substrate for molecular programming</a>
     1. <a name="NucleicIntro" class="tag" href="#NucleicIntro"><code>NucleicIntro</code>Introduction (reference Foundations for overlapping topics)</a>
         - Reference to Structures section on background: nucleic acid hybridization and thermodynamics
