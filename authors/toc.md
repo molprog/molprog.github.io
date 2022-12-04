@@ -16,8 +16,8 @@ mini: false
         - Stochastic Models
         - Deterministic Models
         - Box on rule-based systems / process algebras
-    4. <a name="MethodDNAProd" class="tag" href="#MethodDNAProd"><code>MethodDNAProd</code>Experimental Methods to Produce DNA</a>
-        1. <a name="MethodDNASynth" class="tag" href="#MethodDNASynth"><code>MethodDNASynth</code>Synthesis of DNA</a>
+    4. <a name="MethodMolProg" class="tag" href="#MethodMolProg"><code>MethodMolProg</code>Experimental Methods to Program Molecules</a>
+        - Synthesis of DNA
             - Phosphoramidite (chemical synthesis)
             - Ligation-based, Gibson assembly
             - Single-stranded DNA production, e.g. asymmetric PCR, bead pulldown, phagemid production, cell production, RCA, etc
@@ -26,16 +26,28 @@ mini: false
             - Scaled production: bacteriophage/cell culture/IVT+RT
             - Modifications/redox/thiol/maleimide, NHS, succinimide, amine, enzymatic approaches, biotinylation, fluorization, dyes and quenchers etc.
             - BOX/TABLE: Discussion/comparison of yield, error rates, costs, challenges (e.g. repetitive sequences, modifications) for different ways of writing DNA
-        2. <a name="MethodPurif" class="tag" href="#MethodPurif"><code>MethodPurif</code>Purification (HPLC/agarose and polyacrylamide electrophoresis/centrifugation)</a>
+        - Purification (HPLC/agarose and polyacrylamide electrophoresis/centrifugation)
             - Agarose/PAGE purification
             - Chromatography (HPLC, LC, maybe capillary?, ion exchange, size exclusion for origami purification, affinity like via his-tags)
             - Centrifugation (filter, gradient, ultracentrifugation)
             - Precipitation/binding methods: magnetic beads, PEG precipitation
-    5. <a name="MethodRNAProd" class="tag" href="#MethodRNAProd"><code>MethodRNAProd</code>Experimental methods to produce and modify RNA</a>
-    6. <a name="MethodPepProd" class="tag" href="#MethodPepProd"><code>MethodPepProd</code>Experimental methods to produce and modify proteins</a>
-        - protein-DNA conjugation
-    7. <a name="MethodAnalysis" class="tag" href="#MethodAnalysis"><code>MethodAnalysis</code>Experimental Methods for Analysis:</a>
-        1. <a name="MethodGel" class="tag" href="#MethodGel"><code>MethodGel</code>Gel electrophoresis</a>
+        - Experimental methods to produce and modify RNA
+        - Experimental methods to produce and modify proteins
+            - protein-DNA conjugation
+    5. <a name="MethodRxnSetup" class="tag" href="#MethodRxnSetup"><code>MethodRxnSetup</code>Experimental Methods: Reaction Setup</a>
+    6. <a name="MethodMicrosc" class="tag" href="#MethodMicrosc"><code>MethodMicrosc</code>Experimental Methods: Microscopy</a>
+        - Microscopy (AFM, TEM/cryoEM/SEM, fluorescence/superresolution \- PAINT)
+            - Contrast mechanisms and their drawbacks (stains being inconsistent, AFM always convolutes tip, etc)
+        - Spectroscopy (fluorescence/CD/etc)
+            - Table comparing different methodologies: labelled vs unlabelled, sensitivities, throughput?Background reporter signal?
+            - Quenchers
+            - Photobleaching (things that kill fluorophores permanently)
+            - EXTINCTION COEFFICIENTS. basics of beer’s law. assumptions re: additivity of nucleotides. nearest neighbor model for absorption. denatured vs native.
+        - Mass Spec
+            - Detecting large amounts of small molecules in solution
+            - Understand mass spectra (e.g. oligo synthesis)
+    7. <a name="MethodAnalysis" class="tag" href="#MethodAnalysis"><code>MethodAnalysis</code>Experimental Methods: Analysis</a>
+        - Gel electrophoresis
             - Intercalating dyes vs fluorophores or radiolabeling
             - Separation quality as a function of gel % and DNA length?
             - Role of buffer conditions
@@ -43,17 +55,7 @@ mini: false
             - Capillary electrophoresis
             - Denaturing Gels
             - Stacking Gels
-        2. <a name="MethodMicrosc" class="tag" href="#MethodMicrosc"><code>MethodMicrosc</code>Microscopy (AFM, TEM/cryoEM/SEM, fluorescence/superresolution - PAINT)</a>
-            - Contrast mechanisms and their drawbacks (stains being inconsistent, AFM always convolutes tip, etc)
-        3. <a name="MethodSpectrosc" class="tag" href="#MethodSpectrosc"><code>MethodSpectrosc</code>Spectroscopy (fluorescence/CD/etc)</a>
-            - Table comparing different methodologies: labelled vs unlabelled, sensitivities, throughput?Background reporter signal?
-            - Quenchers
-            - Photobleaching (things that kill fluorophores permanently)
-            - EXTINCTION COEFFICIENTS. basics of beer’s law. assumptions re: additivity of nucleotides. nearest neighbor model for absorption. denatured vs native.
-        4. <a name="MethodMassSpec" class="tag" href="#MethodMassSpec"><code>MethodMassSpec</code>Mass Spec</a>
-            - Detecting large amounts of small molecules in solution
-            - Understand mass spectra (e.g. oligo synthesis)
-        5. <a name="MethodSeq" class="tag" href="#MethodSeq"><code>MethodSeq</code>Sequencing</a>
+        - Sequencing
             - Sanger sequencing
             - NGS \- Illumina, PacBio, DNAnanoball,
             - Nanopore

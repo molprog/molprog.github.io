@@ -8,17 +8,10 @@ mini: true
     1. <a name="PrimerBio" class="tag" href="#PrimerBio">Biology for Molecular Programmers</a>
     2. <a name="PrimerThermo" class="tag" href="#PrimerThermo">Basic Thermodynamics</a>
     3. <a name="PrimerODE_CRN" class="tag" href="#PrimerODE_CRN">Dynamic Models ODEs and Chemical Reaction Networks</a>
-    4. <a name="MethodDNAProd" class="tag" href="#MethodDNAProd">Experimental Methods to Produce DNA</a>
-        1. <a name="MethodDNASynth" class="tag" href="#MethodDNASynth">Synthesis of DNA</a>
-        2. <a name="MethodPurif" class="tag" href="#MethodPurif">Purification (HPLC/agarose and polyacrylamide electrophoresis/centrifugation)</a>
-    5. <a name="MethodRNAProd" class="tag" href="#MethodRNAProd">Experimental methods to produce and modify RNA</a>
-    6. <a name="MethodPepProd" class="tag" href="#MethodPepProd">Experimental methods to produce and modify proteins</a>
-    7. <a name="MethodAnalysis" class="tag" href="#MethodAnalysis">Experimental Methods for Analysis:</a>
-        1. <a name="MethodGel" class="tag" href="#MethodGel">Gel electrophoresis</a>
-        2. <a name="MethodMicrosc" class="tag" href="#MethodMicrosc">Microscopy (AFM, TEM/cryoEM/SEM, fluorescence/superresolution - PAINT)</a>
-        3. <a name="MethodSpectrosc" class="tag" href="#MethodSpectrosc">Spectroscopy (fluorescence/CD/etc)</a>
-        4. <a name="MethodMassSpec" class="tag" href="#MethodMassSpec">Mass Spec</a>
-        5. <a name="MethodSeq" class="tag" href="#MethodSeq">Sequencing</a>
+    4. <a name="MethodMolProg" class="tag" href="#MethodMolProg">Experimental Methods to Program Molecules</a>
+    5. <a name="MethodRxnSetup" class="tag" href="#MethodRxnSetup">Experimental Methods: Reaction Setup</a>
+    6. <a name="MethodMicrosc" class="tag" href="#MethodMicrosc">Experimental Methods: Microscopy</a>
+    7. <a name="MethodAnalysis" class="tag" href="#MethodAnalysis">Experimental Methods: Analysis</a>
 
 <!--section-->
 
