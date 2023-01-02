@@ -30,8 +30,6 @@ boards:
     role: Executive Editor
     github: n-sarraf
     lead: true
-  - name: Passa Pungchai
-    role: Editor
   - name: Sarah Petrosko
     role: Editor
   - name: William Poole
