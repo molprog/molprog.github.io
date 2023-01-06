@@ -60,6 +60,7 @@ boards:
     - name: Josie Kishi
       github: jkishi
       lead: true
+    - name: Philip Petersen
     - name: Sam Davidson
       github: googee3
     - name: Sifang Chen
