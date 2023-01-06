@@ -63,6 +63,7 @@ boards:
     - name: Sam Davidson
       github: googee3
     - name: Sifang Chen
+    - name: Swarup Dey
   - topic: Interfaces & Future Directions
     members:
     - name: Georgeos Hardo
