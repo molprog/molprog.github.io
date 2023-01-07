@@ -65,6 +65,7 @@ boards:
       github: googee3
     - name: Sifang Chen
     - name: Swarup Dey
+    - name: Yan Zhang
   - topic: Interfaces & Future Directions
     members:
     - name: Georgeos Hardo
