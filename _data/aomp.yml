@@ -64,6 +64,7 @@ boards:
     - name: Philip Petersen
     - name: Sam Davidson
       github: googee3
+      lead: true
     - name: Sifang Chen
     - name: Swarup Dey
     - name: Yan Zhang
