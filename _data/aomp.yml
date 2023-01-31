@@ -9,7 +9,7 @@ adjunct:
 - name: Zhiwei Sun
 boards:
   executive:
-  - name: Anastasia Ershova
+  - name: Anastasia Ershova*
     role: Graphics Lead
     github: aersh
   - name: Chelsea Hu
