@@ -38,6 +38,7 @@ boards:
   editorial:
   - topic: Structures & Molecular Self-Assembly
     members:
+    - name: Durham Smith
     - name: Ibon Santiago
       github: isantig
     - name: Ismael Mullor Ruiz
