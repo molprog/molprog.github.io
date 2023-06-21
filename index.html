@@ -88,6 +88,22 @@ class: landing
       </ul>
     </div></div>
 
+    {% comment %}
+    <div id="aux" class="board-container">
+      {% for board in site.data.aomp.aux %}
+      <div class="board">
+        <h3>{{ board.topic }} Editors</h3>
+        <ul>
+          {% assign board_members = board.members %}
+          {% for member in board_members %}
+          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    {% endcomment %}
+
     <div id="authors" class="board-container"><div class="board credit">
       <h3>Authors</h3>
       <ul>

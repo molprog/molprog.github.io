@@ -1,13 +1,13 @@
 build:
-	bundle exec jekyll build
+	/opt/homebrew/opt/ruby@3.1/bin/bundle exec jekyll build
 
 serve:
-	bundle exec jekyll serve
+	/opt/homebrew/opt/ruby@3.1/bin/bundle exec jekyll serve
 
 setup:
-	gem install bundler
-	bundle update jekyll
-	bundle install
+	/opt/homebrew/opt/ruby@3.1/bin/gem install bundler
+	/opt/homebrew/opt/ruby@3.1/bin/bundle update jekyll
+	/opt/homebrew/opt/ruby@3.1/bin/bundle install
 
 logos:
 	./logos.sh

@@ -1,14 +1,35 @@
 adjunct:
 - name: Chase Van Amburg
 - name: Gunnar Johnson
+- name: Hemani Chhabra
 - name: Lea Wassermann
+- name: Qi Yan
 - name: Spencer Winter
+- name: Sriram Kumar
 - name: "Tu\u1EA5n Th\xE0nh Nguy\u1EC5n"
 - name: Weaverly Colleen Co Lee
 - name: Wenjie Zhou
 - name: Yancheng Du
 - name: Yuhan Kong
 - name: Zhiwei Sun
+aux:
+- topic: Graphics
+  members:
+  - name: Chase Van Amburg
+  - name: Gunnar Johnson
+  - name: Lea Wassermann
+  - name: Spencer Winter
+  - name: "Tu\u1EA5n Th\xE0nh Nguy\u1EC5n"
+  - name: Weaverly Colleen Co Lee
+  - name: Wenjie Zhou
+  - name: Yancheng Du
+  - name: Yuhan Kong
+  - name: Zhiwei Sun
+- topic: Problem Sets
+  members:
+  - name: Sriram Kumar
+- topic: Voice
+  members: []
 boards:
   executive:
   - name: Anastasia Ershova*
