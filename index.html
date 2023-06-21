@@ -43,8 +43,8 @@ class: landing
           {% assign board_members = site.data.aomp.boards.executive %}
           {% for member in board_members %}
           <li>
-            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br>
-            <span class="role">{{ member.role }}</span>
+            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br>
+            <span class="role">{{ member.role | escape }}</span>
           </li>
           {% endfor %}
         </ul>
@@ -54,11 +54,11 @@ class: landing
       {% for board in site.data.aomp.boards.editorial %}
       <div class="board">
         <h4>Editorial Board {{ forloop.index }}.</h4>
-        <h3>{{ board.topic }}</h3>
+        <h3>{{ board.topic | escape }}</h3>
         <ul>
           {% assign board_members = board.members %}
           {% for member in board_members %}
-          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br></li>
           {% endfor %}
         </ul>
       </div>
@@ -71,8 +71,8 @@ class: landing
           {% assign board_members = site.data.aomp.roving %}
           {% for member in board_members %}
           <li>
-            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br>
-            <span class="role">{{ member.role }}</span>
+            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br>
+            <span class="role">{{ member.role | escape }}</span>
           </li>
           {% endfor %}
         </ul>
@@ -83,7 +83,7 @@ class: landing
       <ul>
         {% assign board_members = site.data.aomp.adjunct %}
         {% for member in board_members %}
-        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br></li>
         {% endfor %}
       </ul>
     </div></div>
@@ -92,11 +92,11 @@ class: landing
     <div id="aux" class="board-container">
       {% for board in site.data.aomp.aux %}
       <div class="board">
-        <h3>{{ board.topic }} Editors</h3>
+        <h3>{{ board.topic | escape }} Editors</h3>
         <ul>
           {% assign board_members = board.members %}
           {% for member in board_members %}
-          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br></li>
           {% endfor %}
         </ul>
       </div>
@@ -109,7 +109,7 @@ class: landing
       <ul>
         {% assign board_members = site.data.aomp.authors %}
         {% for member in board_members %}
-        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br></li>
         {% endfor %}
       </ul>
     </div></div>
@@ -119,7 +119,7 @@ class: landing
       <ul>
         {% assign board_members = site.data.aomp.boards.faculty %}
         {% for member in board_members %}
-        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name }}</span><br></li>
+        <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br></li>
         {% endfor %}
       </ul>
     </div></div>
@@ -130,7 +130,7 @@ class: landing
       <ul>
         {% assign board_members = site.data.aomp.thanks %}
         {% for member in board_members %}
-        <li><span class="name">{{ member.name }}</span><br></li>
+        <li><span class="name">{{ member.name | escape }}</span><br></li>
         {% endfor %}
       </ul>
     </div></div>
