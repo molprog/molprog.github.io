@@ -3,13 +3,14 @@ adjunct:
 - name: Gunnar Johnson
 - name: Hemani Chhabra
 - name: Lea Wassermann
+- name: Pranav Sharma
 - name: Qi Yan
+- name: Qiancheng Xiong
 - name: Spencer Winter
 - name: Sriram Kumar
 - name: "Tu\u1EA5n Th\xE0nh Nguy\u1EC5n"
 - name: Weaverly Colleen Co Lee
 - name: Wenjie Zhou
-- name: Yancheng Du
 - name: Yuhan Kong
 - name: Zhiwei Sun
 aux:
@@ -29,7 +30,9 @@ aux:
   members:
   - name: Sriram Kumar
 - topic: Voice
-  members: []
+  members:
+  - name: Qiancheng Xiong
+  - name: Pranav Sharma
 boards:
   executive:
   - name: Anastasia Ershova*
