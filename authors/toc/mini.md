@@ -64,9 +64,9 @@ mini: true
     7. <a name="molprogCompil" class="tag" href="#molprogCompil">Compiling molecular programs</a>
 10. <a name="CRN" class="tag" href="#CRN">Programming molecular behaviors over time (CRNs)</a>
     1. <a name="CRN_intro" class="tag" href="#CRN_intro">Introduction</a>
-    2. <a name="sCRN" class="tag" href="#sCRN">Computing with Stochastic CRNs</a>
+    2. <a name="dCRN" class="tag" href="#dCRN">Computing with Deterministic CRNs</a>
     3. <a name="CRNdistribution" class="tag" href="#CRNdistribution">Compute with distributions</a>
-    4. <a name="dCRN" class="tag" href="#dCRN">Computing with Deterministic CRNs</a>
+    4. <a name="sCRN" class="tag" href="#sCRN">Computing with Stochastic CRNs</a>
 11. <a name="NucleicAcidCircuits" class="tag" href="#NucleicAcidCircuits">Nucleic acids as a universal substrate for molecular programming</a>
     1. <a name="NucleicIntro" class="tag" href="#NucleicIntro">Introduction (reference Foundations for overlapping topics)</a>
     2. <a name="StrandDisplacementCascades" class="tag" href="#StrandDisplacementCascades">Strand displacement cascades</a>

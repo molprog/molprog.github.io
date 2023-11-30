@@ -211,13 +211,7 @@ mini: false
     7. <a name="molprogCompil" class="tag" href="#molprogCompil"><code>molprogCompil</code>Compiling molecular programs</a>
 10. <a name="CRN" class="tag" href="#CRN"><code>CRN</code>Programming molecular behaviors over time (CRNs)</a>
     1. <a name="CRN_intro" class="tag" href="#CRN_intro"><code>CRN_intro</code>Introduction</a>
-    2. <a name="sCRN" class="tag" href="#sCRN"><code>sCRN</code>Computing with Stochastic CRNs</a>
-        - Theory example and analysis: min/max and boolean logic programming with CRNs
-        - Biology example: something simple
-        - Computational Power of Stochastic CRNs
-        - Time complexity of stochastic CRNs
-    3. <a name="CRNdistribution" class="tag" href="#CRNdistribution"><code>CRNdistribution</code>Compute with distributions</a>
-    4. <a name="dCRN" class="tag" href="#dCRN"><code>dCRN</code>Computing with Deterministic CRNs</a>
+    2. <a name="dCRN" class="tag" href="#dCRN"><code>dCRN</code>Computing with Deterministic CRNs</a>
         - Theory examples: circuits, boolean circuits, oscillators, bistability, etc.
         - Well-mixed CRN’s as example of analog computing
         - Computing functions (e.g. \\(y=kx\\))
@@ -225,6 +219,12 @@ mini: false
         - Dynamic system: Oscillators, bistability
         - Biology example: (predator-prey / ecology models)
         - Computational power of deterministic CRNs
+    3. <a name="CRNdistribution" class="tag" href="#CRNdistribution"><code>CRNdistribution</code>Compute with distributions</a>
+    4. <a name="sCRN" class="tag" href="#sCRN"><code>sCRN</code>Computing with Stochastic CRNs</a>
+        - Theory example and analysis: min/max and boolean logic programming with CRNs
+        - Biology example: something simple
+        - Computational Power of Stochastic CRNs
+        - Time complexity of stochastic CRNs
 11. <a name="NucleicAcidCircuits" class="tag" href="#NucleicAcidCircuits"><code>NucleicAcidCircuits</code>Nucleic acids as a universal substrate for molecular programming</a>
     1. <a name="NucleicIntro" class="tag" href="#NucleicIntro"><code>NucleicIntro</code>Introduction (reference Foundations for overlapping topics)</a>
         - Reference to Structures section on background: nucleic acid hybridization and thermodynamics
