@@ -76,6 +76,7 @@ mini: true
         4. <a name="ApproxMajorityTwoDomain" class="tag" href="#ApproxMajorityTwoDomain">Approximate majority (two-domain design)</a>
         5. <a name="AmplifyCatalyze" class="tag" href="#AmplifyCatalyze">Amplification and catalysis</a>
         6. <a name="Threshold" class="tag" href="#Threshold">Thresholding</a>
+            1. <a name="SignalRestore" class="tag" href="#SignalRestore">Box: signal restoration comparison</a>
         7. <a name="Seesaw" class="tag" href="#Seesaw">Seesaw circuits</a>
         8. <a name="NucleicNeuralNetworks" class="tag" href="#NucleicNeuralNetworks">Neural networks</a>
         9. <a name="Oscillator" class="tag" href="#Oscillator">Oscillators</a>
