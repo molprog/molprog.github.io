@@ -52,6 +52,8 @@ boards:
   - name: Jacob Majikes
     role: Problem Set Lead
     github: jacobmajikes
+  - name: Kutay Sesli
+    role: Peer Review Lead
   - name: Namita Sarraf
     role: Executive Editor
     github: n-sarraf
