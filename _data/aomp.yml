@@ -46,6 +46,8 @@ boards:
     lead: true
   - name: Elisa Franco
     role: Faculty Advisor Lead
+  - name: Eshana Bethur
+    role: Editor
   - name: Hannah Earley
     role: Infrastructure Lead
     github: hannah-earley
@@ -59,8 +61,10 @@ boards:
     github: n-sarraf
     lead: true
   - name: Passa Pungchai
-    role: Editor
+    role: Graphics Lead
   - name: Sarah Petrosko
+    role: Voice Editor
+  - name: Sarah Sandler
     role: Editor
   - name: William Poole
     role: Theory Lead
