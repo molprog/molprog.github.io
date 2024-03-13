@@ -40,8 +40,8 @@ mini: true
     2. <a name="NatAssemblyMic" class="tag" href="#NatAssemblyMic">Self-assembly of finite-sized structures</a>
     3. <a name="NatAssemblyNoneq" class="tag" href="#NatAssemblyNoneq">Beating equilibrium in self-assembled systems</a>
 8. <a name="DNAstructures" class="tag" href="#DNAstructures">Programmed molecular self-assemblies (experiments)</a>
-    1. <a name="AssembledDNA" class="tag" href="#AssembledDNA">Scaffold-less DNA assemblies</a>
-    2. <a name="Origami" class="tag" href="#Origami">DNA Origami</a>
+    1. <a name="Origami" class="tag" href="#Origami">DNA Origami</a>
+    2. <a name="AssembledDNA" class="tag" href="#AssembledDNA">Scaffold-less DNA assemblies</a>
     3. <a name="MultiComponent" class="tag" href="#MultiComponent">Periodic and Multi component assemblies</a>
     4. <a name="DynamicDNA" class="tag" href="#DynamicDNA">Dynamic rearrangements of structures</a>
         1. <a name="DynDNAMotion" class="tag" href="#DynDNAMotion">DNA tweezers, walkers, and motors</a>

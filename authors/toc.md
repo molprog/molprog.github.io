@@ -158,12 +158,7 @@ mini: false
         - Use of fuel to push assembled systems out of equilibrium (kinetic proofreading, chaperones).
         - Use of fuel to create dynamic non-equilibrium systems (motors, signal-processing architectures, things like microtubules which are a form of &quot;dissipative self-assembly&quot;).
 8. <a name="DNAstructures" class="tag" href="#DNAstructures"><code>DNAstructures</code>Programmed molecular self-assemblies (experiments)</a>
-    1. <a name="AssembledDNA" class="tag" href="#AssembledDNA"><code>AssembledDNA</code>Scaffold-less DNA assemblies</a>
-        - ss Tiles,
-        - dx Tiles
-        - HCR
-        - Simple polyhedra: Seeman cube, tetrahedron, Yamuna’s icosahedron, Mao’s Bucky ball and octahedron.
-    2. <a name="Origami" class="tag" href="#Origami"><code>Origami</code>DNA Origami</a>
+    1. <a name="Origami" class="tag" href="#Origami"><code>Origami</code>DNA Origami</a>
         - The concept
         - Design principles, cooperativity
             - Sequence design constraints
@@ -172,6 +167,11 @@ mini: false
         - Production and purification
             - Custom scaffold design
             - Thermo/stoichiometry
+    2. <a name="AssembledDNA" class="tag" href="#AssembledDNA"><code>AssembledDNA</code>Scaffold-less DNA assemblies</a>
+        - ss Tiles,
+        - dx Tiles
+        - HCR
+        - Simple polyhedra: Seeman cube, tetrahedron, Yamuna’s icosahedron, Mao’s Bucky ball and octahedron.
     3. <a name="MultiComponent" class="tag" href="#MultiComponent"><code>MultiComponent</code>Periodic and Multi component assemblies</a>
         - Shape complementary, base stacking
         - Self-limiting assemblies (rings)
