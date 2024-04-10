@@ -54,6 +54,8 @@ boards:
   - name: Jacob Majikes
     role: Problem Set Lead
     github: jacobmajikes
+  - name: Kayla Neyra
+    role: Latex Lead
   - name: Kutay Sesli
     role: Peer Review Lead
   - name: Namita Sarraf
