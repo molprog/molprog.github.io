@@ -38,6 +38,8 @@ boards:
   - name: Anastasia Ershova*
     role: Graphics Lead
     github: aersh
+  - name: Ayush Pandey
+    role: Problem Set Lead
   - name: Chelsea Hu*
     role: Editor
   - name: Dominic Scalise
@@ -55,7 +57,7 @@ boards:
     role: Problem Set Lead
     github: jacobmajikes
   - name: Kayla Neyra
-    role: Latex Lead
+    role: LaTeX Lead
   - name: Kutay Sesli
     role: Peer Review Lead
   - name: Namita Sarraf
