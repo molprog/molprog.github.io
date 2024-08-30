@@ -77,7 +77,6 @@ boards:
   editorial:
   - topic: Structures & Molecular Self-Assembly
     members:
-    - name: Durham Smith
     - name: Ibon Santiago
       github: isantig
     - name: Ismael Mullor Ruiz
@@ -89,7 +88,6 @@ boards:
       github: bad-ants-fleet
       lead: true
     - name: Tom Ouldridge
-    - name: Too Hon Lin
   - topic: Circuits & Information Processing
     members:
     - name: Boya Wang
