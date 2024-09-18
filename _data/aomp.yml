@@ -37,42 +37,61 @@ aux:
 boards:
   executive:
   - name: Anastasia Ershova*
-    role: Graphics Lead
+    roles:
+    - Graphics Lead
     github: aersh
   - name: Ayush Pandey
-    role: Problem Set Lead
+    roles:
+    - Problem Set Lead
   - name: Chelsea Hu*
-    role: Editor
+    roles:
+    - Editor
   - name: Dominic Scalise
-    role: Executive Editor
+    roles:
+    - Executive Editor
     github: scalise11
     lead: true
   - name: Elisa Franco
-    role: Faculty Advisor Lead
+    roles:
+    - Faculty Advisor Lead
   - name: Eshana Bethur
-    role: Handoff Lead
+    roles:
+    - Handoff Lead
+    - Graphics
   - name: Hannah Earley
-    role: Infrastructure Lead
+    roles:
+    - Infrastructure Lead
     github: hannah-earley
   - name: Jacob Majikes
-    role: Problem Set Lead
+    roles:
+    - Problem Set Lead
     github: jacobmajikes
   - name: Kayla Neyra
-    role: LaTeX Lead
+    roles:
+    - LaTeX Lead
+    - Voice Editing
   - name: Kutay Sesli
-    role: Peer Review Lead
+    roles:
+    - Peer Review Lead
   - name: Namita Sarraf
-    role: Executive Editor
+    roles:
+    - Executive Editor
     github: n-sarraf
     lead: true
-  - name: Passa Pungchai
-    role: Graphics Lead
+  - name: Passa Pungchai*
+    roles:
+    - Graphics Lead
   - name: Sarah Petrosko
-    role: Voice Editor
+    roles:
+    - Voice Editor
   - name: Sarah Sandler
-    role: References Lead
+    roles:
+    - Graphics Lead
+    - References Lead
   - name: William Poole
-    role: Theory Lead
+    roles:
+    - Theory Lead
+    - Voice Editing
     github: WilliamIX
   editorial:
   - topic: Structures & Molecular Self-Assembly
@@ -80,8 +99,13 @@ boards:
     - name: Ibon Santiago
       github: isantig
     - name: Ismael Mullor Ruiz
+      roles:
+      - Graphics
     - name: Jonathan List
     - name: Joonas Ryssy
+      roles:
+      - Voice Editing
+      - Theory Editing
     - name: Luzia Kilwing
     - name: Shelley Wickham
     - name: Stefan Badelt
@@ -115,6 +139,8 @@ boards:
     - name: Jaeseung Hahn
       github: jaeseung33
       lead: true
+      roles:
+      - Graphics
     - name: Jurek Kozyra
     - name: Lee Organick
       github: leeorg

@@ -43,8 +43,10 @@ class: landing
           {% assign board_members = site.data.aomp.boards.executive %}
           {% for member in board_members %}
           <li>
-            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br>
-            <span class="role">{{ member.role | escape }}</span>
+            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span>
+            {% for role in member.roles %}
+            <br><span class="role">{{ role | escape }}</span>
+            {% endfor %}
           </li>
           {% endfor %}
         </ul>
@@ -58,7 +60,12 @@ class: landing
         <ul>
           {% assign board_members = board.members %}
           {% for member in board_members %}
-          <li><span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br></li>
+          <li>
+            <span class="name{% if member.lead %} lead{% endif %}">{{ member.name | escape }}</span><br>
+            {% for role in member.roles %}
+            <span class="role">{{ role | escape }}</span><br>
+            {% endfor %}
+          </li>
           {% endfor %}
         </ul>
       </div>
