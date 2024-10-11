@@ -18,6 +18,7 @@ aux:
 - topic: Graphics
   members:
   - name: Chase Van Amburg
+  - name: Emily Helm
   - name: Gunnar Johnson
   - name: Lea Wassermann
   - name: Spencer Winter
@@ -235,6 +236,7 @@ authors:
 - name: Daniela Sorrentino
 - name: David Doty
 - name: David Soloveichik
+- name: Dawn Nye
 - name: Deepak Mishra
 - name: Derrick Dankwa
 - name: Dhiraj Bhatia
