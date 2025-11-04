@@ -1,6 +1,7 @@
 adjunct:
 - name: Chase Van Amburg
 - name: Colin Yancey
+- name: Ellen Simmons
 - name: Emily Helm
 - name: Gunnar Johnson
 - name: Hemani Chhabra
@@ -17,6 +18,7 @@ adjunct:
 - name: Weaverly Colleen Co Lee
 - name: Wenjie Zhou
 - name: Yancheng Du
+- name: Yue Zhao
 - name: Yuhan Kong
 - name: Zhiwei Sun
 - name: Zohar Arnon
@@ -24,6 +26,7 @@ aux:
 - topic: Graphics
   members:
   - name: Chase Van Amburg
+  - name: Ellen Simmons
   - name: Emily Helm
   - name: Gunnar Johnson
   - name: Joshua Spitzberg
@@ -34,6 +37,7 @@ aux:
   - name: Weaverly Colleen Co Lee
   - name: Wenjie Zhou
   - name: Yancheng Du
+  - name: Yue Zhao
   - name: Yuhan Kong
   - name: Zhiwei Sun
   - name: Zohar Arnon
