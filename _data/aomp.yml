@@ -94,9 +94,6 @@ boards:
     - Executive Editor
     github: n-sarraf
     lead: true
-  - name: Passa Pungchai*
-    roles:
-    - Graphics Lead
   - name: Sarah Petrosko
     roles:
     - Voice Editor
